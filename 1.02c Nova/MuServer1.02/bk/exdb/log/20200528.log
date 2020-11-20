@@ -1,0 +1,132 @@
+03:03:51a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:03:51a Friend Login request : Supremo 6401 server:0
+[6401] New Friend Master = Supremo
+03:03:51a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:03:51a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:03:51a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:03:51a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:04:34a Friend LogOut Queue Name: ( Supremo )
+03:05:31a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Test2-BK'
+03:05:31a Friend Login request : Test2-BK 6402 server:0
+[6402] New Friend Master = Test2-BK
+03:05:31a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Test2-BK'
+03:05:31a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 24
+03:05:31a SELECT FriendName FROM T_WaitFriend where GUID=24
+03:05:31a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=24
+03:05:41a Friend LogOut Queue Name: ( Test2-BK )
+03:07:37a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:07:37a Friend Login request : Supremo 6403 server:0
+[6403] New Friend Master = Supremo
+03:07:37a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:07:37a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:07:37a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:07:37a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:09:52a Friend LogOut Queue Name: ( Supremo )
+03:10:03a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:10:03a Friend Login request : Supremo 6404 server:0
+[6404] New Friend Master = Supremo
+03:10:03a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:10:03a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:10:03a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:10:03a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:13:01a Friend LogOut Queue Name: ( Supremo )
+03:13:28a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:13:28a Friend Login request : Supremo 6405 server:0
+[6405] New Friend Master = Supremo
+03:13:28a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:13:28a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:13:28a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:13:28a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+GameServer Disconnect : Index : (1)
+Server Connect : index: (1)
+03:14:20a GameServer Connected (GS) : 1
+03:15:14a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:15:14a Friend Login request : Supremo 6400 server:0
+[6400] New Friend Master = Supremo
+03:15:14a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:15:14a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:15:14a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:15:14a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:19:05a Friend LogOut Queue Name: ( Supremo )
+03:19:46a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:19:46a Friend Login request : Supremo 6401 server:0
+[6401] New Friend Master = Supremo
+03:19:46a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:19:46a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:19:46a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:19:46a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:22:13a Friend LogOut Queue Name: ( Supremo )
+03:22:54a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:22:54a Friend Login request : Supremo 6403 server:0
+[6403] New Friend Master = Supremo
+03:22:54a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:22:54a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:22:54a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:22:54a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:30:56a Friend LogOut Queue Name: ( Supremo )
+03:33:08a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:33:08a Friend Login request : Supremo 6403 server:0
+[6403] New Friend Master = Supremo
+03:33:08a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:33:08a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:33:08a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:33:08a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:33:18a Friend LogOut Queue Name: ( Supremo )
+GameServer Disconnect : Index : (1)
+Server Connect : index: (1)
+03:47:01a GameServer Connected (GS) : 1
+03:47:23a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:47:23a Friend Login request : Supremo 6400 server:0
+[6400] New Friend Master = Supremo
+03:47:23a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:47:23a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:47:23a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:47:23a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:49:20a Friend LogOut Queue Name: ( Supremo )
+03:50:04a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:50:04a Friend Login request : Supremo 6401 server:0
+[6401] New Friend Master = Supremo
+03:50:04a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:50:04a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:50:04a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:50:04a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:51:24a Friend LogOut Queue Name: ( Supremo )
+03:52:46a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+03:52:46a Friend Login request : Supremo 6402 server:0
+[6402] New Friend Master = Supremo
+03:52:46a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+03:52:46a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+03:52:46a SELECT FriendName FROM T_WaitFriend where GUID=29
+03:52:46a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+03:54:06a Friend LogOut Queue Name: ( Supremo )
+Server Connect : index: (3)
+Server Connect : index: (4)
+Server Connect : index: (5)
+09:04:27a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+09:04:27a Friend Login request : Supremo 6403 server:0
+[6403] New Friend Master = Supremo
+09:04:27a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+09:04:27a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+09:04:27a SELECT FriendName FROM T_WaitFriend where GUID=29
+09:04:27a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+09:24:21a Friend LogOut Queue Name: ( Supremo )
+09:24:22a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+09:24:22a Friend Login request : Supremo 2500 server:2
+[2500] New Friend Master = Supremo
+09:24:22a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+09:24:22a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+09:24:22a SELECT FriendName FROM T_WaitFriend where GUID=29
+09:24:22a SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+GameServer Disconnect : Index : (2)
+Server Connect : index: (2)
+09:28:56a GameServer Connected (CS) : 2
+GameServer Disconnect : Index : (2)
+Server Connect : index: (2)
+09:29:25a GameServer Connected (CS) : 2
+09:29:56a SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+09:29:56a Friend Login request : Supremo 6404 server:0
+[6404] New Friend Master = Supremo
+09:29:56a SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+09:29:56a SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+09:29:56a SELECT FriendName FROM T_WaitFriend where GUID=29
+09:29:56a SELECT MemoIndex, FriendN

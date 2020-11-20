@@ -1,0 +1,3161 @@
+// ================================================== //
+// # Season 2.0 - MonsterSetBase.txt  	 	    # //
+// # MU Online Project - � KinhoMace       	    # //
+// ================================================== //
+
+//==================================================================================================================
+// Script Type
+//==================================================================================================================
+// 0 - Guards / NPC / Traps
+// 1 - Spots
+// 2 - Normal Monster
+// 3 - Bone King / Golden Monsters
+// 4 - Blood Castle Monsters / Gate / Others
+
+//=========================================================================================
+//======================================= Invasion Golden =================================
+//=========================================================================================
+//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir 	Quant  Name	
+3
+43	3	30	10	10	240	240	-1	2	// Golden Budge Dragon
+44	2	30	78	128	78	145	-1	20	// Golden Dragon
+53	0	30	185	132	185	132	-1	1	// Golden Titan
+55	0	30	132	83	132	83	-1	1	// Death King
+54	0	30	183	128	188	135	-1	5	// Golden Soldier
+56	0	30	132	83	138	90	-1	5	// Death Bone
+78	0	30	10	10	240	240	-1	1	// Golden Goblin
+79	0	30	10	10	240	240	-1	2	// Golden Dragon
+80	7	30	185	132	185	132	-1	7	// Golden Lizard King
+81	0	30	64	166	70	170	-1	5	// Golden Vepar
+82	8	30	68	84	84	100	-1	6	// Golden Tantallos
+83	0	30	132	83	138	90	-1	5	// Golden Iron Wheel
+end
+
+
+//=========================================================================================						
+//================================= Lorencia NPCs - ======================================						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+226	0	0	122	110	3	//Pet Trainer
+230	6	0	50	185	3	//Alex
+//236	0	0	175	120	3	//Golden Archer
+240	0	0	146	110	3	//Braz Vault Keeper
+240	0	0	147	145	1	//Braz Vault Keeper
+//248	0	0	6	145	2	//Wandering Merchant (Near Devias Entrance)
+
+//370	0	0	135	138	3	//Jeridon
+
+
+250	0	0	183	137	2	//Harold the Merchant
+251	0	0	116	141	3	//Hanzo the Blacksmith
+253	0	0	127	86	2	//Potion Girl
+254	0	0	118	113	3	//Pasi the Mage
+255	0	0	123	135	1	//Lumen the Barmaid
+257	0	0	96	129	1	//Shaddow Phantom Soldier
+257	0	0	174	129	1	//Shaddow Phantom Soldier
+244	0	0	140	140	1	//Lumen The Barmaid
+247	0	0	130	126	2	//pk clear
+249	0	0	130	128	2	//Reset
+//241	0	0	138	221	2	//Reset
+
+55	0	4	130	180	1	//Spider
+55	0	4	130	180	1	//Spider
+55	0	4	130	180	1	//Spider
+
+56	0	4	130	180	1	//Spider
+56	0	4	130	180	1	//Spider
+56	0	4	130	180	1	//Spider
+
+
+end
+
+//=========================================================================================						
+//================================= Lorencia Mobs - ======================================						
+//=========================================================================================
+1
+2	0	 5	181	126	185	130	-1	3  // Budge Dragon
+3	0	30	180	90	226	244	-1	5 // Spider
+2	0	30	180	90	226	244	-1	5 // Budge Dragon 
+2	0	30	135	20	240	88	-1	5 // Budge Dragon
+0	0	30	135	20	240	88	-1	5 // Bull Fighter
+6	0	30	95	168	175	244	-1	5 // Lich
+14	0	30	95	168	175	244	-1	5 // Skeleton Warrior
+1	0	30	8	11	94	244	-1	5 // Hound
+4	0	30	8	11	94	244	-1	5 // Elite Bull Fighter
+7	0	30	8	11	60	80	-1	5 // Giant
+
+
+2	0	10	173	121	186	130	-1	25
+3	0	10	173	121	186	130	-1	25
+
+end
+
+//=========================================================================================							
+//================================= Dungeon Monsters - ===================================							
+//=========================================================================================							
+//Mob	Map	Radio	CordX	CordY	Strong	Name	
+2							
+5	1	30	170	126	-1	//Hell Hound
+5	1	30	163	114	-1	//Hell Hound
+5	1	30	163	125	-1	//Hell Hound
+5	1	30	145	118	-1	//Hell Hound
+5	1	30	123	120	-1	//Hell Hound
+5	1	30	138	86	-1	//Hell Hound
+5	1	30	120	75	-1	//Hell Hound
+5	1	30	81	58	-1	//Hell Hound
+5	1	30	87	114	-1	//Hell Hound
+5	1	30	65	127	-1	//Hell Hound
+5	1	30	70	76	-1	//Hell Hound
+8	1	30	205	24	-1	//Poison Bull	
+8	1	30	39	112	-1	//Poison Bull	
+8	1	30	26	111	-1	//Poison Bull	
+8	1	30	15	113	-1	//Poison Bull	
+8	1	30	12	97	-1	//Poison Bull	
+8	1	30	16	55	-1	//Poison Bull	
+8	1	30	35	55	-1	//Poison Bull	
+8	1	30	116	47	-1	//Poison Bull	
+8	1	30	122	46	-1	//Poison Bull	
+8	1	30	193	30	-1	//Poison Bull	
+9	1	30	28	18	-1	//Thunder Lich
+9	1	30	22	4	-1	//Thunder Lich
+9	1	30	18	29	-1	//Thunder Lich
+9	1	30	18	23	-1	//Thunder Lich
+9	1	30	221	14	-1	//Thunder Lich
+9	1	30	243	16	-1	//Thunder Lich
+9	1	30	233	66	-1	//Thunder Lich
+9	1	30	30	105	-1	//Thunder Lich
+9	1	30	27	53	-1	//Thunder Lich
+9	1	30	10	68	-1	//Thunder Lich
+9	1	30	33	90	-1	//Thunder Lich
+9	1	30	12	121	-1	//Thunder Lich			
+10	1	30	41	88	-1	//Dark Knight
+10	1	30	19	120	-1	//Dark Knight
+10	1	30	37	98	-1	//Dark Knight
+10	1	30	14	107	-1	//Dark Knight
+10	1	30	22	65	-1	//Dark Knight
+10	1	30	39	77	-1	//Dark Knight
+10	1	30	29	66	-1	//Dark Knight
+11	1	30	69	167	-1	//Ghost
+11	1	30	136	149	-1	//Ghost
+11	1	30	133	212	-1	//Ghost
+11	1	30	135	212	-1	//Ghost
+11	1	30	247	7	-1	//Ghost
+11	1	30	240	7	-1	//Ghost
+11	1	30	241	9	-1	//Ghost
+11	1	30	144	187	-1	//Ghost
+11	1	30	125	218	-1	//Ghost
+11	1	30	197	245	-1	//Ghost
+11	1	30	247	211	-1	//Ghost
+11	1	30	231	186	-1	//Ghost
+11	1	30	223	187	-1	//Ghost
+11	1	30	213	186	-1	//Ghost
+11	1	30	209	175	-1	//Ghost
+11	1	30	183	128	-1	//Ghost
+12	1	30	73	241	-1	//Larva
+12	1	30	193	224	-1	//Larva
+12	1	30	194	222	-1	//Larva
+12	1	30	194	221	-1	//Larva
+12	1	30	79	154	-1	//Larva
+12	1	30	78	189	-1	//Larva
+12	1	30	69	222	-1	//Larva
+12	1	30	57	247	-1	//Larva
+12	1	30	49	246	-1	//Larva
+12	1	30	87	177	-1	//Larva
+12	1	30	70	195	-1	//Larva
+12	1	30	65	205	-1	//Larva
+12	1	30	134	240	-1	//Larva
+13	1	30	112	93	-1	//Hell Spider
+13	1	30	104	65	-1	//Hell Spider
+13	1	30	183	27	-1	//Hell Spider
+13	1	30	114	20	-1	//Hell Spider
+13	1	30	247	87	-1	//Hell Spider
+13	1	30	149	94	-1	//Hell Spider
+13	1	30	126	94	-1	//Hell Spider
+13	1	30	168	96	-1	//Hell Spider
+13	1	30	196	100	-1	//Hell Spider
+14	1	30	120	232	-1	//Skeleton Warrior	
+14	1	30	107	230	-1	//Skeleton Warrior	
+14	1	30	84	244	-1	//Skeleton Warrior	
+14	1	30	94	242	-1	//Skeleton Warrior	
+14	1	30	108	195	-1	//Skeleton Warrior	
+14	1	30	94	208	-1	//Skeleton Warrior	
+14	1	30	62	181	-1	//Skeleton Warrior	
+14	1	30	33	209	-1	//Skeleton Warrior	
+14	1	30	31	247	-1	//Skeleton Warrior	
+14	1	30	3	232	-1	//Skeleton Warrior	
+14	1	30	3	219	-1	//Skeleton Warrior	
+14	1	30	7	219	-1	//Skeleton Warrior	
+14	1	30	17	211	-1	//Skeleton Warrior	
+15	1	30	61	169	-1	//Skeleton Archer
+15	1	30	217	229	-1	//Skeleton Archer
+15	1	30	141	110	-1	//Skeleton Archer
+15	1	30	98	54	-1	//Skeleton Archer
+15	1	30	114	110	-1	//Skeleton Archer
+15	1	30	175	118	-1	//Skeleton Archer
+15	1	30	183	123	-1	//Skeleton Archer
+15	1	30	68	125	-1	//Skeleton Archer
+15	1	30	80	97	-1	//Skeleton Archer
+16	1	30	108	9	-1	//Elite Skeleton	
+16	1	30	159	41	-1	//Elite Skeleton	
+16	1	30	115	8	-1	//Elite Skeleton	
+16	1	30	124	20	-1	//Elite Skeleton	
+16	1	30	90	6	-1	//Elite Skeleton	
+16	1	30	247	77	-1	//Elite Skeleton	
+16	1	30	248	20	-1	//Elite Skeleton	
+16	1	30	244	9	-1	//Elite Skeleton	
+16	1	30	229	11	-1	//Elite Skeleton	
+16	1	30	155	32	-1	//Elite Skeleton	
+16	1	30	137	33	-1	//Elite Skeleton	
+16	1	30	122	29	-1	//Elite Skeleton	
+16	1	30	48	11	-1	//Elite Skeleton	
+17	1	30	18	220	-1	//Cyclops
+17	1	30	230	173	-1	//Cyclops
+17	1	30	236	167	-1	//Cyclops
+17	1	30	241	173	-1	//Cyclops
+17	1	30	173	200	-1	//Cyclops
+17	1	30	165	171	-1	//Cyclops
+17	1	30	208	162	-1	//Cyclops
+17	1	30	220	172	-1	//Cyclops
+17	1	30	247	168	-1	//Cyclops
+17	1	30	52	222	-1	//Cyclops
+17	1	30	50	235	-1	//Cyclops
+17	1	30	38	234	-1	//Cyclops
+17	1	30	16	227	-1	//Cyclops
+17	1	30	25	220	-1	//Cyclops
+17	1	30	235	108	-1	//Cyclops
+17	1	30	228	105	-1	//Cyclops
+17	1	30	214	116	-1	//Cyclops
+18	1	30	43	111	-1	//Gorgon			
+18	1	30	8	123	-1	//Gorgon			
+18	1	30	7	56	-1	//Gorgon			
+18	1	30	26	67	-1	//Gorgon
+
+	
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+8	1	5	25	93	-1	//Poison Bull
+	
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+9	1	5	25	93	-1	//Thunder Lich
+
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+17	1	5	25	93	-1	//Cyclops
+
+
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+10	1	5	25	93	-1	//Dark Knight
+
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+16	1	5	25	93	-1	//Elite Skeleton
+			
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+18	1	5	25	93	-1	//Gorgon
+			
+end
+//=========================================================================================						
+//================================= Dunegeon Traps - ======================================						
+//=========================================================================================
+0
+101	1	0	10	26	1	//Iron Stick
+101	1	0	11	26	1	//Iron Stick
+101	1	0	27	12	1	//Iron Stick
+101	1	0	24	5	1	//Iron Stick
+101	1	0	24	4	1	//Iron Stick
+101	1	0	27	11	1	//Iron Stick
+101	1	0	23	24	1	//Iron Stick
+101	1	0	27	21	1	//Iron Stick
+101	1	0	19	19	1	//Iron Stick
+101	1	0	22	24	1	//Iron Stick
+101	1	0	23	29	1	//Iron Stick
+101	1	0	23	28	1	//Iron Stick
+101	1	0	33	9	1	//Iron Stick
+101	1	0	35	9	1	//Iron Stick
+101	1	0	39	18	1	//Iron Stick
+101	1	0	39	17	1	//Iron Stick
+101	1	0	39	16	1	//Iron Stick
+102	1	0	45	224	3	//Fire
+101	1	0	48	193	1	//Iron Stick
+101	1	0	49	193	1	//Iron Stick
+102	1	0	66	71	3	//Fire
+102	1	0	80	61	1	//Fire
+101	1	0	90	164	1	//Iron Stick
+101	1	0	92	164	1	//Iron Stick
+101	1	0	91	164	1	//Iron Stick
+100	1	0	126	99	1	//Lance
+100	1	0	123	99	1	//Lance
+100	1	0	120	99	1	//Lance
+100	1	0	117	99	1	//Lance
+100	1	0	136	95	1	//Lance
+100	1	0	139	95	1	//Lance
+101	1	0	128	212	1	//Iron Stick
+101	1	0	130	213	1	//Iron Stick
+101	1	0	143	214	1	//Iron Stick
+101	1	0	155	230	5	//Iron Stick
+100	1	0	172	12	1	//Lance
+100	1	0	166	12	1	//Lance
+102	1	0	169	12	1	//Fire
+102	1	0	175	12	1	//Fire
+100	1	0	178	12	1	//Lance
+100	1	0	177	103	1	//Lance
+100	1	0	180	103	1	//Lance
+100	1	0	183	103	1	//Lance
+100	1	0	186	103	1	//Lance
+100	1	0	189	103	1	//Lance
+100	1	0	186	151	3	//Lance
+100	1	0	196	33	1	//Lance
+100	1	0	193	33	1	//Lance
+100	1	0	202	93	1	//Lance
+100	1	0	205	93	1	//Lance
+100	1	0	198	130	1	//Lance
+100	1	0	202	150	1	//Lance
+100	1	0	232	46	3	//Lance
+100	1	0	232	40	3	//Lance
+100	1	0	232	37	3	//Lance
+100	1	0	227	61	1	//Lance
+100	1	0	229	93	1	//Lance
+100	1	0	232	93	1	//Lance
+end
+
+//=========================================================================================						
+//================================= Devias NPCs - ========================================						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+
+375	2	0	219	230 	3	// Chaos Card Master
+229	2	0	183	30	3	// Marlon
+233	2	0	209	30	1	// Spirit of Archangel
+235	2	0	183	32	3	// Priest Sevina
+236	2	0	226	66	1	// Golden Archer
+240	2	0	218	63	2	// Baz, Storage Guard
+//241	2	0	215	45	1	// Lawrence, Commander
+244	2	0	226	25	3	// Lumen, Barmaid
+245	2	0	225	41	3	// Isabel, Wizard
+246	2	0	186	47	3	// Zienna
+//231	2	0	8	77	3	// Thompson Kenel
+247	2	20	169	39	7	// Crossbow Guard
+247	2	20	169	45	7	// Crossbow Guard
+247	2	20	219	79	5	// Crossbow Guard
+247	2	20	224	79	5	// Crossbow Guard
+257	2	0	219	76	3	// Elf Soldier
+end
+
+//=========================================================================================										
+//================================= Devias Monsters - ====================================										
+//=========================================================================================										
+//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir	Quant	Name	
+1							
+19	2	30	50	6	166	244	-1	10	//Yeti
+20	2	30	50	6	166	244	-1	10	//Elite Yeti
+20	2	30	5	50	50	155	-1	10	//Elite Yeti
+20	2	30	6	184	80	244	-1	10	//Elite Yeti
+21	2	30	50	6	166	244	-1	10	//Assassin
+22	2	30	50	6	166	244	-1	10	//Ice Monster
+23	2	30	170	80	245	200	-1	10	//Hommerd
+23	2	30	50	6	166	244	-1	10	//Hommerd
+24	2	30	170	80	245	200	-1	10	//Worm
+25	2	30	6	184	80	244	-1	10	//Ice Queen
+
+//340	2	20	13	12	164	245	0	70
+//247	2	30	13	12	164	245	0	10
+end
+
+//=========================================================================================										
+//================================= Devias Monsters - ====================================										
+//=========================================================================================										
+//Mob	Map	Radio	CordX	CordY	Strong	Name				
+2							
+		
+
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+20	2	5	231	217	-1	//Elite Yeti
+
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+20	2	5	221	217	-1	//Yeti
+20	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+20	2	5	221	217	-1	//Yeti
+20	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+19	2	5	221	217	-1	//Yeti
+20	2	5	221	217	-1	//Yeti
+20	2	5	221	217	-1	//Yeti
+20	2	5	221	217	-1	//Yeti
+
+			
+20	2	30	203	244	-1	//Elite Yeti
+20	2	30	194	241	-1	//Elite Yeti
+20	2	30	203	232	-1	//Elite Yeti
+20	2	30	209	224	-1	//Elite Yeti
+20	2	30	186	224	-1	//Elite Yeti
+20	2	30	200	171	-1	//Elite Yeti
+20	2	30	207	158	-1	//Elite Yeti
+20	2	30	221	177	-1	//Elite Yeti
+20	2	30	213	193	-1	//Elite Yeti
+20	2	30	196	218	-1	//Elite Yeti
+20	2	30	230	200	-1	//Elite Yeti
+20	2	30	221	160	-1	//Elite Yeti
+20	2	30	205	149	-1	//Elite Yeti
+20	2	30	184	166	-1	//Elite Yeti
+20	2	30	212	170	-1	//Elite Yeti
+20	2	30	203	201	-1	//Elite Yeti
+20	2	30	190	146	-1	//Elite Yeti
+20	2	30	189	160	-1	//Elite Yeti
+20	2	30	207	183	-1	//Elite Yeti
+20	2	30	218	201	-1	//Elite Yeti
+20	2	30	240	207	-1	//Elite Yeti
+20	2	30	241	198	-1	//Elite Yeti
+20	2	30	228	184	-1	//Elite Yeti
+20	2	30	193	231	-1	//Elite Yeti
+20	2	30	214	152	-1	//Elite Yeti
+20	2	30	197	183	-1	//Elite Yeti
+24	2	30	162	11	-1	//Worm
+24	2	30	244	80	-1	//Worm
+24	2	30	238	88	-1	//Worm
+24	2	30	229	83	-1	//Worm
+24	2	30	170	6	-1	//Worm
+24	2	30	161	58	-1	//Worm
+24	2	30	180	78	-1	//Worm
+25	2	30	74	239	-1	//Ice Queen			
+25	2	30	70	212	-1	//Ice Queen			
+25	2	30	45	189	-1	//Ice Queen			
+25	2	30	113	230	-1	//Ice Queen			
+25	2	30	94	203	-1	//Ice Queen
+25	2	30	63	160	-1	//Ice Queen
+25	2	30	51	227	-1	//Ice Queen
+25	2	30	116	210	-1	//Ice Queen
+end
+
+
+//=========================================================================================						
+//================================= Noria NPCs - =========================================						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+237	3	0	171	104	3	// Charon
+238	3	0	180	103	1	// Chaos Goblin
+240	3	0	172	96	3	// Baz, Storage Guard
+242	3	0	173	125	1	// Elf Lala
+243	3	0	195	124	2	// Eo, Craftsman 
+257	3	0	167	118	1	// Elf Soldier
+
+//241	3	0	190	226	1	// Lawrence, Commander
+
+238	3	0	89	96	3	// Chaos Goblin
+240	3	0	89	81	3	// Baz, Storage Bau
+242	3	0	89	77	3	// Elf Lala
+253	3	0	88	93	3	// Potion Girl
+244	3	0	88	85	3	// Lumen The Barmaid
+257	3	0	87	90	1	// Elf Soldier
+
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+26	3	0	163	80	1	//Goblin
+
+
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+26	3	0	154	116	1	//Goblin
+
+end
+
+//=========================================================================================							
+//================================= Noria Monsters - ====================================							
+//=========================================================================================							
+//Mob	Map	Radio	CordX	CordY	CordX2	CordY2	Dir	Quant	Name	
+1										
+26	3	30	128	0	251	128	-1	10	//Goblin
+27	3	30	128	0	251	128	-1	10	//Chain Scorpion
+28	3	30	0	0	128	128	-1	10	//Beetle Monster
+29	3	30	0	0	128	128	-1	10	//Hunter
+30	3	30	0	128	251	245	-1	10	//Forest Monster
+31	3	30	0	128	251	245	-1	10	//Agon
+32	3	30	128	128	251	245	-1	10	//Stone Golem
+33	3	30	0	128	128	245	-1	10	//Elite Goblin
+end
+
+//=========================================================================================							
+//================================= LostTower Traps - ==========================================							
+//=========================================================================================	
+0
+103	4	0	5	175	3	//Meteorite
+103	4	0	6	175	3	//Meteorite
+103	4	0	4	175	3	//Meteorite
+103	4	0	15	172	3	//Meteorite
+103	4	0	15	173	3	//Meteorite
+103	4	0	15	174	3	//Meteorite
+103	4	0	14	207	3	//Meteorite
+103	4	0	4	194	3	//Meteorite
+103	4	0	226	116	3	//Meteorite
+103	4	0	226	117	3	//Meteorite
+103	4	0	226	233	1	//Meteorite
+103	4	0	227	233	1	//Meteorite
+103	4	0	228	233	1	//Meteorite
+end
+
+//=========================================================================================							
+//================================= LostTower Monsters - ==========================================							
+//=========================================================================================							
+//Mob	Map	Radio	CordX	CordY	Strong	Name	
+2							
+34	4	30	167	197	-1	//Cursed Wizard
+34	4	30	192	203	-1	//Cursed Wizard
+34	4	30	191	244	-1	//Cursed Wizard
+34	4	30	235	237	-1	//Cursed Wizard
+34	4	30	224	235	-1	//Cursed Wizard
+34	4	30	206	237	-1	//Cursed Wizard
+34	4	30	200	228	-1	//Cursed Wizard
+34	4	30	209	212	-1	//Cursed Wizard
+34	4	30	225	196	-1	//Cursed Wizard
+34	4	30	88	206	-1	//Cursed Wizard
+34	4	30	121	235	-1	//Cursed Wizard
+34	4	30	104	232	-1	//Cursed Wizard
+34	4	30	102	217	-1	//Cursed Wizard
+34	4	30	103	205	-1	//Cursed Wizard
+34	4	30	101	188	-1	//Cursed Wizard
+34	4	30	110	206	-1	//Cursed Wizard
+34	4	30	96	167	-1	//Cursed Wizard
+34	4	30	238	213	-1	//Cursed Wizard			
+34	4	30	210	225	-1	//Cursed Wizard			
+34	4	30	215	236	-1	//Cursed Wizard			
+35	4	30	29	208	-1	//Death Gorgon
+35	4	30	33	206	-1	//Death Gorgon
+35	4	30	46	25	-1	//Death Gorgon
+35	4	30	23	40	-1	//Death Gorgon
+35	4	30	42	97	-1	//Death Gorgon
+35	4	30	15	127	-1	//Death Gorgon
+35	4	30	30	171	-1	//Death Gorgon
+35	4	30	30	39	-1	//Death Gorgon
+35	4	30	55	8	-1	//Death Gorgon
+35	4	30	44	41	-1	//Death Gorgon
+35	4	30	7	184	-1	//Death Gorgon
+35	4	30	8	200	-1	//Death Gorgon
+35	4	30	19	208	-1	//Death Gorgon
+35	4	30	50	241	-1	//Death Gorgon
+35	4	30	54	205	-1	//Death Gorgon
+35	4	30	23	195	-1	//Death Gorgon
+35	4	30	31	191	-1	//Death Gorgon
+35	4	30	25	167	-1	//Death Gorgon
+35	4	30	34	137	-1	//Death Gorgon
+35	4	30	54	121	-1	//Death Gorgon
+35	4	30	30	10	-1	//Death Gorgon
+36	4	30	191	131	-1	//Shadow
+36	4	30	191	118	-1	//Shadow
+36	4	30	164	29	-1	//Shadow
+36	4	30	164	37	-1	//Shadow
+36	4	30	164	48	-1	//Shadow
+36	4	30	164	63	-1	//Shadow
+36	4	30	195	40	-1	//Shadow
+36	4	30	190	59	-1	//Shadow
+36	4	30	197	64	-1	//Shadow
+36	4	30	244	72	-1	//Shadow
+36	4	30	244	100	-1	//Shadow
+36	4	30	245	117	-1	//Shadow
+36	4	30	219	117	-1	//Shadow
+36	4	30	209	107	-1	//Shadow
+36	4	30	201	113	-1	//Shadow
+36	4	30	212	87	-1	//Shadow
+37	4	30	104	136	-1	//Devil
+37	4	30	133	87	-1	//Devil
+37	4	30	96	116	-1	//Devil
+37	4	30	94	100	-1	//Devil
+37	4	30	89	135	-1	//Devil
+37	4	30	134	49	-1	//Devil
+37	4	30	115	53	-1	//Devil
+37	4	30	98	54	-1	//Devil
+37	4	30	84	54	-1	//Devil
+37	4	30	93	41	-1	//Devil
+37	4	30	13	9	-1	//Devil
+37	4	30	16	41	-1	//Devil
+37	4	30	38	53	-1	//Devil
+37	4	30	54	51	-1	//Devil
+37	4	30	45	32	-1	//Devil
+37	4	30	25	86	-1	//Devil
+37	4	30	52	92	-1	//Devil
+37	4	30	30	102	-1	//Devil
+37	4	30	110	100	-1	//Devil
+37	4	30	128	6	-1	//Devil
+37	4	30	26	108	-1	//Devil
+38	4	30	31	212	-1	//Balrog
+38	4	30	28	212	-1	//Balrog
+39	4	30	243	125	-1	//Poison Shadow
+39	4	30	245	109	-1	//Poison Shadow
+39	4	30	219	6	-1	//Poison Shadow
+39	4	30	244	53	-1	//Poison Shadow
+39	4	30	239	7	-1	//Poison Shadow
+39	4	30	244	25	-1	//Poison Shadow
+39	4	30	226	22	-1	//Poison Shadow
+39	4	30	220	79	-1	//Poison Shadow
+39	4	30	219	60	-1	//Poison Shadow
+39	4	30	191	238	-1	//Poison Shadow
+39	4	30	193	217	-1	//Poison Shadow
+39	4	30	238	184	-1	//Poison Shadow
+39	4	30	224	185	-1	//Poison Shadow
+39	4	30	216	183	-1	//Poison Shadow
+39	4	30	207	178	-1	//Poison Shadow
+39	4	30	196	207	-1	//Poison Shadow
+39	4	30	195	200	-1	//Poison Shadow
+39	4	30	230	229	-1	//Poison Shadow
+39	4	30	173	227	-1	//Poison Shadow			
+39	4	30	183	233	-1	//Poison Shadow			
+39	4	30	173	237	-1	//Poison Shadow			
+40	4	30	30	183	-1	//Death Knight
+40	4	30	54	213	-1	//Death Knight
+40	4	30	117	8	-1	//Death Knight
+40	4	30	123	54	-1	//Death Knight
+40	4	30	22	17	-1	//Death Knight
+40	4	30	10	41	-1	//Death Knight
+40	4	30	15	54	-1	//Death Knight
+40	4	30	22	30	-1	//Death Knight
+40	4	30	8	107	-1	//Death Knight
+40	4	30	53	116	-1	//Death Knight
+40	4	30	38	227	-1	//Death Knight
+40	4	30	51	183	-1	//Death Knight
+40	4	30	24	189	-1	//Death Knight
+40	4	30	48	167	-1	//Death Knight
+40	4	30	48	174	-1	//Death Knight
+40	4	30	23	239	-1	//Death Knight
+40	4	30	11	168	-1	//Death Knight
+40	4	30	4	177	-1	//Death Knight
+40	4	30	47	247	-1	//Death Knight
+40	4	30	19	86	-1	//Death Knight
+40	4	30	15	119	-1	//Death Knight
+40	4	30	135	17	-1	//Death Knight
+40	4	30	111	46	-1	//Death Knight
+40	4	30	99	48	-1	//Death Knight
+40	4	30	85	49	-1	//Death Knight
+40	4	30	91	56	-1	//Death Knight
+
+
+40	4	0	53	91	0	//Death Knight
+40	4	0	53	91	0	//Death Knight
+40	4	0	53	91	0	//Death Knight
+40	4	0	53	91	0	//Death Knight
+40	4	0	53	91	0	//Death Knight
+40	4	0	53	91	0	//Death Knight
+40	4	0	53	91	0	//Death Knight
+40	4	0	53	91	0	//Death Knight
+40	4	0	53	91	0	//Death Knight
+34	4	0	53	91	0	//Death Knight
+34	4	0	53	91	0	//Death Knight
+34	4	0	53	91	0	//Death Knight
+34	4	0	53	91	0	//Death Knight
+34	4	0	53	91	0	//Death Knight
+34	4	0	53	91	0	//Death Knight
+34	4	0	53	91	0	//Death Knight
+
+
+34	4	5	209	89	1	//Cursed Wizard
+
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+36	4	1	209	89	1	//Shadow
+
+41	4	30	126	246	-1	//Death Cow
+41	4	30	133	235	-1	//Death Cow
+41	4	30	133	225	-1	//Death Cow
+41	4	30	133	209	-1	//Death Cow
+41	4	30	125	189	-1	//Death Cow
+41	4	30	89	224	-1	//Death Cow
+41	4	30	86	245	-1	//Death Cow
+41	4	30	108	245	-1	//Death Cow
+41	4	30	116	244	-1	//Death Cow
+41	4	30	118	229	-1	//Death Cow
+41	4	30	102	225	-1	//Death Cow
+41	4	30	98	236	-1	//Death Cow
+41	4	30	116	134	-1	//Death Cow
+41	4	30	97	133	-1	//Death Cow
+41	4	30	85	132	-1	//Death Cow
+41	4	30	122	101	-1	//Death Cow
+41	4	30	101	100	-1	//Death Cow
+41	4	30	86	125	-1	//Death Cow
+41	4	30	132	124	-1	//Death Cow
+41	4	30	103	197	-1	//Death Cow
+41	4	30	97	196	-1	//Death Cow
+41	4	30	115	199	-1	//Death Cow
+41	4	30	135	174	-1	//Death Cow
+41	4	30	122	167	-1	//Death Cow
+41	4	30	101	168	-1	//Death Cow
+end
+
+
+
+
+
+
+
+//=========================================================================================						
+//================================= Stadium Spots - =======================================						
+//=========================================================================================
+
+1
+
+142	6	5	43	77	51	89	0	50
+
+143	6	5	64	70	71	82	0	50
+
+143	6	5	44	54	50	60	0	40
+
+143	6	5	42	35	52	44	0	40
+
+142	6	5	26	36	32	42	0	40
+
+142	6	5	26	72	32	79	0	40
+
+142	6	5	26	53	32	61	0	40
+
+142	6	5	26	90	34	97	0	40 //141
+
+
+142	6	5	7	53	14	61	0	20
+143	6	5	7	53	14	61	0	20
+
+142	6	5	7	71	14	78	0	20
+143	6	5	7	71	14	78	0	20
+
+142	6	5	7	35	14	42	0	20
+143	6	5	7	35	14	42	0	20
+
+end
+
+
+
+
+//=========================================================================================						
+//================================= Stadium NPCs - =======================================						
+//=========================================================================================
+0
+200	6	6	63	160	1 	// Stadium SoccerBall
+239	6	6	72	164	1 	// Stadium Guard
+247	6	6	57	115	1 	// Stadium Guard
+253	6	0	62	49	2	//potion girl
+257	6	0	61	39	2	// Elf Soldier
+//241	6	0	245	230	2	// guildmaster
+
+end
+
+
+
+//=========================================================================================							
+//=================== Atlans Monsters - ======================================							
+//=========================================================================================
+2
+
+45	7	30	21	41	-1	//Bahamut
+45	7	30	23	33	-1	//Bahamut
+45	7	30	31	31	-1	//Bahamut
+45	7	30	39	23	-1	//Bahamut
+45	7	30	41	11	-1	//Bahamut
+45	7	30	21	48	-1	//Bahamut
+45	7	30	47	41	-1	//Bahamut
+45	7	30	39	63	-1	//Bahamut
+45	7	30	72	42	-1	//Bahamut
+45	7	30	23	56	-1	//Bahamut
+45	7	30	23	64	-1	//Bahamut
+45	7	30	35	70	-1	//Bahamut
+45	7	30	29	75	-1	//Bahamut
+45	7	30	19	125	-1	//Bahamut
+45	7	30	49	8	-1	//Bahamut
+45	7	30	46	20	-1	//Bahamut
+45	7	30	39	35	-1	//Bahamut
+45	7	30	37	50	-1	//Bahamut
+45	7	30	20	75	-1	//Bahamut
+45	7	30	63	44	-1	//Bahamut
+45	7	30	68	52	-1	//Bahamut
+45	7	30	49	64	-1	//Bahamut
+45	7	30	29	52	-1	//Bahamut
+46	7	30	46	21	-1	//Vepar
+46	7	30	48	9	-1	//Vepar
+46	7	30	50	65	-1	//Vepar
+46	7	30	51	70	-1	//Vepar
+46	7	30	80	33	-1	//Vepar
+46	7	30	65	59	-1	//Vepar
+46	7	30	65	51	-1	//Vepar
+46	7	30	55	44	-1	//Vepar
+46	7	30	30	110	-1	//Vepar
+46	7	30	21	118	-1	//Vepar
+46	7	30	38	117	-1	//Vepar
+46	7	30	141	11	-1	//Vepar
+46	7	30	107	18	-1	//Vepar
+46	7	30	104	13	-1	//Vepar
+46	7	30	78	23	-1	//Vepar
+46	7	30	70	38	-1	//Vepar
+46	7	30	55	25	-1	//Vepar
+46	7	30	30	122	-1	//Vepar
+46	7	30	17	126	-1	//Vepar
+46	7	30	122	29	-1	//Vepar
+46	7	30	108	40	-1	//Vepar
+47	7	30	41	109	-1	//Valkyrie
+47	7	30	49	100	-1	//Valkyrie
+47	7	30	54	89	-1	//Valkyrie
+47	7	30	62	87	-1	//Valkyrie
+47	7	30	112	45	-1	//Valkyrie
+47	7	30	109	38	-1	//Valkyrie
+47	7	30	133	14	-1	//Valkyrie
+47	7	30	150	14	-1	//Valkyrie
+47	7	30	200	17	-1	//Valkyrie
+47	7	30	208	9	-1	//Valkyrie
+47	7	30	222	14	-1	//Valkyrie
+47	7	30	117	74	-1	//Valkyrie
+47	7	30	139	61	-1	//Valkyrie
+47	7	30	226	46	-1	//Valkyrie
+47	7	30	142	15	-1	//Valkyrie
+47	7	30	128	22	-1	//Valkyrie
+47	7	30	116	9	-1	//Valkyrie
+47	7	30	113	27	-1	//Valkyrie
+47	7	30	33	108	-1	//Valkyrie
+47	7	30	35	118	-1	//Valkyrie
+48	7	30	236	177	-1	//Lizard King
+48	7	30	66	222	-1	//Lizard King
+48	7	30	63	218	-1	//Lizard King
+48	7	30	57	225	-1	//Lizard King
+48	7	30	171	162	-1	//Lizard King
+48	7	30	159	198	-1	//Lizard King
+48	7	30	152	201	-1	//Lizard King
+48	7	30	144	201	-1	//Lizard King
+48	7	30	137	205	-1	//Lizard King
+48	7	30	124	206	-1	//Lizard King
+48	7	30	46	217	-1	//Lizard King
+48	7	30	29	226	-1	//Lizard King
+48	7	30	22	213	-1	//Lizard King
+48	7	30	24	204	-1	//Lizard King
+48	7	30	34	200	-1	//Lizard King
+48	7	30	35	209	-1	//Lizard King
+48	7	30	40	210	-1	//Lizard King
+48	7	30	45	205	-1	//Lizard King
+48	7	30	47	211	-1	//Lizard King
+48	7	30	37	232	-1	//Lizard King
+48	7	30	226	52	-1	//Lizard King
+48	7	30	22	230	-1	//Lizard King
+48	7	30	41	224	-1	//Lizard King
+48	7	30	226	134	-1	//Lizard King
+48	7	30	226	154	-1	//Lizard King
+48	7	30	221	150	-1	//Lizard King
+48	7	30	220	168	-1	//Lizard King
+48	7	30	232	166	-1	//Lizard King
+48	7	30	231	176	-1	//Lizard King
+48	7	30	217	197	-1	//Lizard King
+48	7	30	215	182	-1	//Lizard King
+48	7	30	230	171	-1	//Lizard King
+48	7	30	221	158	-1	//Lizard King
+48	7	30	233	124	-1	//Lizard King
+48	7	30	232	102	-1	//Lizard King
+48	7	30	15	234	-1	//Lizard King
+48	7	30	20	237	-1	//Lizard King
+48	7	30	34	237	-1	//Lizard King
+48	7	30	47	231	-1	//Lizard King
+48	7	30	54	232	-1	//Lizard King
+48	7	30	20	218	-1	//Lizard King
+48	7	30	34	176	-1	//Lizard King
+
+
+49	7	30	19	230	-1	//Hydra
+49	7	30	24	227	-1	//Hydra
+49	7	30	211	192	-1	//Hydra
+49	7	30	229	203	-1	//Hydra
+51	7	30	212	96	-1	//Great Bahamut
+51	7	30	228	16	-1	//Great Bahamut
+51	7	30	237	17	-1	//Great Bahamut
+51	7	30	237	26	-1	//Great Bahamut
+51	7	30	238	40	-1	//Great Bahamut
+51	7	30	235	48	-1	//Great Bahamut
+51	7	30	206	55	-1	//Great Bahamut
+51	7	30	62	140	-1	//Great Bahamut
+51	7	30	70	133	-1	//Great Bahamut
+51	7	30	168	54	-1	//Great Bahamut
+51	7	30	225	45	-1	//Great Bahamut
+51	7	30	65	187	-1	//Great Bahamut
+51	7	30	64	159	-1	//Great Bahamut
+51	7	30	186	99	-1	//Great Bahamut
+51	7	30	185	90	-1	//Great Bahamut
+51	7	30	147	114	-1	//Great Bahamut
+51	7	30	84	170	-1	//Great Bahamut
+
+52	7	30	156	156	-1	//Silver Valkyrie
+52	7	30	162	149	-1	//Silver Valkyrie
+52	7	30	152	169	-1	//Silver Valkyrie
+52	7	30	72	128	-1	//Silver Valkyrie
+52	7	30	70	138	-1	//Silver Valkyrie
+52	7	30	61	147	-1	//Silver Valkyrie
+52	7	30	49	158	-1	//Silver Valkyrie
+52	7	30	33	169	-1	//Silver Valkyrie
+52	7	30	22	173	-1	//Silver Valkyrie
+52	7	30	129	171	-1	//Silver Valkyrie
+52	7	30	138	167	-1	//Silver Valkyrie
+52	7	30	147	164	-1	//Silver Valkyrie
+52	7	30	170	145	-1	//Silver Valkyrie
+52	7	30	163	138	-1	//Silver Valkyrie
+52	7	30	53	220	-1	//Silver Valkyrie
+52	7	30	41	222	-1	//Silver Valkyrie
+52	7	30	29	231	-1	//Silver Valkyrie
+52	7	30	22	232	-1	//Silver Valkyrie
+52	7	30	27	209	-1	//Silver Valkyrie
+52	7	30	36	205	-1	//Silver Valkyrie
+52	7	30	109	211	-1	//Silver Valkyrie
+52	7	30	131	207	-1	//Silver Valkyrie
+52	7	30	155	196	-1	//Silver Valkyrie
+52	7	30	167	154	-1	//Silver Valkyrie
+52	7	30	177	19	-1	//Silver Valkyrie
+52	7	30	118	167	-1	//Silver Valkyrie
+52	7	30	111	175	-1	//Silver Valkyrie
+52	7	30	63	178	-1	//Silver Valkyrie
+52	7	30	162	141	-1	//Silver Valkyrie
+52	7	30	138	176	-1	//Silver Valkyrie
+52	7	30	223	70	-1	//Silver Valkyrie
+52	7	30	208	183	-1	//Silver Valkyrie
+52	7	30	215	174	-1	//Silver Valkyrie
+52	7	30	230	181	-1	//Silver Valkyrie
+52	7	30	226	161	-1	//Silver Valkyrie
+52	7	30	200	103	-1	//Silver Valkyrie
+52	7	30	192	101	-1	//Silver Valkyrie
+52	7	30	179	92	-1	//Silver Valkyrie
+52	7	30	187	94	-1	//Silver Valkyrie
+52	7	30	177	101	-1	//Silver Valkyrie
+52	7	30	166	117	-1	//Silver Valkyrie
+52	7	30	159	112	-1	//Silver Valkyrie
+52	7	30	156	122	-1	//Silver Valkyrie
+52	7	30	173	109	-1	//Silver Valkyrie
+52	7	30	167	107	-1	//Silver Valkyrie
+52	7	30	150	120	-1	//Silver Valkyrie
+52	7	30	142	125	-1	//Silver Valkyrie
+52	7	30	129	130	-1	//Silver Valkyrie
+52	7	30	117	130	-1	//Silver Valkyrie
+52	7	30	121	135	-1	//Silver Valkyrie
+52	7	30	144	109	-1	//Silver Valkyrie
+52	7	30	124	125	-1	//Silver Valkyrie
+52	7	30	87	132	-1	//Silver Valkyrie
+52	7	30	86	140	-1	//Silver Valkyrie
+52	7	30	78	145	-1	//Silver Valkyrie
+52	7	30	79	136	-1	//Silver Valkyrie
+52	7	30	67	147	-1	//Silver Valkyrie
+52	7	30	71	140	-1	//Silver Valkyrie
+52	7	30	105	137	-1	//Silver Valkyrie
+52	7	30	81	164	-1	//Silver Valkyrie
+52	7	30	70	168	-1	//Silver Valkyrie
+52	7	30	76	174	-1	//Silver Valkyrie
+52	7	30	85	185	-1	//Silver Valkyrie
+52	7	30	87	175	-1	//Silver Valkyrie
+
+49	7	10	71	169	-1	//Hydra
+49	7	10	74	172	-1	//Hydra
+49	7	10	74	167	-1	//Hydra
+end
+//=========================================================================================							
+//================================= Tarkan - =============================================							
+//=========================================================================================							
+//Mob	Map	Radio	CordX	CordY	Strong	Name	
+2							
+
+57	8	30	123	73	-1	//Iron Wheel
+57	8	30	81	63	-1	//Iron Wheel
+57	8	30	70	57	-1	//Iron Wheel
+57	8	30	65	64	-1	//Iron Wheel
+57	8	30	64	71	-1	//Iron Wheel
+57	8	30	56	75	-1	//Iron Wheel
+57	8	30	46	71	-1	//Iron Wheel
+57	8	30	38	71	-1	//Iron Wheel
+57	8	30	35	62	-1	//Iron Wheel
+57	8	30	27	75	-1	//Iron Wheel
+57	8	30	34	78	-1	//Iron Wheel
+57	8	30	25	83	-1	//Iron Wheel
+57	8	30	21	92	-1	//Iron Wheel
+57	8	30	38	98	-1	//Iron Wheel
+57	8	30	48	99	-1	//Iron Wheel
+57	8	30	55	100	-1	//Iron Wheel
+57	8	30	62	91	-1	//Iron Wheel
+58	8	30	8	219	-1	//Tantallos
+58	8	30	18	238	-1	//Tantallos
+58	8	30	38	87	-1	//Tantallos
+58	8	30	69	120	-1	//Tantallos
+58	8	30	61	121	-1	//Tantallos
+58	8	30	54	120	-1	//Tantallos
+58	8	30	43	121	-1	//Tantallos
+58	8	30	35	121	-1	//Tantallos
+58	8	30	24	120	-1	//Tantallos
+58	8	30	18	127	-1	//Tantallos
+58	8	30	25	127	-1	//Tantallos
+58	8	30	32	132	-1	//Tantallos
+58	8	30	29	98	-1	//Tantallos
+58	8	30	42	134	-1	//Tantallos
+58	8	30	35	141	-1	//Tantallos
+58	8	30	64	164	-1	//Tantallos
+58	8	30	79	156	-1	//Tantallos
+58	8	30	93	137	-1	//Tantallos
+58	8	30	115	154	-1	//Tantallos
+58	8	30	124	152	-1	//Tantallos
+58	8	30	129	141	-1	//Tantallos
+58	8	30	125	129	-1	//Tantallos
+58	8	30	124	161	-1	//Tantallos
+58	8	30	160	203	-1	//Tantallos
+58	8	30	24	212	-1	//Tantallos
+58	8	30	27	229	-1	//Tantallos
+58	8	30	36	225	-1	//Tantallos
+58	8	30	42	244	-1	//Tantallos
+58	8	30	22	244	-1	//Tantallos
+58	8	30	52	204	-1	//Tantallos
+58	8	30	165	219	-1	//Tantallos
+59	8	30	11	241	-1	//Zaikan
+60	8	30	148	66	-1	//Bloody Wolf
+60	8	30	181	123	-1	//Bloody Wolf
+60	8	30	134	72	-1	//Bloody Wolf
+60	8	30	128	74	-1	//Bloody Wolf
+60	8	30	115	86	-1	//Bloody Wolf
+60	8	30	121	87	-1	//Bloody Wolf
+60	8	30	128	98	-1	//Bloody Wolf
+60	8	30	121	99	-1	//Bloody Wolf
+60	8	30	108	95	-1	//Bloody Wolf
+60	8	30	133	44	-1	//Bloody Wolf
+60	8	30	125	26	-1	//Bloody Wolf
+60	8	30	113	34	-1	//Bloody Wolf
+60	8	30	105	33	-1	//Bloody Wolf
+60	8	30	108	43	-1	//Bloody Wolf
+60	8	30	103	49	-1	//Bloody Wolf
+60	8	30	97	46	-1	//Bloody Wolf
+60	8	30	88	41	-1	//Bloody Wolf
+60	8	30	95	26	-1	//Bloody Wolf
+60	8	30	96	36	-1	//Bloody Wolf
+60	8	30	96	56	-1	//Bloody Wolf
+60	8	30	102	61	-1	//Bloody Wolf
+60	8	30	104	70	-1	//Bloody Wolf
+60	8	30	96	78	-1	//Bloody Wolf
+60	8	30	97	66	-1	//Bloody Wolf
+60	8	30	91	86	-1	//Bloody Wolf
+60	8	30	74	81	-1	//Bloody Wolf
+61	8	30	7	205	-1	//Vim Knight
+61	8	30	5	214	-1	//Vim Knight
+61	8	30	6	228	-1	//Vim Knight
+61	8	30	72	167	-1	//Vim Knight
+61	8	30	83	176	-1	//Vim Knight
+61	8	30	63	173	-1	//Vim Knight
+61	8	30	11	234	-1	//Vim Knight
+61	8	30	80	207	-1	//Vim Knight
+61	8	30	78	198	-1	//Vim Knight
+61	8	30	88	189	-1	//Vim Knight
+61	8	30	83	185	-1	//Vim Knight
+61	8	30	73	179	-1	//Vim Knight
+61	8	30	159	195	-1	//Vim Knight
+61	8	30	172	195	-1	//Vim Knight
+61	8	30	179	194	-1	//Vim Knight
+61	8	30	183	201	-1	//Vim Knight
+61	8	30	177	207	-1	//Vim Knight
+61	8	30	173	221	-1	//Vim Knight
+61	8	30	161	218	-1	//Vim Knight
+61	8	30	157	214	-1	//Vim Knight
+61	8	30	153	209	-1	//Vim Knight
+61	8	30	150	203	-1	//Vim Knight
+61	8	30	167	225	-1	//Vim Knight
+61	8	30	50	230	-1	//Vim Knight
+61	8	30	43	222	-1	//Vim Knight
+61	8	30	29	220	-1	//Vim Knight
+61	8	30	15	218	-1	//Vim Knight
+61	8	30	19	205	-1	//Vim Knight
+61	8	30	11	246	-1	//Vim Knight
+61	8	30	6	240	-1	//Vim Knight
+61	8	30	157	224	-1	//Vim Knight
+61	8	30	85	141	-1	//Vim Knight
+62	8	30	146	53	-1	//Mutant
+62	8	30	148	43	-1	//Mutant
+62	8	30	155	40	-1	//Mutant
+62	8	30	134	57	-1	//Mutant
+62	8	30	151	34	-1	//Mutant
+62	8	30	149	28	-1	//Mutant
+62	8	30	141	74	-1	//Mutant
+62	8	30	142	68	-1	//Mutant
+62	8	30	141	24	-1	//Mutant
+62	8	30	154	73	-1	//Mutant
+62	8	30	162	101	-1	//Mutant
+62	8	30	161	110	-1	//Mutant
+62	8	30	171	116	-1	//Mutant
+62	8	30	180	112	-1	//Mutant
+62	8	30	190	112	-1	//Mutant
+62	8	30	197	108	-1	//Mutant
+62	8	30	205	105	-1	//Mutant
+62	8	30	186	120	-1	//Mutant
+62	8	30	152	133	-1	//Mutant
+62	8	30	162	129	-1	//Mutant
+62	8	30	152	125	-1	//Mutant
+62	8	30	152	116	-1	//Mutant
+62	8	30	171	106	-1	//Mutant
+62	8	30	151	101	-1	//Mutant
+62	8	30	142	100	-1	//Mutant
+62	8	30	140	37	-1	//Mutant
+62	8	30	133	65	-1	//Mutant
+63	8	30	161	225	-1	//Death Beam Knight
+end
+
+//=========================================================================================							
+//================================= Devil Square - =============================================							
+//=========================================================================================
+1
+  //17  9	30  119 80  150 115  -1 35
+  //15  9	30  119 80  150 115  -1 35
+
+  //10  9	30  121 152 151 184  -1 35
+  //39  9	30  121 152 151 184  -1 35
+
+  41  9	30  49  138 79  173  -1 35
+  37  9	30  49  138 79  173  -1 35
+
+  64  9	30  53  74  83  109  -1 35
+  65  9	30  53  74  83  109  -1 35
+
+  294 32 30  120 80  150 115  -1 35
+  60  32 30  120 80  150 115  -1 35
+
+  302 32 30  122 152 151 184  -1 35
+  303  32 30  122 152 151 184  -1 35
+
+end
+
+//=========================================================================================							
+//================================= Blood Castle NPC - =============================================							
+//=========================================================================================
+4
+
+  232	11	0  	10	9	1
+  232	12	0  	10	9	1
+  232	13	0  	10	9	1
+  232	14	0  	10	9	1
+  232	15	0  	10	9	1
+  232	16	0  	10	9	1
+  232	17	0  	10	9	1
+  132	11	0  	14	95	0
+  132	12	0  	14	95	0
+  132	13	0  	14	95	0
+  132	14	0  	14	95	0
+  132	15	0  	14	95	0
+  132	16	0  	14	95	0
+  132	17	0  	14	95	0
+  131	11	0  	14	75	0
+  131	12	0  	14	75	0
+  131	13	0  	14	75	0
+  131	14	0  	14	75	0
+  131	15	0  	14	75	0
+  131	16	0  	14	75	0
+  131	17	0  	14	75	0
+end
+
+//=========================================================================================							
+//================================= Blood Castle 1-7 - =============================================							
+//=========================================================================================
+4
+  85   11 30   13   45  0
+  
+
+  97   13 30   13   45  2
+  111  13 30   13   78  2
+  98   13 30   15   46  2
+  111  13 30   14   83  2
+  111  13 30   14   78  2
+  98   13 30   15   63  2
+  99   13 30   13   69  2
+  96   13 30   14   34  2
+  98   13 30   15   53  2
+  97   13 30   13   23  2
+  97   13 30   15   43  2
+  96   13 30   14   38  2
+  98   13 30   13   65  2
+  111  13 30   15   78  2
+  98   13 30   13   67  2
+  99   13 30   14   61  2
+  111  13 30   16   80  2
+  98   13 30   15   59  2
+  98   13 30   13   59  2
+  98   13 30   15   55  2
+  97   13 30   15   39  2
+  96   13 30   13   35  2
+  98   13 30   13   62  2
+  99   13 30   13   55  2
+  97   13 30   15   37  2
+  96   13 30   13   28  2
+  97   13 30   13   29  2
+  97   13 30   15   28  2
+  97   13 30   13   25  2
+  97   13 30   13   21  2
+  97   13 30   14   22  2
+  97   13 30   15   21  2
+  97   13 30   13   31  2
+  97   13 30   15   30  2
+  97   13 30   15   33  2
+  99   13 30   14   58  2
+  96   13 30   15   35  2
+  96   13 30   14   33  2
+  96   13 30   15   41  2
+  96   13 30   14   42  2
+  97   13 30   14   21  2
+  96   13 30   15   25  2
+  96   13 30   15   23  2
+  96   13 30   13   26  2
+  98   13 30   13   41  2
+  98   13 30   15   69  2
+  96   13 30   13   37  2
+  97   13 30   13   43  2
+  98   13 30   13   50  2
+  98   13 30   15   48  2
+  98   13 30   13   46  2
+  111  13 30   15   62  2
+  99   13 30   14   52  2
+  99   13 30   15   50  2
+  99   13 30   15   66  2
+  112  13 30   16   87  2
+  112  13 30   12   81  2
+  111  13 30   17   83  2
+  111  13 30   14   90  2
+  111  13 30   11   83  2
+  112  13 30   13   88  2
+  112  13 30   13   85  2
+  112  13 30   19   85  2
+  112  13 30   13   93  2
+  111  13 30   15   94  2
+  96   13 30   14   40  2
+  112  13 30   14   80  2
+  112  13 30   18   81  2
+  96   13 30   13   39  2
+  111  13 30   20   82  2
+  111  13 30   20   88  2
+  96   13 30   14   27  2
+  96   13 30   14   24  2
+  96   13 30   14   32  2
+  98   13 30   14   44  2
+  98   13 30   15   51  2
+  98   13 30   14   49  2
+  99   13 30   14   56  2
+  98   13 30   15   57  2
+  98   13 30   14   64  2
+  98   13 30   14   67  2
+  99   13 30   14   70  2
+  98   13 30   13   53  2
+  96   13 30   15   45  2
+  111  13 30   14   54  2
+  111  13 30   14   36  2
+  111  13 30   15   68  2
+  99   13 30   13   48  2
+  111  13 30   14   47  2
+  99   13 30   13   63  2
+  98   13 30   15   65  2
+  98   13 30   15   60  2
+  98   13 30   13   57  2
+  96   13 30   15   31  2
+  97   13 30   15   26  2
+
+  114   14 30   13   45  3
+  117   14 30   13   78  3
+  115   14 30   15   46  3
+  117   14 30   14   83  3
+  117   14 30   14   78  3
+  115   14 30   15   63  3
+  116   14 30   13   69  3
+  113   14 30   14   34  3
+  115   14 30   15   53  3
+  114   14 30   13   23  3
+  114   14 30   15   43  3
+  113   14 30   14   38  3
+  115   14 30   13   65  3
+  117   14 30   15   78  3
+  115   14 30   13   67  3
+  116   14 30   14   61  3
+  117   14 30   16   80  3
+  115   14 30   15   59  3
+  115   14 30   13   59  3 
+  115   14 30   15   55  3
+  114   14 30   15   39  3
+  113   14 30   13   35  3
+  115   14 30   13   62  3
+  116   14 30   13   55  3
+  114   14 30   15   37  3
+  113   14 30   13   28  3
+  114   14 30   13   29  3
+  114   14 30   15   28  3
+  114   14 30   13   25  3
+  114   14 30   13   21  3
+  114   14 30   14   22  3
+  114   14 30   15   21  3
+  114   14 30   13   31  3
+  114   14 30   15   30  3
+  114   14 30   15   33  3
+  116   14 30   14   58  3
+  113   14 30   15   35  3
+  113   14 30   14   33  3
+  113   14 30   15   41  3
+  113   14 30   14   42  3
+  114   14 30   14   21  3
+  113   14 30   15   25  3
+  113   14 30   15   23  3
+  113   14 30   13   26  3
+  115   14 30   13   41  3
+  115   14 30   15   69  3
+  113   14 30   13   37  3
+  114   14 30   13   43  3
+  115   14 30   13   50  3
+  115   14 30   15   48  3
+  115   14 30   13   46  3
+  117   14 30   15   62  3
+  116   14 30   14   52  3
+  116   14 30   15   50  3
+  116   14 30   15   66  3
+  118   14 30   16   87  3
+  118   14 30   12   81  3
+  117   14 30   17   83  3
+  117   14 30   14   90  3
+  117   14 30   11   83  3
+  118   14 30   13   88  3
+  118   14 30   13   85  3
+  118   14 30   19   85  3
+  118   14 30   13   93  3
+  117   14 30   15   94  3
+  113   14 30   14   40  3
+  118   14 30   14   80  3
+  118   14 30   18   81  3
+  113   14 30   13   39  3
+  117   14 30   20   82  3
+  117   14 30   20   88  3
+  113   14 30   14   27  3
+  113   14 30   14   24  3
+  113   14 30   14   32  3
+  115   14 30   14   44  3
+  115   14 30   15   51  3
+  115   14 30   14   49  3
+  116   14 30   14   56  3
+  115   14 30   15   57  3
+  115   14 30   14   64  3
+  115   14 30   14   67  3
+  116   14 30   14   70  3
+  115   14 30   13   53  3
+  113   14 30   15   45  3
+  117   14 30   14   54  3
+  117   14 30   14   36  3
+  117   14 30   15   68  3
+  116   14 30   13   48  3
+  117   14 30   14   47  3
+  116   14 30   13   63  3
+  115   14 30   15   65  3
+  115   14 30   15   60  3
+  115   14 30   13   57  3
+  113   14 30   15   31  3
+  114   14 30   15   26  3
+
+  120   15 30   13   45  4
+  123   15 30   13   78  4
+  121   15 30   15   46  4
+  123   15 30   14   83  4
+  123   15 30   14   78  4
+  121   15 30   15   63  4
+  122   15 30   13   69  4
+  119   15 30   14   34  4
+  121   15 30   15   53  4
+  120   15 30   13   23  4
+  120   15 30   15   43  4
+  119   15 30   14   38  4
+  121   15 30   13   65  4
+  123   15 30   15   78  4
+  121   15 30   13   67  4
+  122   15 30   14   61  4
+  123   15 30   16   80  4
+  121   15 30   15   59  4
+  121   15 30   13   59  4
+  121   15 30   15   55  4
+  120   15 30   15   39  4
+  119   15 30   13   35  4
+  121   15 30   13   62  4
+  122   15 30   13   55  4
+  120   15 30   15   37  4
+  119   15 30   13   28  4
+  120   15 30   13   29  4
+  120   15 30   15   28  4
+  120   15 30   13   25  4
+  120   15 30   13   21  4
+  120   15 30   14   22  4
+  120   15 30   15   21  4
+  120   15 30   13   31  4
+  120   15 30   15   30  4
+  120   15 30   15   33  4
+  122   15 30   14   58  4
+  119   15 30   15   35  4
+  119   15 30   14   33  4
+  119   15 30   15   41  4
+  119   15 30   14   42  4
+  120   15 30   14   21  4
+  119   15 30   15   25  4
+  119   15 30   15   23  4
+  119   15 30   13   26  4
+  121   15 30   13   41  4
+  121   15 30   15   69  4
+  119   15 30   13   37  4
+  120   15 30   13   43  4
+  121   15 30   13   50  4
+  121   15 30   15   48  4
+  121   15 30   13   46  4
+  123   15 30   15   62  4
+  122   15 30   14   52  4
+  122   15 30   15   50  4
+  122   15 30   15   66  4
+  124   15 30   16   87  4
+  124   15 30   12   81  4
+  123   15 30   17   83  4
+  123   15 30   14   90  4
+  123   15 30   11   83  4
+  124   15 30   13   88  4
+  124   15 30   13   85  4
+  124   15 30   19   85  4
+  124   15 30   13   93  4
+  123   15 30   15   94  4
+  119   15 30   14   40  4
+  124   15 30   14   80  4
+  124   15 30   18   81  4
+  119   15 30   13   39  4
+  123   15 30   20   82  4
+  123   15 30   20   88  4
+  119   15 30   14   27  4
+  119   15 30   14   24  4
+  119   15 30   14   32  4
+  121   15 30   14   44  4
+  121   15 30   15   51  4
+  121   15 30   14   49  4
+  122   15 30   14   56  4
+  121   15 30   15   57  4
+  121   15 30   14   64  4
+  121   15 30   14   67  4
+  122   15 30   14   70  4
+  121   15 30   13   53  4
+  119   15 30   15   45  4
+  123   15 30   14   54  4
+  123   15 30   14   36  4
+  123   15 30   15   68  4
+  122   15 30   13   48  4
+  123   15 30   14   47  4
+  122   15 30   13   63  4
+  121   15 30   15   65  4
+  121   15 30   15   60  4
+  121   15 30   13   57  4
+  119   15 30   15   31  4
+  120   15 30   15   26  4
+
+  126   16 30   13   45  5
+  129   16 30   13   78  5
+  127   16 30   15   46  5
+  129   16 30   14   83  5
+  129   16 30   14   78  5
+  127   16 30   15   63  5
+  128   16 30   13   69  5
+  125   16 30   14   34  5
+  127   16 30   15   53  5
+  126   16 30   13   23  5
+  126   16 30   15   43  5
+  125   16 30   14   38  5
+  127   16 30   13   65  5
+  129   16 30   15   78  5
+  127   16 30   13   67  5
+  128   16 30   14   61  5
+  129   16 30   16   80  5
+  127   16 30   15   59  5
+  127   16 30   13   59  5
+  127   16 30   15   55  5
+  126   16 30   15   39  5
+  125   16 30   13   35  5
+  127   16 30   13   62  5
+  128   16 30   13   55  5
+  126   16 30   15   37  5
+  125   16 30   13   28  5
+  126   16 30   13   29  5
+  126   16 30   15   28  5
+  126   16 30   13   25  5
+  126   16 30   13   21  5
+  126   16 30   14   22  5
+  126   16 30   15   21  5
+  126   16 30   13   31  5
+  126   16 30   15   30  5
+  126   16 30   15   33  5
+  128   16 30   14   58  5
+  125   16 30   15   35  5
+  125   16 30   14   33  5
+  125   16 30   15   41  5
+  125   16 30   14   42  5
+  126   16 30   14   21  5
+  125   16 30   15   25  5
+  125   16 30   15   23  5
+  125   16 30   13   26  5
+  127   16 30   13   41  5
+  127   16 30   15   69  5
+  125   16 30   13   37  5
+  126   16 30   13   43  5
+  127   16 30   13   50  5
+  127   16 30   15   48  5
+  127   16 30   13   46  5
+  129   16 30   15   62  5
+  128   16 30   14   52  5
+  128   16 30   15   50  5
+  128   16 30   15   66  5
+  130   16 30   16   87  5
+  130   16 30   12   81  5
+  129   16 30   17   83  5
+  129   16 30   14   90  5
+  129   16 30   11   83  5
+  130   16 30   13   88  5
+  130   16 30   13   85  5
+  130   16 30   19   85  5
+  130   16 30   13   93  5
+  129   16 30   15   94  5
+  125   16 30   14   40  5
+  130   16 30   14   80  5
+  130   16 30   18   81  5
+  125   16 30   13   39  5
+  129   16 30   20   82  5
+  129   16 30   20   88  5
+  125   16 30   14   27  5
+  125   16 30   14   24  5
+  125   16 30   14   32  5
+  127   16 30   14   44  5
+  127   16 30   15   51  5
+  127   16 30   14   49  5
+  128   16 30   14   56  5
+  127   16 30   15   57  5
+  127   16 30   14   64  5
+  127   16 30   14   67  5
+  128   16 30   14   70  5
+  127   16 30   13   53  5
+  125   16 30   15   45  5
+  129   16 30   14   54  5
+  129   16 30   14   36  5
+  129   16 30   15   68  5
+  128   16 30   13   48  5
+  129   16 30   14   47  5
+  128   16 30   13   63  5
+  127   16 30   15   65  5
+  127   16 30   15   60  5
+  127   16 30   13   57  5
+  125   16 30   15   31  5
+  126   16 30   15   26  5
+
+  139   17 30   13   45  6
+  142   17 30   13   78  6
+  140   17 30   15   46  6
+  142   17 30   14   83  6
+  142   17 30   14   78  6
+  140   17 30   15   63  6
+  141   17 30   13   69  6
+  138   17 30   14   34  6
+  140   17 30   15   53  6
+  139   17 30   13   23  6
+  139   17 30   15   43  6
+  138   17 30   14   38  6
+  140   17 30   13   65  6
+  142   17 30   15   78  6
+  140   17 30   13   67  6
+  141   17 30   14   61  6
+  142   17 30   16   80  6
+  140   17 30   15   59  6
+  140   17 30   13   59  6
+  140   17 30   15   55  6
+  139   17 30   15   39  6
+  138   17 30   13   35  6
+  140   17 30   13   62  6
+  141   17 30   13   55  6
+  139   17 30   15   37  6
+  138   17 30   13   28  6
+  139   17 30   13   29  6
+  139   17 30   15   28  6
+  139   17 30   13   25  6
+  139   17 30   13   21  6
+  139   17 30   14   22  6
+  139   17 30   15   21  6
+  139   17 30   13   31  6
+  139   17 30   15   30  6
+  139   17 30   15   33  6
+  141   17 30   14   58  6
+  138   17 30   15   35  6
+  138   17 30   14   33  6
+  138   17 30   15   41  6
+  138   17 30   14   42  6
+  139   17 30   14   21  6
+  138   17 30   15   25  6
+  138   17 30   15   23  6
+  138   17 30   13   26  6
+  140   17 30   13   41  6
+  140   17 30   15   69  6
+  138   17 30   13   37  6
+  139   17 30   13   43  6
+  140   17 30   13   50  6
+  140   17 30   15   48  6
+  140   17 30   13   46  6
+  142   17 30   15   62  6
+  141   17 30   14   52  6
+  141   17 30   15   50  6
+  141   17 30   15   66  6
+  143   17 30   16   87  6
+  143   17 30   12   81  6
+  142   17 30   17   83  6
+  142   17 30   14   90  6
+  142   17 30   11   83  6
+  143   17 30   13   88  6
+  143   17 30   13   85  6
+  143   17 30   19   85  6
+  143   17 30   13   93  6
+  142   17 30   15   94  6
+  138   17 30   14   40  6
+  143   17 30   14   80  6
+  143   17 30   18   81  6
+  138   17 30   13   39  6
+  142   17 30   20   82  6
+  142   17 30   20   88  6
+  138   17 30   14   27  6
+  138   17 30   14   24  6
+  138   17 30   14   32  6
+  140   17 30   14   44  6
+  140   17 30   15   51  6
+  140   17 30   14   49  6
+  141   17 30   14   56  6
+  140   17 30   15   57  6
+  140   17 30   14   64  6
+  140   17 30   14   67  6
+  141   17 30   14   70  6
+  140   17 30   13   53  6
+  138   17 30   15   45  6
+  142   17 30   14   54  6
+  142   17 30   14   36  6
+  142   17 30   15   68  6
+  141   17 30   13   48  6
+  142   17 30   14   47  6
+  141   17 30   13   63  6
+  140   17 30   15   65  6
+  140   17 30   15   60  6
+  140   17 30   13   57  6
+  138   17 30   15   31  6
+  139   17 30   15   26  6
+end
+
+//=========================================================================================							
+//================================= Chaos Castle 1-6 - =============================================							
+//=========================================================================================
+4
+  162	18 30   26  105  0
+ 
+ 
+  165   19 30   41   84  1
+
+  166	20 30   26  105  2
+  167   20 30   26   98  2
+  166   20 30   28   90  2
+  167   20 30   27   86  2
+  166   20 30   28   82  2
+  167   20 30   26   79  2
+  166   20 30   34   78  2
+  167   20 30   33   81  2
+  166   20 30   39   78  2
+  167   20 30   26   77  2
+  166   20 30   38   80  2
+  167   20 30   43   77  2
+  166   20 30   38   86  2
+  167   20 30   43   84  2
+  166   20 30   41   82  2
+  167   20 30   27   94  2
+  166   20 30   32   91  2
+  167   20 30   29   84  2
+  166   20 30   42   90  2
+  167   20 30   44   87  2
+  166   20 30   30   78  2
+  167   20 30   38   92  2
+  166   20 30   40   98  2
+  167   20 30   29  101  2
+  166   20 30   33  103  2
+  167   20 30   38   89  2
+  166   20 30   42  105  2
+  167   20 30   42   99  2
+  166   20 30   35  105  2
+  167   20 30   29   93  2
+  166   20 30   28   97  2
+  167   20 30   26   84  2
+  166   20 30   28   79  2
+  166   20 30   25   82  2
+  167   20 30   29   76  2
+  166   20 30   33   76  2
+  167   20 30   35   79  2
+  166   20 30   31   80  2
+  167   20 30   41   79  2
+  166   20 30   38   76  2
+  167   20 30   36   81  2
+  166   20 30   39   82  2
+  167   20 30   41   86  2
+  166   20 30   42   94  2
+  167   20 30   35   92  2
+  166   20 30   34   90  2
+  167   20 30   38  101  2
+  166   20 30   30  105  2
+  167   20 30   26  102  2
+  166   20 30   28  100  2
+  167   20 30   38  106  2
+  166   20 30   35  102  2
+  167   20 30   42  102  2
+  166   20 30   43   96  2
+  167   20 30   30   88  2
+  166   20 30   25   91  2
+  167   20 30   29   91  2
+  166   20 30   30   98  2
+  167   20 30   41   93  2
+  166   20 30   41   89  2
+  167   20 30   43   91  2
+  166   20 30   39   95  2
+  167   20 30   32  101  2
+  166   20 30   29  103  2
+  167   20 30   33  105  2
+  166   20 30   25   97  2
+  167   20 30   24   94  2
+  166   20 30   27   88  2
+  167   20 30   32   94  2
+  166   20 30   32   89  2
+  167   20 30   36   92  2
+  166   20 30   37   89  2
+  167   20 30   40   91  2
+  166   20 30   38   99  2
+  167   20 30   40  101  2
+  166   20 30   43   81  2
+  167   20 30   36   76  2
+  166   20 30   42   75  2
+  167   20 30   26   75  2
+  166   20 30   24   80  2
+  167   20 30   30   82  2
+  166   20 30   24   89  2
+  167   20 30   24   86  2
+  166   20 30   24  101  2
+  167   20 30   37  104  2
+  166   20 30   41   96  2
+  167   20 30   39   87  2
+  166   20 30   41   76  2
+  167   20 30   38   84  2
+  166   20 30   38   96  2
+  167   20 30   30   95  2
+  166   20 30   32   78  2
+  167   20 30   29   86  2
+  166   20 30   27  104  2
+  167   20 30   40  104  2
+  166   20 30   44  102  2
+  167   20 30   43   98  2
+  166   20 30   39   93  2
+  167   20 30   41   84  2
+
+  168	21 30   26  105  3
+  169   21 30   26   98  3
+  168   21 30   28   90  3
+  169   21 30   27   86  3
+  168   21 30   28   82  3
+  169   21 30   26   79  3
+  168   21 30   34   78  3
+  169   21 30   33   81  3
+  168   21 30   39   78  3
+  169   21 30   26   77  3
+  168   21 30   38   80  3
+  169   21 30   43   77  3
+  168   21 30   38   86  3
+  169   21 30   43   84  3
+  168   21 30   41   82  3
+  169   21 30   27   94  3
+  168   21 30   32   91  3
+  169   21 30   29   84  3
+  168   21 30   42   90  3
+  169   21 30   44   87  3
+  168   21 30   30   78  3
+  169   21 30   38   92  3
+  168   21 30   40   98  3
+  169   21 30   29  101  3
+  168   21 30   33  103  3
+  169   21 30   38   89  3
+  168   21 30   42  105  3
+  169   21 30   42   99  3
+  168   21 30   35  105  3
+  169   21 30   29   93  3
+  168   21 30   28   97  3
+  169   21 30   26   84  3
+  168   21 30   28   79  3
+  168   21 30   25   82  3
+  169   21 30   29   76  3
+  168   21 30   33   76  3
+  169   21 30   35   79  3
+  168   21 30   31   80  3
+  169   21 30   41   79  3
+  168   21 30   38   76  3
+  169   21 30   36   81  3
+  168   21 30   39   82  3
+  169   21 30   41   86  3
+  168   21 30   42   94  3
+  169   21 30   35   92  3
+  168   21 30   34   90  3
+  169   21 30   38  101  3
+  168   21 30   30  105  3
+  169   21 30   26  102  3
+  168   21 30   28  100  3
+  169   21 30   38  106  3
+  168   21 30   35  102  3
+  169   21 30   42  102  3
+  168   21 30   43   96  3
+  169   21 30   30   88  3
+  168   21 30   25   91  3
+  169   21 30   29   91  3
+  168   21 30   30   98  3
+  169   21 30   41   93  3
+  168   21 30   41   89  3
+  169   21 30   43   91  3
+  168   21 30   39   95  3
+  169   21 30   32  101  3
+  168   21 30   29  103  3
+  169   21 30   33  105  3
+  168   21 30   25   97  3
+  169   21 30   24   94  3
+  168   21 30   27   88  3
+  169   21 30   32   94  3
+  168   21 30   32   89  3
+  169   21 30   36   92  3
+  168   21 30   37   89  3
+  169   21 30   40   91  3
+  168   21 30   38   99  3
+  169   21 30   40  101  3
+  168   21 30   43   81  3
+  169   21 30   36   76  3
+  168   21 30   42   75  3
+  169   21 30   26   75  3
+  168   21 30   24   80  3
+  169   21 30   30   82  3
+  168   21 30   24   89  3
+  169   21 30   24   86  3
+  168   21 30   24  101  3
+  169   21 30   37  104  3
+  168   21 30   41   96  3
+  169   21 30   39   87  3
+  168   21 30   41   76  3
+  169   21 30   38   84  3
+  168   21 30   38   96  3
+  169   21 30   30   95  3
+  168   21 30   32   78  3
+  169   21 30   29   86  3
+  168   21 30   27  104  3
+  169   21 30   40  104  3
+  168   21 30   44  102  3
+  169   21 30   43   98  3
+  168   21 30   39   93  3
+  169   21 30   41   84  3
+
+  170	22 30   26  105  4
+  171   22 30   26   98  4
+  170   22 30   28   90  4
+  171   22 30   27   86  4
+  170   22 30   28   82  4
+  171   22 30   26   79  4
+  170   22 30   34   78  4
+  171   22 30   33   81  4
+  170   22 30   39   78  4
+  171   22 30   26   77  4
+  170   22 30   38   80  4
+  171   22 30   43   77  4
+  170   22 30   38   86  4
+  171   22 30   43   84  4
+  170   22 30   41   82  4
+  171   22 30   27   94  4
+  170   22 30   32   91  4
+  171   22 30   29   84  4
+  170   22 30   42   90  4
+  171   22 30   44   87  4
+  170   22 30   30   78  4
+  171   22 30   38   92  4
+  170   22 30   40   98  4
+  171   22 30   29  101  4
+  170   22 30   33  103  4
+  171   22 30   38   89  4
+  170   22 30   42  105  4
+  171   22 30   42   99  4
+  170   22 30   35  105  4
+  171   22 30   29   93  4
+  170   22 30   28   97  4
+  171   22 30   26   84  4
+  170   22 30   28   79  4
+  170   22 30   25   82  4
+  171   22 30   29   76  4
+  170   22 30   33   76  4
+  171   22 30   35   79  4
+  170   22 30   31   80  4
+  171   22 30   41   79  4
+  170   22 30   38   76  4
+  171   22 30   36   81  4
+  170   22 30   39   82  4
+  171   22 30   41   86  4
+  170   22 30   42   94  4
+  171   22 30   35   92  4
+  170   22 30   34   90  4
+  171   22 30   38  101  4
+  170   22 30   30  105  4
+  171   22 30   26  102  4
+  170   22 30   28  100  4
+  171   22 30   38  106  4
+  170   22 30   35  102  4
+  171   22 30   42  102  4
+  170   22 30   43   96  4
+  171   22 30   30   88  4
+  170   22 30   25   91  4
+  171   22 30   29   91  4
+  170   22 30   30   98  4
+  171   22 30   41   93  4
+  170   22 30   41   89  4
+  171   22 30   43   91  4
+  170   22 30   39   95  4
+  171   22 30   32  101  4
+  170   22 30   29  103  4
+  171   22 30   33  105  4
+  170   22 30   25   97  4
+  171   22 30   24   94  4
+  170   22 30   27   88  4
+  171   22 30   32   94  4
+  170   22 30   32   89  4
+  171   22 30   36   92  4
+  170   22 30   37   89  4
+  171   22 30   40   91  4
+  170   22 30   38   99  4
+  171   22 30   40  101  4
+  170   22 30   43   81  4
+  171   22 30   36   76  4
+  170   22 30   42   75  4
+  171   22 30   26   75  4
+  170   22 30   24   80  4
+  171   22 30   30   82  4
+  170   22 30   24   89  4
+  171   22 30   24   86  4
+  170   22 30   24  101  4
+  171   22 30   37  104  4
+  170   22 30   41   96  4
+  171   22 30   39   87  4
+  170   22 30   41   76  4
+  171   22 30   38   84  4
+  170   22 30   38   96  4
+  171   22 30   30   95  4
+  170   22 30   32   78  4
+  171   22 30   29   86  4
+  170   22 30   27  104  4
+  171   22 30   40  104  4
+  170   22 30   44  102  4
+  171   22 30   43   98  4
+  170   22 30   39   93  4
+  171   22 30   41   84  4
+
+  172	23 30   26  105  5
+  173   23 30   26   98  5
+  172   23 30   28   90  5
+  173   23 30   27   86  5
+  172   23 30   28   82  5
+  173   23 30   26   79  5
+  172   23 30   34   78  5
+  173   23 30   33   81  5
+  172   23 30   39   78  5
+  173   23 30   26   77  5
+  172   23 30   38   80  5
+  173   23 30   43   77  5
+  172   23 30   38   86  5
+  173   23 30   43   84  5
+  172   23 30   41   82  5
+  173   23 30   27   94  5
+  172   23 30   32   91  5
+  173   23 30   29   84  5
+  172   23 30   42   90  5
+  173   23 30   44   87  5
+  172   23 30   30   78  5
+  173   23 30   38   92  5
+  172   23 30   40   98  5
+  173   23 30   29  101  5
+  172   23 30   33  103  5
+  173   23 30   38   89  5
+  172   23 30   42  105  5
+  173   23 30   42   99  5
+  172   23 30   35  105  5
+  173   23 30   29   93  5
+  172   23 30   28   97  5
+  173   23 30   26   84  5
+  172   23 30   28   79  5
+  172   23 30   25   82  5
+  173   23 30   29   76  5
+  172   23 30   33   76  5
+  173   23 30   35   79  5
+  172   23 30   31   80  5
+  173   23 30   41   79  5
+  172   23 30   38   76  5
+  173   23 30   36   81  5
+  172   23 30   39   82  5
+  173   23 30   41   86  5
+  172   23 30   42   94  5
+  173   23 30   35   92  5
+  172   23 30   34   90  5
+  173   23 30   38  101  5
+  172   23 30   30  105  5
+  173   23 30   26  102  5
+  172   23 30   28  100  5
+  173   23 30   38  106  5
+  172   23 30   35  102  5
+  173   23 30   42  102  5
+  172   23 30   43   96  5
+  173   23 30   30   88  5
+  172   23 30   25   91  5
+  173   23 30   29   91  5
+  172   23 30   30   98  5
+  173   23 30   41   93  5
+  172   23 30   41   89  5
+  173   23 30   43   91  5
+  172   23 30   39   95  5
+  173   23 30   32  101  5
+  172   23 30   29  103  5
+  173   23 30   33  105  5
+  172   23 30   25   97  5
+  173   23 30   24   94  5
+  172   23 30   27   88  5
+  173   23 30   32   94  5
+  172   23 30   32   89  5
+  173   23 30   36   92  5
+  172   23 30   37   89  5
+  173   23 30   40   91  5
+  172   23 30   38   99  5
+  173   23 30   40  101  5
+  172   23 30   43   81  5
+  173   23 30   36   76  5
+  172   23 30   42   75  5
+  173   23 30   26   75  5
+  172   23 30   24   80  5
+  173   23 30   30   82  5
+  172   23 30   24   89  5
+  173   23 30   24   86  5
+  172   23 30   24  101  5
+  173   23 30   37  104  5
+  172   23 30   41   96  5
+  173   23 30   39   87  5
+  172   23 30   41   76  5
+  173   23 30   38   84  5
+  172   23 30   38   96  5
+  173   23 30   30   95  5
+  172   23 30   32   78  5
+  173   23 30   29   86  5
+  172   23 30   27  104  5
+  173   23 30   40  104  5
+  172   23 30   44  102  5
+  173   23 30   43   98  5
+  172   23 30   39   93  5
+  173   23 30   41   84  5
+end
+
+//=========================================================================================										
+//================================= Icarus - =============================================										
+//=========================================================================================										
+//Mob	Map	Radio	CordX	CordY	Strong	Name				
+2
+		
+69	10	30	21	39	-1	//Alquamos
+69	10	30	44	27	-1	//Alquamos
+69	10	30	40	34	-1	//Alquamos
+69	10	30	31	37	-1	//Alquamos
+69	10	30	18	31	-1	//Alquamos
+70	10	30	66	68	-1	//Queen Rainer			
+70	10	30	85	88	-1	//Queen Rainer			
+70	10	30	80	76	-1	//Queen Rainer	
+71	10	30	88	70	-1	//Mega Crust
+71	10	30	84	47	-1	//Mega Crust
+71	10	30	79	33	-1	//Mega Crust
+71	10	30	93	47	-1	//Mega Crust
+71	10	30	57	34	-1	//Mega Crust
+71	10	30	71	33	-1	//Mega Crust
+72	10	30	41	113	-1	//Phantom Knight
+72	10	30	42	135	-1	//Phantom Knight
+72	10	30	51	126	-1	//Phantom Knight
+72	10	30	53	138	-1	//Phantom Knight
+72	10	30	44	148	-1	//Phantom Knight
+72	10	30	33	119	-1	//Phantom Knight
+72	10	30	44	221	-1	//Phantom Knight
+72	10	30	36	226	-1	//Phantom Knight
+73	10	30	55	73	-1	//Drakan
+73	10	30	70	78	-1	//Drakan
+73	10	30	45	72	-1	//Drakan
+73	10	30	35	69	-1	//Drakan
+73	10	30	26	74	-1	//Drakan
+73	10	30	36	79	-1	//Drakan
+74	10	30	29	104	-1	//Alpha Crust
+74	10	30	38	103	-1	//Alpha Crust
+74	10	30	35	94	-1	//Alpha Crust
+74	10	30	32	87	-1	//Alpha Crust
+74	10	30	39	85	-1	//Alpha Crust
+75	10	30	48	200	-1	//Alpha Crust
+75	10	30	57	200	-1	//Alpha Crust
+75	10	30	27	220	-1	//Alpha Crust
+75	10	30	43	238	-1	//Alpha Crust
+75	10	30	25	231	-1	//Alpha Crust
+76	10	30	48	228	-1	//Dark Phoenix Shield
+77	10	30	34	238	-1	//Dark Phoenix			
+69	10	30	21	39	-1	//Alquamos
+69	10	30	44	27	-1	//Alquamos
+69	10	30	12	27	-1	//Alquamos
+69	10	30	13	38	-1	//Alquamos
+69	10	30	48	40	-1	//Alquamos
+69	10	30	28	28	-1	//Alquamos
+69	10	30	66	37	-1	//Alquamos
+69	10	30	80	41	-1	//Alquamos
+69	10	30	40	34	-1	//Alquamos
+69	10	30	31	37	-1	//Alquamos
+69	10	30	18	31	-1	//Alquamos
+70	10	30	66	68	-1	//Queen Rainer			
+70	10	30	85	88	-1	//Queen Rainer			
+70	10	30	80	76	-1	//Queen Rainer			
+70	10	30	60	84	-1	//Queen Rainer
+70	10	30	89	38	-1	//Queen Rainer
+70	10	30	91	59	-1	//Queen Rainer
+71	10	30	88	70	-1	//Mega Crust
+71	10	30	84	47	-1	//Mega Crust
+71	10	30	79	33	-1	//Mega Crust
+71	10	30	58	42	-1	//Mega Crust
+71	10	30	70	43	-1	//Mega Crust
+71	10	30	64	30	-1	//Mega Crust
+71	10	30	53	27	-1	//Mega Crust
+71	10	30	93	47	-1	//Mega Crust
+71	10	30	57	34	-1	//Mega Crust
+71	10	30	71	33	-1	//Mega Crust
+72	10	30	41	113	-1	//Phantom Knight
+72	10	30	42	135	-1	//Phantom Knight
+72	10	30	51	126	-1	//Phantom Knight
+72	10	30	53	138	-1	//Phantom Knight
+72	10	30	44	148	-1	//Phantom Knight
+72	10	30	33	119	-1	//Phantom Knight
+72	10	30	41	157	-1	//Phantom Knight
+72	10	30	42	122	-1	//Phantom Knight
+72	10	30	53	150	-1	//Phantom Knight
+72	10	30	38	216	-1	//Phantom Knight
+72	10	30	44	221	-1	//Phantom Knight
+72	10	30	36	226	-1	//Phantom Knight
+73	10	30	55	73	-1	//Drakan
+73	10	30	70	78	-1	//Drakan
+73	10	30	45	72	-1	//Drakan
+73	10	30	35	69	-1	//Drakan
+73	10	30	26	74	-1	//Drakan
+73	10	30	36	79	-1	//Drakan
+74	10	30	29	104	-1	//Alpha Crust
+74	10	30	38	103	-1	//Alpha Crust
+74	10	30	35	94	-1	//Alpha Crust
+74	10	30	32	87	-1	//Alpha Crust
+74	10	30	39	85	-1	//Alpha Crust
+74	10	30	33	111	-1	//Alpha Crust
+75	10	30	50	162	-1	//Alpha Crust
+75	10	30	52	174	-1	//Alpha Crust
+75	10	30	55	181	-1	//Alpha Crust
+75	10	30	44	212	-1	//Alpha Crust
+75	10	30	47	189	-1	//Alpha Crust
+75	10	30	59	190	-1	//Alpha Crust
+75	10	30	48	200	-1	//Alpha Crust
+75	10	30	57	200	-1	//Alpha Crust
+75	10	30	27	220	-1	//Alpha Crust
+75	10	30	43	238	-1	//Alpha Crust
+75	10	30	25	231	-1	//Alpha Crust
+76	10	30	48	228	-1	//Dark Phoenix Shield
+77	10	30	34	238	-1	//Dark Phoenix			
+end
+
+//=========================================================================================
+//================================= Kalima - =============================================
+//=========================================================================================
+//Kalima 1
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+144 	24 	30 	112 	37 	-1	//Death Angel 
+
+end
+
+//Kalima 2
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+174 	25 	30 	109 	35 	-1 	//Death Angel
+end
+
+//Kalima 3
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+182 	26 	30 	103 	49 	-1 	//Death Angel 
+end
+
+//Kalima 4
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+190 	27 	30 	116 	48 	-1 	//Death Angel
+190 	27 	30 	114 	62 	-1 	//Death Angel
+190 	27 	30 	116 	60 	-1 	//Death Angel
+190 	27 	30 	109 	60 	-1 	//Death Angel
+190 	27 	30 	114 	69 	-1 	//Death Angel
+191 	27 	30 	81	85 	-1 	//Death Centurion
+191 	27 	30 	80 	81 	-1 	//Death Centurion
+191 	27 	30 	78 	84 	-1 	//Death Centurion
+191 	27 	30 	82 	78 	-1 	//Death Centurion
+191 	27 	30 	76 	77 	-1 	//Death Centurion
+191 	27 	30 	62 	72 	-1 	//Death Centurion
+191 	27 	30 	60 	73 	-1	//Death Centurion
+192 	27 	30 	98 	22 	-1 	//Bloody Soldier
+192 	27 	30 	101 	19 	-1 	//Bloody Soldier
+192 	27 	30 	112 	32 	-1 	//Bloody Soldier
+192 	27 	30 	115 	33 	-1 	//Bloody Soldier
+192 	27 	30 	121 	40 	-1 	//Bloody Soldier
+192 	27 	30 	105 	33 	-1 	//Bloody Soldier
+193 	27 	30 	20 	18 	-1 	//Aegis
+193 	27 	30 	39 	27 	-1  	//Aegis
+193 	27 	30 	47 	31 	-1  	//Aegis
+193 	27 	30 	18 	25 	-1  	//Aegis
+193 	27 	30 	46 	18 	-1  	//Aegis
+193 	27 	30 	40 	24 	-1  	//Aegis
+193 	27 	30 	44 	18 	-1  	//Aegis
+193 	27 	30 	48 	10 	-1  	//Aegis
+193 	27 	30 	54 	17 	-1 	//Aegis
+194 	27 	30 	60 	19 	-1 	//Lord Centurion
+194 	27 	30 	51 	27 	-1  	//Lord Centurion
+194 	27 	30 	63 	30 	-1  	//Lord Centurion
+194 	27 	30 	62 	23 	-1  	//Lord Centurion
+194 	27 	30 	64 	13 	-1  	//Lord Centurion
+194 	27 	30 	80 	22 	-1  	//Lord Centurion
+194 	27 	30 	75 	18 	-1  	//Lord Centurion
+194 	27 	30 	71 	26 	-1  	//Lord Centurion
+194 	27 	30 	78 	12 	-1  	//Lord Centurion
+195 	27 	30 	120 	67 	-1 	//Necron
+195 	27 	30 	112 	87 	-1 	//Necron
+195 	27 	30 	119 	81 	-1 	//Necron
+195 	27 	30 	120 	99 	-1 	//Necron
+195 	27 	30 	103 	80 	-1 	//Necron
+195 	27 	30 	98 	91 	-1 	//Necron
+195 	27 	30 	101 	100 	-1 	//Necron
+195 	27 	30 	118 	105 	-1 	//Necron
+195 	27 	30 	108 	106 	-1 	//Necron
+196 	27 	30 	41 	63 	-1 	//Schriker
+196 	27 	30 	29 	73 	-1  	//Schriker
+196 	27 	30 	34 	83 	-1  	//Schriker
+196 	27 	30 	35 	94 	-1  	//Schriker
+197 	27 	30 	33 	81 	-1  	//Illusion of Kundun 
+end
+
+//Kalima 5
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+260 	28 	30 	110 	35 	-1	//Death Angel 
+260 	28 	30 	109 	25 	-1 	//Death Angel 
+260 	28 	30 	115 	30 	-1 	//Death Angel 
+260 	28 	30 	103 	41 	-1 	//Death Angel 
+260 	28 	30 	112 	52 	-1 	//Death Angel 
+260 	28 	30 	111 	44 	-1 	//Death Angel 
+260 	28 	30 	112 	45 	-1 	//Death Angel 
+260 	28 	30 	118 	54 	-1 	//Death Angel 
+260 	28 	30 	117 	66 	-1 	//Death Angel 
+260 	28 	30 	116 	78 	-1 	//Death Angel 
+261 	28 	30 	85 	89 	-1 	//Death Centurion
+261 	28 	30 	76 	77 	-1  	//Death Centurion
+261 	28 	30 	82 	87 	-1  	//Death Centurion
+261 	28 	30 	69 	79 	-1  	//Death Centurion
+261 	28 	30 	59 	73 	-1  	//Death Centurion
+262 	28 	30 	92 	19 	-1	//Bloody Soldier
+262 	28 	30 	93 	15 	-1 	//Bloody Soldier
+262 	28 	30 	107 	11 	-1 	//Bloody Soldier
+262 	28 	30 	112 	11 	-1 	//Bloody Soldier
+262 	28 	30 	109 	35 	-1 	//Bloody Soldier
+262 	28 	30 	117 	20 	-1 	//Bloody Soldier
+263 	28	30 	38 	19 	-1 	//Aegis
+263 	28 	30 	41 	15 	-1 	//Aegis
+263 	28 	30 	47 	13 	-1 	//Aegis
+264 	28 	30 	62 	14 	-1 	//Lord Centurion
+264 	28 	30 	56 	9 	-1  	//Lord Centurion
+264 	28 	30 	58 	20 	-1  	//Lord Centurion
+264 	28 	30 	65 	14 	-1  	//Lord Centurion
+264 	28 	30 	68 	29 	-1  	//Lord Centurion
+264 	28 	30 	91 	19 	-1  	//Lord Centurion
+265 	28 	30 	110 	72 	-1 	//Necron
+265 	28 	30 	115 	71 	-1  	//Necron
+265 	28 	30 	120 	97 	-1  	//Necron
+265 	28 	30 	101 	88 	-1  	//Necron
+265 	28 	30 	102 	81 	-1  	//Necron
+265 	28 	30 	113 	96 	-1  	//Necron
+265 	28 	30 	118 	104 	-1  	//Necron
+265 	28 	30 	114 	105 	-1  	//Necron
+265 	28 	30 	88 	91 	-1  	//Necron
+266 	28 	30 	44 	57 	-1  	//Schriker 	
+266 	28 	30 	27 	57 	-1   	//Schriker
+266 	28 	30 	36 	79 	-1   	//Schriker
+266 	28 	30 	40 	94 	-1   	//Schriker
+266 	28 	30 	37 	105 	-1   	//Schriker
+267 	28 	30 	23 	87 	-1  	//Illusion of Kundun 
+end
+
+//Kalima 6
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+268 	29 	30 	109 	54 	-1 	//Death Angel
+268 	29 	30 	107 	54 	-1  	//Death Angel
+268 	29 	30 	120 	67 	-1  	//Death Angel
+268 	29 	30 	115 	78 	-1  	//Death Angel
+268 	29 	30 	118 	78 	-1  	//Death Angel
+268 	29 	30 	105 	91 	-1  	//Death Angel
+268 	29 	30 	97 	96 	-1  	//Death Angel
+268 	29 	30 	101 	92 	-1  	//Death Angel
+268 	29 	30 	109 	101 	-1  	//Death Angel
+268 	29 	30 	88 	87 	-1  	//Death Angel
+269 	29 	30 	77 	86 	-1 	//Death Centurion
+269 	29 	30 	82 	91 	-1 	//Death Centurion
+269 	29 	30 	70 	69 	-1 	//Death Centurion
+269 	29 	30 	54 	78 	-1 	//Death Centurion
+269 	29 	30 	65 	71 	-1 	//Death Centurion
+270 	29 	30 	94 	19 	-1 	//Bloody Soldier
+270 	29 	30 	113 	20 	-1 	//Bloody Soldier
+270 	29 	30 	109 	24 	-1 	//Bloody Soldier
+270 	29 	30 	104 	32 	-1 	//Bloody Soldier
+270 	29 	30 	112 	40 	-1 	//Bloody Soldier
+270 	29 	30 	108 	29 	-1 	//Bloody Soldier
+270 	29 	30 	108 	37 	-1 	//Bloody Soldier
+270 	29 	30 	107 	41 	-1 	//Bloody Soldier
+270 	29 	30 	115 	65 	-1 	//Bloody Soldier
+270 	29 	30 	115 	60 	-1 	//Bloody Soldier
+270 	29 	30 	104 	66 	-1 	//Bloody Soldier
+270 	29 	30 	116 	75 	-1 	//Bloody Soldier
+271 	29 	30 	40 	9 	-1 	//Aegis
+271 	29 	30 	36 	26 	-1  	//Aegis
+271 	29 	30 	33 	19 	-1  	//Aegis
+271 	29 	30 	37 	16 	-1  	//Aegis
+271 	29 	30 	42 	23 	-1  	//Aegis
+271 	29 	30 	42 	9 	-1  	//Aegis
+271 	29 	30 	45 	16 	-1  	//Aegis
+271 	29 	30 	50 	25 	-1  	//Aegis
+271 	29 	30 	52 	14 	-1  	//Aegis
+271 	29 	30 	58 	24 	-1  	//Aegis
+271 	29 	30 	62 	23 	-1  	//Aegis
+271 	29 	30 	69 	24 	-1 	//Aegis
+272 	29 	30 	75 	13 	-1 	//Lord Centurion
+272 	29 	30 	78 	19 	-1 	//Lord Centurion
+272 	29 	30 	80 	12 	-1 	//Lord Centurion
+272 	29 	30 	79 	26 	-1 	//Lord Centurion
+272 	29 	30 	97 	17 	-1 	//Lord Centurion
+272 	29 	30 	81 	14 	-1 	//Lord Centurion
+272 	29 	30 	91 	9 	-1 	//Lord Centurion
+272 	29 	30 	98 	10 	-1 	//Lord Centurion
+272 	29 	30 	109 	26 	-1 	//Lord Centurion
+272 	29 	30 	119 	44 	-1 	//Lord Centurion
+273 	29 	30 	113 	83 	-1 	//Necron
+273 	29 	30 	122 	96 	-1 	//Necron 
+273 	29 	30 	101 	108 	-1  	//Necron
+273 	29 	30 	81 	81 	-1  	//Necron
+273 	29 	30 	87 	92 	-1  	//Necron
+273 	29 	30 	73 	77 	-1  	//Necron
+273 	29 	30 	77 	82 	-1  	//Necron
+273 	29 	30 	63 	69 	-1  	//Necron
+274 	29 	30 	37 	68 	-1 	//Schriker
+274 	29 	30 	45 	70 	-1 	//Schriker
+274 	29 	30 	36 	49 	-1 	//Schriker
+274 	29 	30 	30 	62 	-1 	//Schriker
+274 	29 	30 	27 	48 	-1 	//Schriker
+274 	29 	30 	41 	76 	-1 	//Schriker
+274 	29 	30 	45 	90 	-1 	//Schriker
+274 	29 	30 	36 	104 	-1 	//Schriker
+274 	29 	30 	48 	112 	-1 	//Schriker
+274 	29 	30 	43 	91 	-1 	//Schriker
+274 	29 	30 	42 	94 	-1 	//Schriker
+274 	29 	30 	38 	112 	-1 	//Schriker
+275 	29 	30 	23 	86 	-1	//Illusion of Kundun
+end
+
+//Kalima 7
+//Mob	Map	Radio	CordX	CordY	Strong	Name
+2
+331 	36 	30 	40 	9 	-1 	//Aegis
+331 	36 	30 	36 	26 	-1  	//Aegis
+331 	36 	30 	33 	19 	-1  	//Aegis
+331 	36 	30 	37 	16 	-1  	//Aegis
+331 	36 	30 	42 	23 	-1  	//Aegis
+331 	36 	30 	42 	9 	-1  	//Aegis
+331 	36 	30 	45 	16 	-1  	//Aegis
+331 	36 	30 	50 	25 	-1  	//Aegis
+331 	36 	30 	52 	14 	-1  	//Aegis
+331 	36 	30 	58 	24 	-1  	//Aegis
+331 	36 	30 	62 	23 	-1  	//Aegis
+331 	36 	30 	69 	24 	-1  	//Aegis
+332 	36 	30 	75 	13 	-1 	//Lord Centurion
+332 	36 	30 	78 	19 	-1  	//Lord Centurion
+332 	36 	30 	80 	12 	-1  	//Lord Centurion
+332 	36 	30 	79 	26 	-1  	//Lord Centurion
+332 	36 	30 	97 	17 	-1  	//Lord Centurion
+332 	36 	30 	81 	14 	-1  	//Lord Centurion
+332 	36 	30 	91 	9 	-1  	//Lord Centurion
+332 	36 	30 	98 	10 	-1  	//Lord Centurion
+332 	36 	30 	109 	26 	-1  	//Lord Centurion
+332 	36 	30 	119 	44 	-1  	//Lord Centurion
+333 	36 	30 	94 	19 	-1 	//Bloody Soldier
+333 	36 	30 	113 	20 	-1 	//Bloody Soldier
+333 	36 	30 	109 	24 	-1 	//Bloody Soldier
+333 	36 	30	104 	32 	-1 	//Bloody Soldier
+333 	36 	30 	112 	40 	-1 	//Bloody Soldier
+333 	36 	30 	108 	36 	-1 	//Bloody Soldier
+333 	36 	30 	108 	37 	-1 	//Bloody Soldier
+333 	36 	30 	107 	41 	-1 	//Bloody Soldier
+333 	36 	30	115 	65 	-1 	//Bloody Soldier
+333 	36 	30 	115 	60 	-1 	//Bloody Soldier
+333 	36 	30 	104 	66 	-1 	//Bloody Soldier
+333 	36 	30 	116 	75 	-1 	//Bloody Soldier
+334 	36 	30 	109 	54 	-1 	//Death Angel
+334 	36 	30 	107 	54 	-1  	//Death Angel
+334 	36 	30 	120 	67 	-1  	//Death Angel
+334 	36 	30 	115 	78 	-1  	//Death Angel
+334 	36 	30 	118 	78 	-1  	//Death Angel
+334 	36 	30 	105 	91 	-1  	//Death Angel
+334 	36 	30 	97 	96 	-1  	//Death Angel
+334 	36 	30 	101 	92 	-1  	//Death Angel
+334 	36 	30 	109 	101 	-1  	//Death Angel
+334 	36 	30 	88 	87 	-1  	//Death Angel
+335 	36 	30 	113 	83 	-1 	//Necron
+335 	36 	30 	122 	96 	-1 	//Necron
+335 	36 	30 	101 	108 	-1 	//Necron
+335 	36 	30 	81 	81 	-1 	//Necron
+335 	36 	30 	87 	92 	-1 	//Necron
+335 	36 	30 	73 	77 	-1 	//Necron
+335 	36 	30 	77 	82 	-1 	//Necron
+335 	36 	30 	63 	69 	-1 	//Necron
+336 	36	30 	77 	86 	-1 	//Death Centurion
+336 	36 	30 	82 	91 	-1  	//Death Centurion
+336 	36 	30 	70 	69 	-1  	//Death Centurion
+336 	36 	30 	54 	78 	-1  	//Death Centurion
+336 	36 	30 	65 	71 	-1  	//Death Centurion
+337 	36 	30 	37 	68 	-1 	//Schriker
+337 	36 	30 	45 	70 	-1 	//Schriker
+337 	36 	30 	36 	49 	-1 	//Schriker
+337 	36 	30 	30 	62 	-1 	//Schriker
+337 	36 	30 	27 	48 	-1 	//Schriker
+337 	36 	30 	41 	76 	-1 	//Schriker
+337 	36 	30 	45 	90 	-1 	//Schriker
+337 	36 	30 	36 	104 	-1 	//Schriker
+337 	36 	30 	48 	112 	-1 	//Schriker
+337 	36 	30 	43 	91 	-1 	//Schriker
+337 	36 	30 	42 	94 	-1 	//Schriker
+337 	36 	30 	38 	112 	-1 	//Schriker
+338 	36 	30 	23 	86 	-1	//Illusion of Kundun
+
+259  36 0  33   116 2 //NPC
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+337 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+336 	36 	7 	39 	77 	-1 	//Schriker
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+337 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+336 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+336 	36 	7 	39 	77 	-1 	//Schriker
+336 	36 	7 	39 	77 	-1 	//Schriker
+335 	36 	7 	39 	77 	-1 	//Schriker
+335 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+336 	36 	7 	39 	77 	-1 	//Schriker
+336 	36 	7 	39 	77 	-1 	//Schriker
+335 	36 	7 	39 	77 	-1 	//Schriker
+335 	36 	7 	39 	77 	-1 	//Schriker
+
+
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+337 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+336 	36 	7 	39 	77 	-1 	//Schriker
+338 	36 	7 	39 	64	-1 	//Illusion of Kundun
+338 	36 	7 	39 	64	-1 	//Illusion of Kundun
+338 	36 	7 	39 	64	-1 	//Illusion of Kundun
+338 	36 	7 	39 	64	-1 	//Illusion of Kundun
+337 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+336 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+336 	36 	7 	39 	64	-1 	//Schriker
+336 	36 	7 	39 	64	-1 	//Schriker
+335 	36 	7 	39 	64	-1 	//Schriker
+335 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+337 	36 	7 	39 	64	-1 	//Schriker
+336 	36 	7 	39 	64	-1 	//Schriker
+336 	36 	7 	39 	64	-1 	//Schriker
+335 	36 	7 	39 	64	-1 	//Schriker
+335 	36 	7 	39 	64	-1 	//Schriker
+
+
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+338 	36 	7 	39 	77 	-1 	//Illusion of Kundun
+337 	36 	7 	39 	77 	-1 	//Schriker
+337 	36 	7 	39 	77 	-1 	//Schriker
+336 	36 	7 	39 	77 	-1 	//Schriker
+338 	36 	7 	39 	91	-1 	//Illusion of Kundun
+338 	36 	7 	39 	91	-1 	//Illusion of Kundun
+338 	36 	7 	39 	91	-1 	//Illusion of Kundun
+338 	36 	7 	39 	91	-1 	//Illusion of Kundun
+337 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+336 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+336 	36 	7 	39 	91	-1 	//Schriker
+336 	36 	7 	39 	91	-1 	//Schriker
+335 	36 	7 	39 	91	-1 	//Schriker
+335 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+337 	36 	7 	39 	91	-1 	//Schriker
+336 	36 	7 	39 	91	-1 	//Schriker
+336 	36 	7 	39 	91	-1 	//Schriker
+335 	36 	7 	39 	91	-1 	//Schriker
+335 	36 	7 	39 	91	-1 	//Schriker
+
+end
+
+//=========================================================================================						
+//================================= Aida NPCs - ======================================						
+//=========================================================================================						
+//Mob	Map	Rad	X	Y	Str	Name
+0
+369	33	0	80	14	3	//Osborne
+//370	33	0	86	13	2	//Jeridon
+256	33	0	82	16	1	// Lahap
+end
+
+//=========================================================================================										
+//================================= Aida - =============================================										
+//=========================================================================================
+2
+   304   33 30  106   49 -1
+   304   33 30  120   97 -1
+   304   33 30  125   82 -1
+   304   33 30  137  125 -1
+   304   33 30  141   76 -1
+   305   33 30   81   80 -1
+   305   33 30   83  121 -1
+   305   33 30   88   62 -1
+   305   33 30   88   62 -1
+   305   33 30   92   45 -1
+   305   33 30   92   45 -1
+   305   33 30   92   86 -1
+   305   33 30   94  158 -1
+   305   33 30   94  158 -1
+   305   33 30   95  150 -1
+   305   33 30  102  175 -1
+   305   33 30  104   42 -1
+   305   33 30  104  160 -1
+   305   33 30  111   94 -1
+   305   33 30  113   79 -1
+   305   33 30  113  155 -1
+   305   33 30  114   67 -1
+   305   33 30  115  143 -1
+   305   33 30  116   86 -1
+   305   33 30  116  114 -1
+   305   33 30  125  112 -1
+   305   33 30  126   73 -1
+   305   33 30  131   94 -1
+   305   33 30  133   79 -1
+   305   33 30  133  133 -1
+   305   33 30  134  106 -1
+   305   33 30  136   66 -1
+   305   33 30  146   72 -1
+   305   33 30  148   93 -1
+   305   33 30  157  166 -1
+   305   33 30  167  127 -1
+   305   33 30  168  140 -1
+   305   33 30  168  168 -1
+   305   33 30  169  174 -1
+   305   33 30  180   40 -1
+   305   33 30  185  147 -1
+   305   33 30  194   19 -1
+   305   33 30  197  148 -1
+   305   33 30  208  168 -1
+   305   33 30  235  101 -1
+   306   33 30   85  145 -1
+   306   33 30   88  126 -1
+   306   33 30   89  109 -1
+   306   33 30   93  173 -1
+   306   33 30  100   58 -1
+   306   33 30  119   56 -1
+   306   33 30  126  156 -1
+   306   33 30  126  156 -1
+   306   33 30  136  144 -1
+   306   33 30  145   87 -1
+   306   33 30  149  112 -1
+   306   33 30  161  117 -1
+   306   33 30  167  152 -1
+   306   33 30  169   82 -1
+   306   33 30  176  124 -1
+   306   33 30  186   89 -1
+   306   33 30  188  133 -1
+   306   33 30  189  179 -1
+   306   33 30  190  144 -1
+   306   33 30  191  138 -1
+   306   33 30  196  146 -1
+   306   33 30  200  177 -1
+   306   33 30  201  154 -1
+   306   33 30  207   54 -1
+   306   33 30  209   75 -1
+   306   33 30  216   35 -1
+   306   33 30  221   60 -1
+   306   33 30  223  158 -1
+   306   33 30  227   52 -1
+   306   33 30  230   12 -1
+   306   33 30  232   31 -1
+   306   33 30  233   61 -1
+   306   33 30  234   71 -1
+   306   33 30  234   80 -1
+   306   33 30  234  146 -1
+   306   33 30  235   90 -1
+   307   33 30   86  171 -1
+   307   33 30  126   20 -1
+   307   33 30  126   20 -1
+   307   33 30  126   26 -1
+   307   33 30  148   10 -1
+   307   33 30  148   19 -1
+   307   33 30  149   35 -1
+   307   33 30  149   35 -1
+   307   33 30  157   16 -1
+   307   33 30  158   46 -1
+   307   33 30  165   77 -1
+   307   33 30  166   57 -1
+   307   33 30  172   11 -1
+   307   33 30  176   60 -1
+   307   33 30  183   96 -1
+   307   33 30  187   17 -1
+   307   33 30  189   55 -1
+   307   33 30  190   40 -1
+   307   33 30  190   79 -1
+   307   33 30  194   33 -1
+   307   33 30  196   45 -1
+   307   33 30  199  108 -1
+   307   33 30  210  122 -1
+   307   33 30  212   62 -1
+   307   33 30  213   82 -1
+   307   33 30  213  137 -1
+   307   33 30  214   10 -1
+   307   33 30  215  162 -1
+   307   33 30  225  149 -1
+   307   33 30  226   67 -1
+   307   33 30  226  140 -1
+   307   33 30  232   43 -1
+   307   33 30  232   43 -1
+   307   33 30  233  125 -1
+   307   33 30  234  111 -1
+   307   33 30  234  155 -1
+   307   33 30  236  135 -1
+   308   33 30  103   16 -1
+   308   33 30  113    8 -1
+   308   33 30  118   16 -1
+   308   33 30  118   16 -1
+   308   33 30  136   23 -1
+   308   33 30  137   13 -1
+   308   33 30  150   46 -1
+   308   33 30  157   23 -1
+   308   33 30  157   23 -1
+   308   33 30  158   10 -1
+   308   33 30  162   70 -1
+   308   33 30  164   18 -1
+   308   33 30  166   48 -1
+   308   33 30  174   23 -1
+   308   33 30  177   16 -1
+   308   33 30  189   38 -1
+   308   33 30  189   95 -1
+   308   33 30  195   26 -1
+   308   33 30  195   26 -1
+   308   33 30  196   99 -1
+   308   33 30  200   71 -1
+   308   33 30  200   71 -1
+   308   33 30  204   12 -1
+   308   33 30  204   12 -1
+   308   33 30  205   31 -1
+   308   33 30  206   91 -1
+   308   33 30  211   30 -1
+   308   33 30  211   30 -1
+   308   33 30  214  114 -1
+   308   33 30  219   91 -1
+   308   33 30  222   75 -1
+   308   33 30  223  130 -1
+   308   33 30  224   14 -1
+   308   33 30  228  111 -1
+   309   33 30  108  147 -1
+   309   33 30  112   47 -1
+   309   33 30  123  103 -1
+   308   33 30  118   16 -1
+   308   33 30  118   16 -1
+   308   33 30  118   16 -1
+   307   33 30  189   55 -1
+   307   33 30  189   55 -1
+   307   33 30  189   55 -1
+   307   33 30  189   55 -1
+   305   33 30  197  148 -1
+   305   33 30  197  148 -1
+   305   33 30  197  148 -1
+   305   33 30  197  148 -1
+   307   33 30  215  162 -1
+   307   33 30  215  162 -1
+   307   33 30  215  162 -1
+   307   33 30  215  162 -1
+   307   33 30  215  162 -1
+   306   33 30  188  133 -1
+   306   33 30  189  179 -1
+   306   33 30  190  144 -1
+   306   33 30  188  133 -1
+   306   33 30  189  179 -1
+   306   33 30  190  144 -1
+   306   33 30  188  133 -1
+   306   33 30  189  179 -1
+   306   33 30  188  133 -1
+   306   33 30  189  179 -1
+
+end
+
+//=========================================================================================										
+//================================= Kanturu NPC - =============================================										
+//=========================================================================================
+0
+367	38	0	141	191	2	//Core Gate
+368     39      0       77      177 	2       //Elpis
+end
+//=========================================================================================										
+//================================= Kanturu 1-2 Mobs - =============================================										
+//=========================================================================================
+2
+
+352	37	30	207	187	-1	//	아이언라이더
+350	37	30	188	11	-1	//	버서커
+351	37	30	188	218	-1	//	스플린터울프
+350	37	30	151	11	-1	//	버서커
+351	37	30	159	232	-1	//	스플린터울프
+350	37	30	154	41	-1	//	버서커
+351	37	30	36	234	-1	//	스플린터울프
+351	37	30	42	235	-1	//	스플린터울프
+351	37	30	118	232	-1	//	스플린터울프
+351	37	30	55	228	-1	//	스플린터울프
+351	37	30	75	231	-1	//	스플린터울프
+351	37	30	69	238	-1	//	스플린터울프
+351	37	30	174	196	-1	//	스플린터울프
+351	37	30	94	234	-1	//	스플린터울프
+351	37	30	100	240	-1	//	스플린터울프
+351	37	30	114	239	-1	//	스플린터울프
+351	37	30	135	223	-1	//	스플린터울프
+351	37	30	143	239	-1	//	스플린터울프
+351	37	30	151	206	-1	//	스플린터울프
+351	37	30	155	196	-1	//	스플린터울프
+351	37	30	180	225	-1	//	스플린터울프
+351	37	30	172	215	-1	//	스플린터울프
+352	37	30	187	205	-1	//	아이언라이더
+352	37	30	172	205	-1	//	아이언라이더
+352	37	30	207	195	-1	//	아이언라이더
+352	37	30	198	179	-1	//	아이언라이더
+352	37	30	180	164	-1	//	아이언라이더
+352	37	30	174	170	-1	//	아이언라이더
+352	37	30	185	148	-1	//	아이언라이더
+352	37	30	165	157	-1	//	아이언라이더
+352	37	30	165	165	-1	//	아이언라이더
+352	37	30	175	150	-1	//	아이언라이더
+352	37	30	214	143	-1	//	아이언라이더
+352	37	30	217	145	-1	//	아이언라이더
+352	37	30	204	137	-1	//	아이언라이더
+352	37	30	195	156	-1	//	아이언라이더
+352	37	30	195	148	-1	//	아이언라이더
+352	37	30	236	135	-1	//	아이언라이더
+352	37	30	223	132	-1	//	아이언라이더
+352	37	30	212	125	-1	//	아이언라이더
+352	37	30	222	113	-1	//	아이언라이더
+353	37	30	217	141	-1	//	사티로스
+353	37	30	226	154	-1	//	사티로스
+353	37	30	218	164	-1	//	사티로스
+353	37	30	213	165	-1	//	사티로스
+353	37	30	195	152	-1	//	사티로스
+353	37	30	193	181	-1	//	사티로스
+353	37	30	166	162	-1	//	사티로스
+353	37	30	182	150	-1	//	사티로스
+353	37	30	233	123	-1	//	사티로스
+353	37	30	234	132	-1	//	사티로스
+353	37	30	236	91	-1	//	사티로스
+353	37	30	231	96	-1	//	사티로스
+353	37	30	234	101	-1	//	사티로스
+353	37	30	220	155	-1	//	사티로스
+353	37	30	178	168	-1	//	사티로스
+353	37	30	225	86	-1	//	사티로스
+353	37	30	224	82	-1	//	사티로스
+353	37	30	230	82	-1	//	사티로스
+353	37	30	229	58	-1	//	사티로스
+353	37	30	226	68	-1	//	사티로스
+353	37	30	206	38	-1	//	사티로스
+354	37	30	204	35	-1	//	블레이드헌터
+353	37	30	213	44	-1	//	사티로스
+353	37	30	214	35	-1	//	사티로스
+353	37	30	215	37	-1	//	사티로스
+353	37	30	224	43	-1	//	사티로스
+354	37	30	221	47	-1	//	블레이드헌터
+354	37	30	207	40	-1	//	블레이드헌터
+354	37	30	189	14	-1	//	블레이드헌터
+354	37	30	187	7	-1	//	블레이드헌터
+350	37	30	150	56	-1	//	버서커
+354	37	30	175	10	-1	//	블레이드헌터
+350	37	30	158	57	-1	//	버서커
+355	37	30	176	41	-1	//	켄타우로스
+350	37	30	165	50	-1	//	버서커
+355	37	30	181	15	-1	//	켄타우로스
+355	37	30	153	15	-1	//	켄타우로스
+354	37	30	148	19	-1	//	블레이드헌터
+354	37	30	155	18	-1	//	블레이드헌터
+350	37	30	92	34	-1	//	버서커
+354	37	30	164	22	-1	//	블레이드헌터
+355	37	30	163	33	-1	//	켄타우로스
+355	37	30	181	27	-1	//	켄타우로스
+354	37	30	165	40	-1	//	블레이드헌터
+354	37	30	167	43	-1	//	블레이드헌터
+354	37	30	152	59	-1	//	블레이드헌터
+354	37	30	156	59	-1	//	블레이드헌터
+354	37	30	148	51	-1	//	블레이드헌터
+350	37	30	137	47	-1	//	버서커
+354	37	30	134	39	-1	//	블레이드헌터
+354	37	30	138	39	-1	//	블레이드헌터
+354	37	30	142	41	-1	//	블레이드헌터
+355	37	30	137	42	-1	//	켄타우로스
+355	37	30	136	51	-1	//	켄타우로스
+355	37	30	117	26	-1	//	켄타우로스
+354	37	30	120	28	-1	//	블레이드헌터
+354	37	30	126	18	-1	//	블레이드헌터
+354	37	30	124	25	-1	//	블레이드헌터
+354	37	30	116	43	-1	//	블레이드헌터
+354	37	30	122	44	-1	//	블레이드헌터
+355	37	30	119	55	-1	//	켄타우로스
+355	37	30	115	65	-1	//	켄타우로스
+355	37	30	76	53	-1	//	켄타우로스
+355	37	30	72	62	-1	//	켄타우로스
+355	37	30	87	71	-1	//	켄타우로스
+350	37	30	85	61	-1	//	버서커
+356	37	30	87	36	-1	//	기간티스
+350	37	30	85	21	-1	//	버서커
+356	37	30	77	28	-1	//	기간티스
+350	37	30	61	31	-1	//	버서커
+356	37	30	66	21	-1	//	기간티스
+350	37	30	71	20	-1	//	버서커
+356	37	30	59	40	-1	//	기간티스
+350	37	30	46	34	-1	//	버서커
+356	37	30	90	39	-1	//	기간티스
+357	37	30	37	59	-1	//	제노사이더
+356	37	30	41	37	-1	//	기간티스
+356	37	30	51	32	-1	//	기간티스
+357	37	30	45	70	-1	//	제노사이더
+357	37	30	35	69	-1	//	제노사이더
+357	37	30	63	101	-1	//	제노사이더
+350	37	30	64	97	-1	//	버서커
+350	37	30	66	99	-1	//	버서커
+357	37	30	35	55	-1	//	제노사이더
+357	37	30	32	76	-1	//	제노사이더
+357	37	30	58	104	-1	//	제노사이더
+357	37	30	58	92	-1	//	제노사이더
+357	37	30	46	102	-1	//	제노사이더
+350	37	30	48	103	-1	//	버서커
+350	37	30	31	87	-1	//	버서커
+357	37	30	47	54	-1	//	제노사이더
+350	37	30	50	49	-1	//	버서커
+357	37	30	44	44	-1	//	제노사이더
+356	37	30	77	19	-1	//	기간티스
+356	37	30	68	28	-1	//	기간티스
+350	37	30	55	104	-1	//	버서커
+350	37	30	38	51	-1	//	버서커
+350	37	30	56	44	-1	//	버서커
+350	37	30	65	35	-1	//	버서커
+350	37	30	101	68	-1	//	버서커
+350	37	30	122	22	-1	//	버서커
+350	37	30	129	19	-1	//	버서커
+350	37	30	137	26	-1	//	버서커
+350	37	30	117	40	-1	//	버서커
+350	37	30	145	47	-1	//	버서커
+350	37	30	225	141	-1	//	버서커
+350	37	30	157	204	-1	//	버서커
+350	37	30	170	224	-1	//	버서커
+350	37	30	189	211	-1	//	버서커
+351	37	30	42	227	-1	//	스플린터울프
+
+
+
+
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+353	37	3	210	39	-1	//Satyros
+
+
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+354	37	3	213	40	-1	//Blade hunter
+
+
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+350	37	3	60	98	-1	//bersek
+
+
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+357	37	3	57	99	-1	//genocier
+
+356	37	3	57	97	-1	//gigantis
+356	37	3	57	97	-1	//gigantis
+356	37	3	57	97	-1	//gigantis
+356	37	3	57	97	-1	//gigantis
+356	37	3	57	97	-1	//gigantis
+356	37	3	57	97	-1	//gigantis
+356	37	3	57	97	-1	//gigantis
+356	37	3	57	97	-1	//gigantis
+end
+
+//=========================================================================================										
+//================================= Kanturu 3 Mobs - =============================================										
+//=========================================================================================
+2
+
+360	38	3	151 145	0	//Dreadfear
+360	38	3	151 145	0	//Dreadfear
+360	38	3	151 145	0	//Dreadfear
+360	38	3	151 145	0	//Dreadfear
+360	38	3	151 145	0	//Dreadfear
+105	38	3	151 145	8	//cannot trap
+359	38	3	151 145	0	//Twin Tail
+359	38	3	151 145	0	//Twin Ta
+359	38	3	151 145	0	//Twin Tail
+359	38	3	151 145	0	//Twin Ta
+358	38	3	151 145	0	//Persona
+358	38	3	151 145	0	//Persona
+358	38	3	151 145	0	//Persona
+358	38	3	151 145	0	//Persona
+358	38	3	151 145	0	//Persona
+
+360	38	3	150 156	0	//Dreadfear
+360	38	3	150 156	0	//Dreadfear
+360	38	3	150 156	0	//Dreadfear
+360	38	3	150 156	0	//Dreadfear
+360	38	3	150 156	0	//Dreadfear
+359	38	3	150 156	0	//Twin Tail
+359	38	3	150 156	0	//Twin Tail
+359	38	3	150 156	0	//Twin Ta
+359	38	3	150 156	0	//Twin Ta
+358	38	3	150 156	0	//Persona
+358	38	3	150 156	0	//Persona
+358	38	3	150 156	0	//Persona
+358	38	3	150 156	0	//Persona
+358	38	3	150 156	0	//Persona
+
+360	38	3	144 159	0	//Dreadfear
+360	38	3	144 159	0	//Dreadfear
+360	38	3	144 159	0	//Dreadfear
+360	38	3	144 159	0	//Dreadfear
+360	38	3	144 159	0	//Dreadfear
+359	38	3	144 159	0	//Twin Tail
+359	38	3	144 159	0	//Twin Tail
+359	38	3	144 159	0	//Twin Ta
+359	38	3	144 159	0	//Twin Ta
+358	38	3	144 159	0	//Persona
+358	38	3	144 159	0	//Persona
+358	38	3	144 159	0	//Persona
+358	38	3	144 159	0	//Persona
+358	38	3	144 159	0	//Persona
+
+360	38	3	139 156	0	//Dreadfear
+360	38	3	139 156	0	//Dreadfear
+360	38	3	139 156	0	//Dreadfear
+360	38	3	139 156	0	//Dreadfear
+360	38	3	139 156	0	//Dreadfear
+105	38	3	139 156	8	//cannot trap
+359	38	3	139 156	0	//Twin Tail
+359	38	3	139 156	0	//Twin Tail
+359	38	3	139 156	0	//Twin Ta
+359	38	3	139 156	0	//Twin Ta
+358	38	3	139 156	0	//Persona
+358	38	3	139 156	0	//Persona
+358	38	3	139 156	0	//Persona
+358	38	3	139 156	0	//Persona
+358	38	3	139 156	0	//Persona
+
+360	38	3	139 147	0	//Dreadfear
+360	38	3	139 147	0	//Dreadfear
+360	38	3	139 147	0	//Dreadfear
+360	38	3	139 147	0	//Dreadfear
+360	38	3	139 147	0	//Dreadfear
+105	38	3	139 147	8	//cannot trap
+359	38	3	139 147	0	//Twin Tail
+359	38	3	139 147	0	//Twin Tail
+359	38	3	139 147	0	//Twin Ta
+359	38	3	139 147	0	//Twin Ta
+358	38	3	139 147	0	//Persona
+358	38	3	139 147	0	//Persona
+358	38	3	139 147	0	//Persona
+358	38	3	139 147	0	//Persona
+358	38	3	139 147	0	//Persona
+
+
+	
+
+end

@@ -1,0 +1,86 @@
+// ================================================== //
+// # Season 2.0 - eventitembag5.txt 	 	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// # Information: Fire Cracker & Heart of Love      # //
+// ================================================== //
+
+//=================================================================================
+//Wepons and Shields
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	1	8	0	0	0	//Rapier
+0	4	8	0	0	0	//Sword of Assassin
+0	3	8	0	0	0	//Katana
+1	1	8	0	0	0	//Hand Axe
+1	2	8	0	0	0	//Double Axe
+2	0	8	0	0	0	//Mace
+2	1	8	0	0	0	//Morning Star
+4	8	8	0	0	0	//Crossbow
+4	9	8	0	0	0	//Golden Crossbow
+5	0	8	0	0	0	//Skull Staff
+6	4	8	0	0	0	//Buckler
+6	1	8	0	0	0	//Horn Shield
+6	2	8	0	0	0	//Kite Shield
+0	10	8	0	0	0	//Light Saber
+0	11	8	0	0	0	//Legendary Sword
+0	13	8	0	0	0	//Double Blade
+1	5	8	0	0	0	//Battle Axe
+1	6	8	0	0	0	//Nikea Axe
+1	7	8	0	0	0	//Larkan Axe
+2	3	8	0	0	0	//Great Hammer
+3	7	8	0	0	0	//Berdysh
+3	4	8	0	0	0	//Serpent Spear
+4	11	8	0	0	0	//Light Crossbow
+4	4	8	0	0	0	//Tiger Bow
+4	12	8	0	0	0	//Serpent Crossbow
+5	3	8	0	0	0	//Thunder Staff
+6	5	8	0	0	0	//Dragon Slayer Shield
+6	8	8	0	0	0	//Tower Shield
+
+//=================================================================================
+//Sets
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7 	5 	8 	0 	0 	0 	//Leather Helm
+8 	5 	8 	0 	0 	0 	//Leather Armor
+9 	5 	8 	0 	0 	0 	//Leather Pants
+10 	5 	8 	0 	0 	0 	//Leather Gloves
+11 	5 	8 	0 	0 	0 	//Leather Boots
+
+7	2 	8 	0 	0 	0	//Pad Helm
+8 	2 	8 	0 	0 	0 	//Pad Armor
+9 	2 	8	0 	0 	0 	//Pad Pants
+10 	2 	8 	0 	0 	0 	//Pad Gloves
+11 	2 	8 	0 	0 	0 	//Pad Boots
+
+7 	0 	8 	0 	0 	0	//Bronze Helm
+8 	0 	8 	0 	0 	0	//Bronze Armor
+9 	0 	8 	0 	0 	0	//Bronze Pants
+10 	0 	8 	0 	0 	0	//Bronze Gloves
+11 	0 	8 	0 	0 	0	//Bronze Boots
+
+7 	12 	8 	0 	0	0 	//Wind Helm
+8 	12 	8	0 	0 	0 	//Wind Armor
+9 	12 	8 	0 	0 	0 	//Wind Pants
+10 	12 	8 	0 	0 	0	//Wind Gloves
+11 	12 	8 	0 	0 	0 	//Wind Boots
+
+7 	13 	8 	0 	0	0 	//Spirit Helm
+8 	13 	8	0 	0 	0 	//Spirit Armor
+9 	13 	8 	0 	0 	0 	//Spirit Pants
+10 	13 	8 	0 	0 	0	//Spirit Gloves
+11 	13 	8 	0 	0 	0 	//Spirit Boots
+
+7 	7 	8 	0 	0	0 	//Sphinx Mask
+8 	7 	8	0 	0 	0 	//Sphinx Armor
+9 	7 	8 	0 	0 	0 	//Sphinx Pants
+10 	7 	8 	0 	0 	0	//Sphinx Gloves
+11 	7 	8 	0 	0 	0 	//Sphinx Boots
+
+//=================================================================================
+//Miscellaneous
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+14 	13 	0 	0 	0 	0 	//Jewel of Bless
+14 	14 	0 	0 	0 	0 	//Jewel of Soul
+12 	15 	0 	0 	0 	0 	//Jewel of Chaos

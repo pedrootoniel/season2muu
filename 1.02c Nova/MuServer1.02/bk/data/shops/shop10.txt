@@ -1,0 +1,64 @@
+//==================================================================================================================
+//Project: KinhoMace - Season II English
+//Version: GameServer 1.00.18 & 1.00.19
+//Information: Shop 10 : Noria Elf Lala
+//==================================================================================================================
+14 		 1		 0 		 255		   0 		   0		   0		0 //Small Healing Potion
+14 		 2		 0 		 255		   0 		   0		   0		0 //Medium Healing Potion
+14               8               0               255               0               0               0  		0 //Antidote
+14               3               0               255               0               0               0  		0 //Large Healing Potion
+14               6               0               255               0               0               0  		0 //Large Mana Potion
+13               0               0               255               0               0               0  		0 //Guardian Angel
+13               1               0               255               0               0               0  		0 //Imp
+13               2               0               255               0               0               0  		0 //Horn of Uniria
+13		 16		 2		 255	      	   0               0		   0		0 //Scroll Archangel +2
+13		 16		 3		 255	      	   0           	   0		   0		0 //Scroll Archangel +3
+13		 16		 4		 255	       	   0               0		   0		0 //Scroll Archangel +4
+13		 16		 5		 255	       	   0               0		   0		0 //Scroll Archangel +5
+13		 16		 6		 255	       	   0               0		   0		0 //Scroll Archangel +6
+13		 16		 7		 255	       	   0               0		   0		0 //Scroll Archangel +7
+13		 17		 1		 255	       	   0               0		   0		0 //Blood bone +1
+13		 17		 2		 255	       	   0               0		   0		0 //Blood bone +2
+13		 17		 3		 255	       	   0               0		   0		0 //Blood bone +3
+13		 17		 4		 255	       	   0               0		   0		0 //Blood bone +4
+13		 17		 5		 255	       	   0               0		   0		0 //Blood bone +5
+13		 17		 6		 255	           0               0		   0		0 //Blood bone +6
+13		 17		 7		 255	           0               0		   0		0 //Blood bone +7
+14		 17		 1		 255	           0               0		   0		0 //Devil Eey +1
+14		 17		 2		 255	           0               0		   0		0 //Devil Eey +2
+14		 17		 3		 255	           0               0		   0		0 //Devil Eey +3
+14	         17		 4		 255	           0               0		   0		0 //Devil Eey +4
+14		 17		 5		 255	           0               0		   0		0 //Devil Eey +5
+14		 17		 6		 255	           0               0		   0		0 //Devil Eye +6
+14		 18		 1		 255	           0               0		   0		0 //Devil key +1
+14		 18		 2		 255	           0               0		   0		0 //Devil key +2
+14		 18		 3		 255	           0               0		   0		0 //Devil key +3
+14		 18		 4		 255	           0               0		   0		0 //Devil key +4
+14		 18		 5		 255	           0               0		   0		0 //Devil key +5
+14		 18		 6		 255	           0               0		   0		0 //Devil key +6
+13               8               0               255               0               0               0  		0 //Ring of Ice
+13               25              0               255               0               0               0  		0 //Pendant of Ice
+12               8               0               255               0               0               0  		0 //Healing Orb
+12               9               0               255               0               0               0  		0 //Greater Defense Orb
+12               10              0               255               0               0               0  		0 //Greater Damage Orb
+12               17              0               255               0               0               0  		0 //Penetration Orb
+12               11              0               255               0               0               0  		0 //Goblin Summon Orb
+12               11              1               255               0               0               0  		0 //Golem Summon Orb
+12               11              2               255               0               0               0  		0 //Assassin Summon Orb
+12               11              3               255               0               0               0  		0 //Elite Yeti Summon Orb
+12               11              4               255               0               0               0  		0 //Dark Knight Summon Orb
+12               11              5               255               0               0               0  		0 //Bali Summon Orb
+12               11              6               255               0               0               0  		0 //Soldier Summon Orb
+12               18              0               255               0               0               0  		0 //Ice Arrow Orb
+6                3               0               255               1               1               1  		0 //Elven Shield
+6                16              0               255               1               1               1  		0 //Elemental Shield
+4                15              0               255               0               0               0  		0 //Arrows
+4                7               0               255               0               0               0  		0 //Bolts
+2                7               0               255               1               1               1  		0 //Elemental Mace
+4                16              0               255               1               1               1  		0 //Saint Crossbow
+4                18              0               255               1               1               1  		0 //Divine Crossbow of Archangel
+4                9               0               255               1               1               1  		0 //Golden Crossbow
+4                0               0               255               1               1               1  		0 //Short Bow
+4                1               0               255               1               1               1  		0 //Bow
+4                8               0               255               1               1               1  		0 //Crossbow
+end

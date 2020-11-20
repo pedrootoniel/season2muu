@@ -1,0 +1,60 @@
+// ================================================== //
+// # Season 2.0 - eventitembag6.txt 	 	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// # Information: Gold Medal                        # //
+// ================================================== //
+
+//=================================================================================
+//Wepons and Shields
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0 	15 	7 	0 	0 	0 	//Giant Sword
+0	12	7	0	0	0	//Heliacal Sword
+1	8	7	0	0	0	//Crescent Axe
+3	8	7	0	0	0	//Great Scythe
+4	4	7	0	0	0	//Tiger Bow
+4	12	7	0	0	0	//Serpent Crossbow
+5	4	7	0	0	0	//Gorgon Staff
+6	8	7	0	0	0	//Tower Shield
+6	11	7	0	0	0	//Serpent Shield
+
+//=================================================================================
+//Sets
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	9	7	0	0	0	//Plate Helm
+8	9	7	0	0	0	//Plate Armor
+9 	9 	7 	0 	0 	0 	//Plate Pants
+10 	9 	7 	0 	0 	0 	//Plate Gloves
+11 	9 	7 	0 	0 	0 	//Plate Boots
+
+7 	7 	7 	0 	0	0 	//Sphinx Mask
+8 	7 	7	0 	0 	0 	//Sphinx Armor
+9 	7 	7 	0 	0 	0 	//Sphinx Pants
+10 	7 	7 	0 	0 	0	//Sphinx Gloves
+11 	7 	7 	0 	0 	0 	//Sphinx Boots
+
+7 	12 	7 	0 	0	0 	//Wind Helm
+8 	12 	7	0 	0 	0 	//Wind Armor
+9 	12 	7	0 	0 	0 	//Wind Pants
+10 	12 	7 	0 	0 	0	//Wind Gloves
+11 	12 	7 	0 	0 	0 	//Wind Boots
+
+7 	13 	7 	0 	0	0 	//Spirit Helm
+8 	13 	7	0 	0 	0 	//Spirit Armor
+9 	13 	7 	0 	0 	0 	//Spirit Pants
+10 	13 	7 	0 	0 	0	//Spirit Gloves
+11 	13 	7 	0 	0 	0 	//Spirit Boots
+
+//=================================================================================
+//Miscellaneous
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+13 	8 	1 	0 	0 	0	//Ring of Ice
+13 	9 	1 	0 	0 	0	//Ring of Poison
+13	12	1	0	0	0	//Pendant of Lighting
+13	13	1	0	0	0	//Pendant of Fire
+
+14 	13 	0 	0 	0 	0 	//Jewel of Bless
+14 	14 	0 	0 	0 	0 	//Jewel of Soul
+12 	15 	0 	0 	0 	0 	//Jewel of Chaos

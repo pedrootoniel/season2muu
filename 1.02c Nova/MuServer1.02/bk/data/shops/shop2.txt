@@ -1,0 +1,39 @@
+//==================================================================================================================
+//Project: KinhoMace - Season II English
+//Version: GameServer 1.00.18 & 1.00.19
+//Information: Shop 2 : Pasi the Mage
+//==================================================================================================================
+7               3                0               255           0               1                1  	0 //Legendary Helm
+7               7                0               255           0               1                1  	0 //Sphinx Helm
+15              3                0               255           0               0                0  	0 //Fireball Spell
+15              10               0               255           0               0                0  	0 //Power Wave Spell
+15              1                0               255           0               0                0  	0 //Meteorite Spell
+15              2                0               255           0               0                0  	0 //Lightning Spell
+8               3                0               255           0               1                1  	0 //Legendary Armor
+8               7                0               255           0               1                1  	0 //Sphinx Armor
+15              6                0               255           0               0                0  	0 //Ice Spell
+15              0                0               255           0               0                0  	0 //Poison Spell
+15              7                0               255           0               0                0  	0 //Twister Spell
+15              8                0               255           0               0                0  	0 //Evil Spirits Spell
+9               3                0               255           0               1                1  	0 //Legendary Pants
+15              11               0               255           0               0                0  	0 //Aqua Beam Spell
+15              15               0               255           0               0                0  	0 //Mana Shield Spell
+15              9                0               255           0               0                0  	0 //Hell Fire Spell
+9               7                0               255           0               1                1  	0 //Sphinx Pants
+15              4                0               255           0               0                0  	0 //Flame Spell
+10              3                0               255           0               1                1  	0 //Legendary Gloves
+15              14               0               255           0               0                0  	0 //Mass Teleport Spell
+15              12               0               255           0               0                0  	0 //Blast Spell
+15              13               0               255           0               0                0  	0 //Inferno Spell
+10              7                0               255           0               1                1  	0 //Sphinx Gloves
+11              3                0               255           0               1                1  	0 //Legendary Boots
+15              17               0               255           0               0                0  	0 //Ice Storm Spell
+15              18               0               255           0               0                0  	0 //Nova Spell
+15              5                0               255           0               0                0  	0 //Teleport Spell
+15              16               0               255           0               0                0  	0 //Decay Spell
+11              7                0               255           0               1                1  	0 //Sphinx Boots
+5               5                0               255           0               1                1  	0 //Legendary Staff
+5               1                0               255           0               1                1  	0 //Angelic Staff
+5               7                0               255           0               1                1  	0 //Chaos Lightning Staff
+5               10               0               255           0               1                1  	0 //Divine Archangel Staff
+end

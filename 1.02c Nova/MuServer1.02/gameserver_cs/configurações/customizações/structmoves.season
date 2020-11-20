@@ -1,0 +1,47 @@
+///~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - servidor.season              \\	                
+//      MU Online dxteam - © SuPrEmO              \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  string | vip | map | cordx | cordy | level | pk \\  
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+      "/arena1"        0         6         64         42	50	0
+      "/assistir"      0         6         11         142	50	0
+      "/pvp"     	   0         6         18         144	50	0
+      "/arena2"        0         6         129        114	50	0
+      "/atlans4"       0         7         22         226	50	1
+      "/dungeon3"      1         1         24         93	10	1
+      "/k3"            1         38        155        134	50	1
+      "/k2"            1         38        63         97	50	1
+      "/lt7"           1         4         51         90	50	1
+      "/k7"            1         36        63         71	50	1
+      "/lot"           1         31        61         16	50	1
+      "/loren"         0         30        36         41	50	1
+      "/cry"           0         34        226        41	50	1
+      "/icarus1"       1         10        36        224	50	1
+      "/aida"          1         33        119        16	50	1
+      "/ferreiro"      0         0         118       141	50	1
+      "/mago"      	   0         0         119       113	50	1
+      "/bar"      	   0         0         123       131	50	1
+
+
+// OBSERVAÇÃO: arquivo desativado, caso queira a ativação entre em contato.
+
+// string = string do move.
+// vip    = que tipo de vip irá mover.
+// map    = para qual mapa irá mover.
+// cordx  = para qual coordenada x irá mover.
+// cordy  = para qual coordenada y irá mover.
+// level  = mínimo de level para mover.
+// pk     = 1: pk não pode mover, 0: pk pode mover.
+
+//não retire esse end
+end

@@ -1,0 +1,135 @@
+// ================================================== //
+// # Season 2.0 - eventitembag11.txt 	 	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// # Information: Box Of Kundun + 4                 # //
+// ================================================== //
+
+//=================================================================================
+//Wepons and Shields No Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+5	8	0	0	0	0	//Staff of Destruction
+5	9	0	0	0	0	//Dragon Soul Staff
+5	11	0	0	0	0	//Kundun Staff
+0	20	0	0	0	0	//Knight Blade
+0	21	0	0	0	0	//Black Reign Blade
+0	22	0	0	0	0	//Bone Blade
+2	10	0	0	0	0	//Great Scepter
+3	10	0	0	0	0	//Dragon Spear
+4	16	0	0	0	0	//Saint Crossbow
+4	17	0	0	0	0	//Celestial Bow
+6	12	0	0	0	0	//Bronze Shield
+6	14	0	0	0	0	//Legendary Shield
+
+2	6	0	0	0	0	//Chaos Dragon Axe
+4	6	0	0	0	0	//Chaos Nature Bow
+5	7	0	0	0	0	//Chaos Lightning Staff
+
+
+//=================================================================================
+//Sets No Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	21	0	0	0	0	// Great Dragon Helm
+7	17	0	0	0	0	// Dark Phoenix Helm
+7	22	0	0	0	0	// Grand Soul Helm
+7	24	0	0	0	0	// Red Spirit Helm
+7	28	0	0	0	0	// Dark Master Mask
+
+8	17	0	0	0	0	// Dark Phoenix Armor
+8	22	0	0	0	0	// Grand Soul Armor
+8	20	0	0	0	0	// Thunder Hawk Armor
+8	21	0	0	0	0	// Great Dragon Armor
+8	24	0	0	0	0	// Red Spirit Armor
+8	28	0	0	0	0	// Dark Master Mask
+
+9	17	0	0	0	0	// Dark Phoenix Armor
+9	22	0	0	0	0	// Grand Soul Armor
+9	20	0	0	0	0	// Thunder Hawk Armor
+9	21	0	0	0	0	// Great Dragon Armor
+9	24	0	0	0	0	// Red Spirit Armor
+9	28	0	0	0	0	// Dark Master Mask
+
+10	17	0	0	0	0	// Dark Phoenix Armor
+10	22	0	0	0	0	// Grand Soul Armor
+10	20	0	0	0	0	// Thunder Hawk Armor
+10	21	0	0	0	0	// Great Dragon Armor
+10	24	0	0	0	0	// Red Spirit Armor
+10	28	0	0	0	0	// Dark Master Mask
+
+11	17	0	0	0	0	// Dark Phoenix Armor
+11	22	0	0	0	0	// Grand Soul Armor
+11	20	0	0	0	0	// Thunder Hawk Armor
+11	21	0	0	0	0	// Great Dragon Armor
+11	24	0	0	0	0	// Red Spirit Armor
+11	28	0	0	0	0	// Dark Master Mask
+
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+5	8	0	0	1	0	//Staff of Destruction
+5	9	0	0	1	0	//Dragon Soul Staff
+5	11	0	0	1	0	//Kundun Staff
+0	20	0	0	1	0	//Knight Blade
+0	21	0	0	1	0	//Black Reign Blade
+0	22	0	0	1	0	//Bone Blade
+2	10	0	0	1	0	//Great Scepter
+3	10	0	0	1	0	//Dragon Spear
+4	16	0	0	1	0	//Saint Crossbow
+4	17	0	0	1	0	//Celestial Bow
+6	12	0	0	1	0	//Bronze Shield
+6	14	0	0	1	0	//Legendary Shield
+
+2	6	0	0	1	0	//Chaos Dragon Axe
+4	6	0	0	1	0	//Chaos Nature Bow
+5	7	0	0	1	0	//Chaos Lightning Staff
+
+//=================================================================================
+//Sets Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	21	0	0	1	0	// Great Dragon Helm
+7	17	0	0	1	0	// Dark Phoenix Helm
+7	22	0	0	1	0	// Grand Soul Helm
+7	24	0	0	1	0	// Red Spirit Helm
+7	28	0	0	1	0	// Dark Master Mask
+
+8	17	0	0	1	0	// Dark Phoenix Armor
+8	22	0	0	1	0	// Grand Soul Armor
+8	20	0	0	1	0	// Thunder Hawk Armor
+8	21	0	0	1	0	// Great Dragon Armor
+8	24	0	0	1	0	// Red Spirit Armor
+8	28	0	0	1	0	// Dark Master Mask
+
+9	17	0	0	1	0	// Dark Phoenix Armor
+9	22	0	0	1	0	// Grand Soul Armor
+9	20	0	0	1	0	// Thunder Hawk Armor
+9	21	0	0	1	0	// Great Dragon Armor
+9	24	0	0	1	0	// Red Spirit Armor
+9	28	0	0	1	0	// Dark Master Mask
+
+10	17	0	0	1	0	// Dark Phoenix Armor
+10	22	0	0	1	0	// Grand Soul Armor
+10	20	0	0	1	0	// Thunder Hawk Armor
+10	21	0	0	1	0	// Great Dragon Armor
+10	24	0	0	1	0	// Red Spirit Armor
+10	28	0	0	1	0	// Dark Master Mask
+
+11	17	0	0	1	0	// Dark Phoenix Armor
+11	22	0	0	1	0	// Grand Soul Armor
+11	20	0	0	1	0	// Thunder Hawk Armor
+11	21	0	0	1	0	// Great Dragon Armor
+11	24	0	0	1	0	// Red Spirit Armor
+11	28	0	0	1	0	// Dark Master Mask
+
+//=================================================================================
+//Miscellaneous
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+13	12	0	0	0	1	// Pendant of Lighting
+13	13	0	0	0	1	// Pendant of Fire
+13	25	0	0	0	1	// Pendant of Ice
+13	26	0	0	0	1	// Pendant of Wind
+13	27	0	0	0	1	// Pendant of Water
+13	28	0	0	0	1	// Pendant of Ability

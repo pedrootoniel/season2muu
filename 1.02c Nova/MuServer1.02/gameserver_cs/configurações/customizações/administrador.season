@@ -1,0 +1,25 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - servidor.season              \\	                
+//      MU Online dxteam - © SuPrEmO              \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+  	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//   name   |  drop  |  skin  |  gmove  |  reload  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+   "Supremo"     1        1        1          1
+
+// name   = nome do GM.
+// drop   = 1: ativa comando para o GM, 0 = desativa.
+// skin   = 1: ativa comando para o GM, 0 = desativa.
+// gmove  = 1: ativa comando para o GM, 0 = desativa.
+// reload = 1: ativa comando para o GM, 0 = desativa.
+  
+//não retire esse end
+end

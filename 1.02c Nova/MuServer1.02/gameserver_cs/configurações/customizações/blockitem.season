@@ -1,0 +1,59 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - blockitem.season             \\	                
+//      MU Online dxteam - © KinhoMace            \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+  	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~\\ 
+//  index | id   \\
+//~~~~~~~~~~~~~~~\\ 
+
+      0      22  // Bone Blade
+      0      23  // Explosion Blade
+
+      2      14  // Solay Scepter
+
+      4      21  // Sylph Wind Bow
+
+      5      12  // Grand Viper Staff
+
+      7      29  // Dragon Knight Helm
+      7      30  // Venom Mist Helm
+      7      31  // Sylphid Ray Helm
+      7      33  // Sunlight Helm
+
+      8      29  // Dragon Knight Armor
+      8      30  // Venom Mist Armor
+      8      31  // Sylphid Ray Armor
+      8      32  // Volcano Armor
+      8      33  // Sunlight Armor
+
+      9      29  // Dragon Knight Pants
+      9      30  // Venom Mist Pants
+      9      31  // Sylphid Ray Pants
+      9      32  // Volcano Pants
+      9      33  // Sunlight Pants
+
+      10     29  // Dragon Knight Gloves
+      10     30  // Venom Mist Gloves
+      10     31  // Sylphid Ray Gloves
+      10     32  // Volcano Gloves
+      10     33  // Sunlight Gloves
+
+      11     29  // Dragon Knight Boots
+      11     30  // Venom Mist Boots
+      11     31  // Sylphid Ray Boots
+      11     32  // Volcano Boots
+      11     33  // Sunlight Boots
+
+// index = index do item.
+// id    = id do item.
+// lista de items que não droparão excellentes na porcentagem geral de drops excellente do servidor.
+
+//não retire esse end
+end

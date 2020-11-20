@@ -1,0 +1,28 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - servidor.season              \\	                
+//      MU Online dxteam - © SuPrEmO              \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+// OBSERVAÇÃO: não precisa adicionar no monstersetbase.txt, o npc já nasce automaticamente.
+ 	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  npc  |  map  |  cordx  |  cordy  |  pos  |  type  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+    247      0       130       127       3        1
+    249      0       130       129       3        1
+
+// npc   = número do npc.
+// map   = número do mapa.
+// cordx = coordenada x.
+// cordy = coordenada y.
+// pos   = posição.
+// type  = 0: pkclear, 1: reset
+
+//não retire esse end
+end

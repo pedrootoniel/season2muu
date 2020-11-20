@@ -1,0 +1,11 @@
+// ================================================== //
+// # Season 2.0 - ServerInfo.dat              	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// ================================================== //
+[GameServerInfo]
+ServerName		= CS
+ServerCode		= 2
+ConnectMemberLoad	= 0
+
+NonPK			= 0
+PkLimitFree		= 0

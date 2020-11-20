@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\stdafx">
+      <UniqueIdentifier>{55182208-cee7-4eb3-b1d0-93e900eef56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fix">
+      <UniqueIdentifier>{4580546b-83ea-4f97-b79e-4f637ef712a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\functions">
+      <UniqueIdentifier>{6f259961-fbbf-4efc-b8c6-68179d239c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\configs">
+      <UniqueIdentifier>{65a80670-7e20-4d93-9f3e-f3c09d65113b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tokenizer">
+      <UniqueIdentifier>{30cd609d-447c-44a1-b069-e06b4e23f72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gobjremade">
+      <UniqueIdentifier>{131e4f45-900d-4f63-a290-ffb74f6c92f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocol">
+      <UniqueIdentifier>{5ded59da-0fb6-4755-9323-401382ab31b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dsprotocol">
+      <UniqueIdentifier>{352c3389-0e56-4196-b8f8-6e0b5a475765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\definitions">
+      <UniqueIdentifier>{9bb5f185-caab-439d-84c0-e32bbe897bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\packets">
+      <UniqueIdentifier>{f82d56e0-deb6-4a48-bd52-f7e06ea2fece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gsclient">
+      <UniqueIdentifier>{e0027d6d-9597-40e8-8d64-593466681ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gobjleveluppointadd">
+      <UniqueIdentifier>{dff9be6f-8648-4a50-b6b3-ff6f41315d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\npctalk">
+      <UniqueIdentifier>{af3ab103-fc4a-4af0-89cf-e7f9a24c22bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\message">
+      <UniqueIdentifier>{a60f97ce-2af1-49d5-8102-2177e054401b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objectstruct">
+      <UniqueIdentifier>{f97050f3-6fa7-4d2c-9935-e6e17eff30b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\define">
+      <UniqueIdentifier>{a8af1e6b-a5b5-4e5e-ba1a-738dcc9c77d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\encrypt">
+      <UniqueIdentifier>{41863daa-0b2f-45bc-a532-2eab6e03a181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gobjleveluppointadd\gmsystem">
+      <UniqueIdentifier>{fbf07fa2-d372-4e5a-85b4-6663358d4b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eventos">
+      <UniqueIdentifier>{51df37dd-4894-453c-b595-33e4953006d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eventos\chaoscastle">
+      <UniqueIdentifier>{e25671f6-3f50-4d8a-8c99-75374d2fc738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eventos\bloodcastle">
+      <UniqueIdentifier>{6fef2c08-2f6c-46e7-88a3-375cfbe04983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eventos\devilsquare">
+      <UniqueIdentifier>{f91f6990-8ab7-4640-9847-88f8502a7c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sistemas">
+      <UniqueIdentifier>{53cffb4f-adf9-4591-831b-e8d182cea9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sistemas\calcharacter">
+      <UniqueIdentifier>{93d0ac4e-49e0-4a9a-a05a-df0601189a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sistemas\experience">
+      <UniqueIdentifier>{ea2bdb5b-9fba-4e2a-9bf6-74108c54ea5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sistemas\shop">
+      <UniqueIdentifier>{3961ff8a-1f54-4cf3-b305-c21a77c918d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sistemas\notice">
+      <UniqueIdentifier>{ad949eef-1947-429e-bb5b-ef537a3c276e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sistemas\commands">
+      <UniqueIdentifier>{fe236f22-cb32-4c6e-8c97-d462cea251d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sistemas\reset">
+      <UniqueIdentifier>{7439c3cd-c573-4483-a108-2fce94c156c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fix.cpp">
+      <Filter>Header Files\fix</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Header Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="configs.cpp">
+      <Filter>Header Files\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="gobjremade.cpp">
+      <Filter>Header Files\gobjremade</Filter>
+    </ClCompile>
+    <ClCompile Include="objectstruct.cpp">
+      <Filter>Header Files\objectstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol.cpp">
+      <Filter>Header Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="dsprotocol.cpp">
+      <Filter>Header Files\dsprotocol</Filter>
+    </ClCompile>
+    <ClCompile Include="definitions.cpp">
+      <Filter>Header Files\definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="gobjleveluppointadd.cpp">
+      <Filter>Header Files\gobjleveluppointadd</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>Header Files\message</Filter>
+    </ClCompile>
+    <ClCompile Include="experience.cpp">
+      <Filter>Header Files\sistemas\experience</Filter>
+    </ClCompile>
+    <ClCompile Include="commands.cpp">
+      <Filter>Header Files\sistemas\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="npctalk.cpp">
+      <Filter>Header Files\npctalk</Filter>
+    </ClCompile>
+    <ClCompile Include="reset.cpp">
+      <Filter>Header Files\sistemas\reset</Filter>
+    </ClCompile>
+    <ClCompile Include="bloodcastle.cpp">
+      <Filter>Header Files\eventos\bloodcastle</Filter>
+    </ClCompile>
+    <ClCompile Include="chaoscastle.cpp">
+      <Filter>Header Files\eventos\chaoscastle</Filter>
+    </ClCompile>
+    <ClCompile Include="devilsquare.cpp">
+      <Filter>Header Files\eventos\devilsquare</Filter>
+    </ClCompile>
+    <ClCompile Include="gsclient.cpp">
+      <Filter>Header Files\gsclient</Filter>
+    </ClCompile>
+    <ClCompile Include="gmsystem.cpp">
+      <Filter>Header Files\gobjleveluppointadd\gmsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Header Files\sistemas\calcharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="notice.cpp">
+      <Filter>Header Files\sistemas\notice</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt.cpp">
+      <Filter>Header Files\encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>Header Files\sistemas\shop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fix.h">
+      <Filter>Header Files\fix</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>Header Files\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenizer.h">
+      <Filter>Header Files\tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="gobjremade.h">
+      <Filter>Header Files\gobjremade</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>Header Files\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="dsprotocol.h">
+      <Filter>Header Files\dsprotocol</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Header Files\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="gsclient.h">
+      <Filter>Header Files\gsclient</Filter>
+    </ClInclude>
+    <ClInclude Include="gobjleveluppointadd.h">
+      <Filter>Header Files\gobjleveluppointadd</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>Header Files\message</Filter>
+    </ClInclude>
+    <ClInclude Include="experience.h">
+      <Filter>Header Files\sistemas\experience</Filter>
+    </ClInclude>
+    <ClInclude Include="commands.h">
+      <Filter>Header Files\sistemas\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="npctalk.h">
+      <Filter>Header Files\npctalk</Filter>
+    </ClInclude>
+    <ClInclude Include="reset.h">
+      <Filter>Header Files\sistemas\reset</Filter>
+    </ClInclude>
+    <ClInclude Include="bloodcastle.h">
+      <Filter>Header Files\eventos\bloodcastle</Filter>
+    </ClInclude>
+    <ClInclude Include="chaoscastle.h">
+      <Filter>Header Files\eventos\chaoscastle</Filter>
+    </ClInclude>
+    <ClInclude Include="devilsquare.h">
+      <Filter>Header Files\eventos\devilsquare</Filter>
+    </ClInclude>
+    <ClInclude Include="gmsystem.h">
+      <Filter>Header Files\gobjleveluppointadd\gmsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="packets.h">
+      <Filter>Header Files\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Header Files\sistemas\calcharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="notice.h">
+      <Filter>Header Files\sistemas\notice</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="objectstruct.h">
+      <Filter>Header Files\objectstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Header Files\define</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>Header Files\encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>Header Files\sistemas\shop</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

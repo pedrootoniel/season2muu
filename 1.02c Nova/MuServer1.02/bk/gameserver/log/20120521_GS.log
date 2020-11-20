@@ -1,0 +1,538 @@
+Gate information data load complete.
+(Skill) Skill information data load complete
+[Quest] (Find 'Scroll of Emperor') Load : Index 0, SubInfoCount 2
+[Quest] (Three Treasures of Mu) Load : Index 1, SubInfoCount 3
+[Quest] (Gain 'Hero Status') Load : Index 2, SubInfoCount 2
+[Quest] (Secret of 'Dark Stone') Load : Index 3, SubInfoCount 1
+16:35:03 [Quest] [SetQuestItem] Scroll of Emperor
+16:35:03 [Quest] [SetQuestItem] Scroll of Emperor
+16:35:03 [Quest] [SetQuestItem] Broken Sword
+16:35:03 [Quest] [SetQuestItem] Tear of Elf
+16:35:03 [Quest] [SetQuestItem] Soul Shard of Wizard
+16:35:03 [Quest] [SetQuestItem] Scroll of Emperor
+16:35:03 [Quest] [SetQuestItem] Scroll of Emperor
+16:35:03 [Quest] [SetQuestItem] Broken Sword
+[Monster Element] - ..\\data\\MonsterSkillElement.txt file is Loaded
+[Monster Skill Unit] - Found SkillElement (1)(스턴1)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (7)(밀기)
+[Monster Skill Unit] - Found SkillElement (11)(내구도)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (17)(방향해제)
+[Monster Skill Unit] - Found SkillElement (23)(방향안걸림)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (3)(MP감소)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (16)(소환)
+[Monster Skill Unit] - Found SkillElement (13)(치료)
+[Monster Skill Unit] - Found SkillElement (43)(스턴2)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (17)(방향해제)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (3)(MP감소)
+[Monster Skill Unit] - Found SkillElement (4)(AG감소)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (44)(밀기2)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (44)(밀기2)
+[Monster Skill Unit] - Found SkillElement (1)(스턴1)
+[Monster Skill Unit] - Found SkillElement (17)(방향해제)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (44)(밀기2)
+[Monster Skill Unit] - Found SkillElement (1)(스턴1)
+[Monster Skill Unit] - Found SkillElement (1)(스턴1)
+[Monster Skill Unit] - Found SkillElement (45)(일반공격)
+[Monster Skill Unit] - Found SkillElement (24)(켄타우로스-멀티)
+[Monster Skill Unit] - Found SkillElement (25)(페르소나-악령)
+[Monster Skill Unit] - Found SkillElement (26)(트윈테일-일반)
+[Monster Skill Unit] - Found SkillElement (27)(트윈테일-독)
+[Monster Skill Unit] - Found SkillElement (28)(드레드피어-2회베기)
+[Monster Skill Unit] - Found SkillElement (29)(나이트-독)
+[Monster Skill Unit] - Found SkillElement (30)(나이트-독-일반)
+[Monster Skill Unit] - Found SkillElement (31)(나이트-돌개-일반)
+[Monster Skill Unit] - Found SkillElement (32)(나이트-화염진-일반)
+[Monster Skill Unit] - Found SkillElement (33)(나이트-화염진-밀기)
+[Monster Skill Unit] - Found SkillElement (34)(나이트메어-워프)
+[Monster Skill Unit] - Found SkillElement (35)(마야의손-프레셔-일반#)
+[Monster Skill Unit] - Found SkillElement (36)(마야의손-프레셔-밀기$)
+[Monster Skill Unit] - Found SkillElement (37)(마야의손-프레셔-내구%)
+[Monster Skill Unit] - Found SkillElement (38)(마야의손-파워-일반)
+[Monster Skill Unit] - Found SkillElement (39)(마야-아이스스톰-밀기')
+[Monster Skill Unit] - Found SkillElement (40)(마야-아이스스톰-일반()
+[Monster Skill Unit] - Found SkillElement (41)(마야-브로큰샤워-일반))
+[Monster Skill Unit] - Found SkillElement (42)(마야-브로큰샤워-스턴*)
+[Monster Skill Unit] - ..\\data\\MonsterSkillUnit.txt file is Loaded
+[Monster Skill Manager] - ..\\data\\MonsterSkill.txt file is Loaded
+[Monster AI Element] - ..\\data\\MonsterAIElement.txt file is Loaded
+[Monster AI MovePath ] - ..\\data\\MovePath_35.dat file is Loaded
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->HP감소->회피 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->AGRO대->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->안에적->회피 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->HP감소->회피 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->HP감소->회피 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->치료 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->치료 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->치료 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->HP감소->치료 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 치료->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 치료->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 치료->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 소환->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 소환->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 소환->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->AGRO대->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->HP감소->회피 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->AGRO대->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->안에적->회피 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->HP감소->회피 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->안에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 회피->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->적없음->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->안에적->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->밖에적->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->체력DD->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->체력DD->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->체력DD->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 소환->무조건->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->무조건->워프 ]
+[Monster AI Automata] Loaded Transition Desc . [ 워프->무조건->AI ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->안에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->체력DD->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 소환->무조건->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->무조건->워프 ]
+[Monster AI Automata] Loaded Transition Desc . [ 워프->무조건->AI ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->안에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->체력DD->소환 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 소환->무조건->무적 ]
+[Monster AI Automata] Loaded Transition Desc . [ 무적->무조건->워프 ]
+[Monster AI Automata] Loaded Transition Desc . [ 워프->무조건->AI ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->안에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 일반->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ 이동->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->적없음->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->밖에적->일반 ]
+[Monster AI Automata] Loaded Transition Desc . [ 공격->안에적->공격 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->적없음->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->밖에적->이동 ]
+[Monster AI Automata] Loaded Transition Desc . [ AI->안에적->이동 ]
+[Monster AI Automata] - ..\\data\\MonsterAutomata.txt file is Loaded
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+16:35:03 [Monster AI Element] FindAIElement() Error - (ElementNumber=-1) 
+[Monster AI Unit] - ..\\data\\MonsterAIUnit.txt file is Loaded
+[Monster AI Rule ] - ..\\data\\MonsterAIRule.txt file is Loaded
+[Monster AI Group ] - ..\\data\\MonsterAIGroup.txt file is Loaded
+16:35:03 [Skill Addition Info] [Infinity Arrow] Skill Time[600], UseLevel[220], Arrow MP Consumption +0[5] +1[7] +2[10]
+16:35:03 [Skill Addition Info] [Fire Scream] Use(1) : Explosion Distance(2) - Rate(3000), MaxAttack_SameSerial(3), SerialInitCount(100), Check Serial(1)
+[ KANTURU ] - ..\\data\\Kanturu.dat file is Loaded
+[ KANTURU ][ BattleStanby ] ..\\data\\Kanturu.dat file is Loaded
+16:35:03 [ KANTURU ][ BattleOfMaya ] IceStorm Using Rate Load: 60
+[ KANTURU ][ BattleOfMaya ] ..\\data\\Kanturu.dat file is Loaded
+[ KANTURU ][ BattleOfNightmare ]  ..\\data\\Kanturu.dat file is Loaded
+[ KANTURU ][ TowerOfRefinement ] ..\\data\\Kanturu.dat file is Loaded
+[ KANTURU ][ MonsterSetBase ] - ..\\data\\KanturuMonsterSetBase.txt file is Loaded
+16:35:03 [Option Reload] ★★★ MaxUser ☆☆☆  : 150
+Guild creation option 1
+Guild delete option 1
+Characters above level 100 can create a guild
+16:35:03 (Option) Trade on
+[Option] ChaosBox = 1
+[Option] ChaosEvent = 1
+[Option] ChaosEventServer = 127.0.0.1
+[Option] AttackEventRegenTime = 0
+16:35:03 (Option) Required time to decrease Murderer-level : 1(s)
+16:35:03 [Option] Auto Looting Time Set : 30
+16:35:03 (Option) Dropping items when killed by Murderer
+16:35:03 (Option) Item drop rate : 30 %
+16:35:03 [DevilSquare] Close
+16:35:03 [DevilSquare] Sync Open Time. [83]min remain
+16:35:03 (Option) Connect Server IP(127.0.0.1) / PORT(55557)
+User Object Size = 6504
+..\\data\\eventitembag.txt Item Load Complete
+..\\data\\eventitembag2.txt Item Load Complete
+..\\data\\eventitembag3.txt Item Load Complete
+16:35:03 [StarOfXMas] Eventitemnum = 7179,EventItemLevel = 1, EventItemDropRate = 200, ItemDropRate = 80, ExItemDropRate = 0
+..\\data\\eventitembag4.txt Item Load Complete
+..\\data\\eventitembag5.txt Item Load Complete
+..\\data\\eventitembag5.txt Item Load Complete
+..\\data\\eventitembag6.txt Item Load Complete
+..\\data\\eventitembag7.txt Item Load Complete
+..\\data\\eventitembag8.txt Item Load Complete
+..\\data\\eventitembag9.txt Item Load Complete
+..\\data\\eventitembag10.txt Item Load Complete
+..\\data\\eventitembag11.txt Item Load Complete
+..\\data\\eventitembag12.txt Item Load Complete
+..\\data\\eventitembag13.txt Item Load Complete
+..\\data\\eventitembag14.txt Item Load Complete
+..\\data\\eventitembag15.txt Item Load Complete
+16:35:03 [Kundun] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 1
+..\\data\\eventitembag17.txt Item Load Complete
+16:35:03 [Gem Of Secret] Eventitemnum = 6170,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag20.txt Item Load Complete
+16:35:03 [RedRibbonBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag21.txt Item Load Complete
+16:35:03 [GreenRibbonBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag22.txt Item Load Complete
+16:35:03 [BlueRibbonBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag23.txt Item Load Complete
+16:35:03 [PinkChocolateBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag24.txt Item Load Complete
+16:35:04 [RedChocolateBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag25.txt Item Load Complete
+16:35:04 [BlueChocolateBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag26.txt Item Load Complete
+16:35:04 [LightPurpleCandyBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag27.txt Item Load Complete
+16:35:04 [DeepBlueCandyBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag28.txt Item Load Complete
+16:35:04 [DeepBlueCandyBox] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag29.txt Item Load Complete
+16:35:04 [DarkElf] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 1
+..\\data\\eventitembag30.txt Item Load Complete
+16:35:04 [Balgass] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag31.txt Item Load Complete
+16:35:04 [Maya Hands] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag32.txt Item Load Complete
+16:35:04 [Maya] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 0
+..\\data\\eventitembag33.txt Item Load Complete
+16:35:04 [나이트메어] Eventitemnum = 0,EventItemLevel = 0, EventItemDropRate = 0, ItemDropRate = 100, ExItemDropRate = 1
+..\\data\\eventitembag34.txt Item Load Complete
+..\\data\\DevilSquare.dat file load!
+..\\data\\BloodCastle.dat file load!
+..\\data\\RingAttackEvent.dat file load!
+16:35:04 [Ring Event] Sync Start Time. [204] min remain (START HOUR:20, MIN:0)
+..\\data\\ChaosCastle.dat file load!
+[DOTH] ..\\data\\EventManagement.dat file load!
+16:35:04 [CashShop][OptionLoad] - CashShop Option Load Begin
+16:35:04 [CashShop][ShopOption] - Shop Option Reload '..\\data\\CashShopOption.dat'
+16:35:04 [CashShop][Load Cash Item List] - Add List - (13/43) Level:0, Dur:0, Skill:0, Luck:0, Add:0, Ex:0, X:0, Y:0, Scale:50
+16:35:04 [CashShop][Load Cash Item List] - Add List - (13/44) Level:0, Dur:0, Skill:0, Luck:0, Add:0, Ex:0, X:0, Y:0, Scale:50
+16:35:04 [CashShop][Load Cash Item List] - Add List - (13/45) Level:0, Dur:0, Skill:0, Luck:0, Add:0, Ex:0, X:0, Y:0, Scale:50
+16:35:04 [CashShop][Load Cash Item List] - Add List - (13/46) Level:0, Dur:10, Skill:0, Luck:0, Add:0, Ex:0, X:0, Y:0, Scale:50
+16:35:04 [CashShop][Load Cash Item List] - Add List - (13/47) Level:0, Dur:10, Skill:0, Luck:0, Add:0, Ex:0, X:0, Y:0, Scale:50
+16:35:04 [CashShop][Load Cash Item List] - Add List - (13/48) Level:0, Dur:10, Skill:0, Luck:0, Add:0, Ex:0, X:0, Y:0, Scale:50
+16:35:04 [CashShop][Load Cash Item List] - Add List - (14/53) Level:0, Dur:1, Skill:0, Luck:0, Add:0, Ex:0, X:0, Y:0, Scale:50
+16:35:04 [CashShop][Load Cash Item List] - Add List - (14/54) Level:0, Dur:1, Skill:0, Luck:0, Add:0, Ex:0, X:0, Y:0, Scale:50
+16:35:04 [CashShop][Load Cash Item List] - Complete! - Total:8
+16:35:04 [CashShop] Request Cash Branch Item List to ShopServer.
+16:35:04 [CashShop] Request Cash Item List to ShopServer.
+16:35:04 [CashShop] Request Cash Package Item List to ShopServer.
+16:35:04 [CashShop][OptionLoad] - CashShop Option Load finish
+Shop data load complete
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 37 class : 0
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 38 class : 0
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 39 class : 0
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 40 class : 0
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 41 class : 0
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 42 class : 0
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 43 class : 0
+16:35:05 SkyLand Boss Shield Setting!!
+16:35:05 SkyLand Boss Shield Setting!!
+16:35:05 SkyLand Boss Monster Setting!!
+16:35:05 SkyLand Boss Shield Setting!!
+16:35:05 SkyLand Boss Shield Setting!!
+16:35:05 SkyLand Boss Monster Setting!!
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 4065 class : 0
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 4102 class : 0
+error : Monster location setting error D:\Works\Mu-Studio\GameServer_Backup\1.00.18_해외부분유료화_인장효과소실버그수정\Source\user.cpp 3679
+error-L2 : 4107 class : 0
+16:35:06 [DevilSquare] Close
+16:35:06 [DevilSquare] Sync Open Time. [80]min remain
+16:35:06 [Blood Castle] (1) Sync Open Time. [54] min remain
+16:35:06 [Blood Castle] (1) SetState CLOSED
+16:35:06 [Blood Castle] (2) Sync Open Time. [54] min remain
+16:35:06 [Blood Castle] (2) SetState CLOSED
+16:35:06 [Blood Castle] (3) Sync Open Time. [54] min remain
+16:35:06 [Blood Castle] (3) SetState CLOSED
+16:35:06 [Blood Castle] (4) Sync Open Time. [54] min remain
+16:35:06 [Blood Castle] (4) SetState CLOSED
+16:35:06 [Blood Castle] (5) Sync Open Time. [54] min remain
+16:35:06 [Blood Castle] (5) SetState CLOSED
+16:35:06 [Blood Castle] (6) Sync Open Time. [54] min remain
+16:35:06 [Blood Castle] (6) SetState CLOSED
+16:35:06 [Blood Castle] (7) Sync Open Time. [54] min remain
+16:35:06 [Blood Castle] (7) SetState CLOSED
+16:35:06 [Chaos Castle] (1) Sync Start Time. [84] min remain (START HOUR:18, MIN:0)
+16:35:06 [Chaos Castle] (1) SetState CLOSED
+16:35:06 [Chaos Castle] (2) Sync Start Time. [84] min remain (START HOUR:18, MIN:0)
+16:35:06 [Chaos Castle] (2) SetState CLOSED
+16:35:06 [Chaos Castle] (3) Sync Start Time. [84] min remain (START HOUR:18, MIN:0)
+16:35:06 [Chaos Castle] (3) SetState CLOSED
+16:35:06 [Chaos Castle] (4) Sync Start Time. [84] min remain (START HOUR:18, MIN:0)
+16:35:06 [Chaos Castle] (4) SetState CLOSED
+16:35:06 [Chaos Castle] (5) Sync Start Time. [84] min remain (START HOUR:18, MIN:0)
+16:35:06 [Chaos Castle] (5) SetState CLOSED
+16:35:06 [Chaos Castle] (6) Sync Start Time. [84] min remain (START HOUR:18, MIN:0)
+16:35:06 [Chaos Castle] (6) SetState CLOSED
+Total 1 count IP load
+Whole connection closed

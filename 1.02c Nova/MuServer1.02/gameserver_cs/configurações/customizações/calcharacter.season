@@ -1,0 +1,173 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - calcharacter.season          \\	                
+//      MU Online dxteam - © KinhoMace            \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\   	 
+
+//- algumas informações uteis que você precisa saber antes de configurar:
+//- primeiro que todos os valores aqui estão originais, então caso você queira modificar uma classe, tenha calma, paciência e teste.
+//- não me chame no msn/email por alguma mal configuração que você fez.
+//- esse é um arquivo delicado, exige leitura e executar os testes no jogo com todas as classes (mesmo se você alterou apenas uma).
+//- tem algumas classes que tem configurações juntas e outras não tem, é porquê é padrão, realmente não tinha configuração separada, dela mesmo ou não podia ser alterada.
+//- o equilibrio das classes exige paciencia, sendo que você não vai equilibrar totalmente aqui, se quizer algo 100% exige modificações de defesa de items...
+//- a alteração ataque speed estão sujeito a alteração automaticamente no main.
+
+[calcharacter]
+
+//---------------------- elf/muse elf com arcos.
+config_01                = 7;      # dano de ataque minimo direito (agilidade + força / valor da configuração).
+config_02                = 4;      # dano de ataque maximo direito (agilidade + força / valor da configuração).
+config_03                = 7;      # dano de ataque minimo esquerdo (agilidade + força / valor da configuração).
+config_04                = 4;      # dano de ataque maximo esquerdo (agilidade + força / valor da configuração).
+
+//---------------------- elf/muse elf sem arcos e sem outro item qualquer no lugar.
+//---------------------- formula: dano de ataque minimo direito  (agilidade / config_05) + (força / config_06).
+config_05                = 7;      # (agilidade / valor da configuração).                                                                         
+config_06                = 14;     # (força / valor da configuração).
+//---------------------- formula: dano de ataque maximo direito  (agilidade / config_07) + (força / config_08).
+config_07                = 4;      # (agilidade / valor da configuração).                                                                         
+config_08                = 8;      # (força / valor da configuração).
+//---------------------- formula: dano de ataque minimo esquerdo  (agilidade / config_09) + (força / config_10).
+config_09                = 7;      # (agilidade / valor da configuração).                                                                         
+config_10                = 14;     # (força / valor da configuração).
+//---------------------- formula: dano de ataque maximo esquerdo  (agilidade / config_11) + (força / config_12).
+config_11                = 4;      # (agilidade / valor da configuração).                                                                         
+config_12                = 8;      # (força / valor da configuração).
+
+//---------------------- elf/muse elf sem arcos mas com outro item qualquer no lugar.
+config_13                = 7;      # dano de ataque minimo direito (agilidade + força / valor da configuração).
+config_14                = 4;      # dano de ataque maximo direito (agilidade + força / valor da configuração).
+config_15                = 7;      # dano de ataque minimo esquerdo (agilidade + força / valor da configuração).
+config_16                = 4;      # dano de ataque maximo esquerdo (agilidade + força / valor da configuração).
+
+//---------------------- dark knight/blade knight ataque normal sem espada.
+config_17                = 6;      # dano de ataque minimo direito (força / valor da configuração).
+config_18                = 4;      # dano de ataque maximo direito (força / valor da configuração).
+config_19                = 6;      # dano de ataque minimo esquerdo (força / valor da configuração).
+config_20                = 4;      # dano de ataque maximo esquerdo (força / valor da configuração).
+
+//---------------------- magic gladiador ataque normal sem espada.
+//---------------------- formula: dano de ataque minimo direito  (força / config_21) + (energia / config_22).
+config_21                = 6;      # (força / valor da configuração).                                                                         
+config_22                = 12;     # (energia / valor da configuração).
+//---------------------- formula: dano de ataque maximo direito  (força / config_23) + (energia / config_24).
+config_23                = 4;      # (força / valor da configuração).                                                                         
+config_24                = 8;      # (energia / valor da configuração).
+//---------------------- formula: dano de ataque minimo esquerdo  (força / config_25) + (energia / config_26).
+config_25                = 6;      # (força / valor da configuração).                                                                         
+config_26                = 12;     # (energia / valor da configuração).
+//---------------------- formula: dano de ataque maximo esquerdo  (força / config_27) + (energia / config_28).
+config_27                = 4;      # (força / valor da configuração).                                                                         
+config_28                = 8;      # (energia / valor da configuração).
+
+//---------------------- dark lord ataque normal sem cajado. 
+//---------------------- formula: dano de ataque minimo direito  (força / config_29) + (energia / config_30).
+config_29                = 7;      # (força / valor da configuração).                                                                         
+config_30                = 14;     # (energia / valor da configuração).
+//---------------------- formula: dano de ataque maximo direito  (força / config_31) + (energia / config_32).
+config_31                = 5;      # (força / valor da configuração).                                                                         
+config_32                = 10;     # (energia / valor da configuração).
+//---------------------- formula: dano de ataque minimo esquerdo  (força / config_33) + (energia / config_34).
+config_33                = 7;      # (força / valor da configuração).                                                                         
+config_34                = 14;     # (energia / valor da configuração).
+//---------------------- formula: dano de ataque maximo esquerdo  (força / config_35) + (energia / config_36).
+config_35                = 5;      # (força / valor da configuração).                                                                         
+config_36                = 10;     # (energia / valor da configuração).
+
+//---------------------- dark wizard/soul master ataque normal sem staff.
+config_37                = 8;      # dano de ataque minimo direito (força / valor da configuração).
+config_38                = 4;      # dano de ataque maximo direito (força / valor da configuração).
+config_39                = 8;      # dano de ataque minimo esquerdo (força / valor da configuração).
+config_40                = 4;      # dano de ataque maximo esquerdo (força / valor da configuração).
+
+//---------------------- elf/muse elf velocidade de ataque e ataque magico rapido.
+config_41                = 50;     # velocidade de ataque (agilidade / valor da configuração).
+config_42                = 50;     # velocidade de ataque magico (agilidade / valor da configuração).
+
+//---------------------- dark knight/blade knight/magic gladiador velocidade de ataque e ataque magico rapido.
+config_43                = 15;     # velocidade de ataque (agilidade / valor da configuração).
+config_44                = 20;     # velocidade de ataque magico (agilidade / valor da configuração).
+
+//---------------------- dark lord velocidade de ataque e ataque magico rapido.
+config_45                = 10;     # velocidade de ataque (agilidade / valor da configuração).
+config_46                = 10;     # velocidade de ataque magico (agilidade / valor da configuração).
+
+//---------------------- soul master velocidade de ataque e ataque magico rapido.
+config_47                = 20;     # velocidade de ataque (agilidade / valor da configuração).
+config_48                = 10;     # velocidade de ataque magico (agilidade / valor da configuração).
+
+//---------------------- wizard ring efeito, adicional de ataque/dano/magia.
+config_49                = 10;     # dano de ataque minimo direito (dano de ataque minimo direito * valor da configuração / config_50).
+config_50                = 100;    # divisão.
+config_51                = 10;     # dano de ataque maximo direito (dano de ataque maximo direito * valor da configuração / config_52).
+config_52                = 100;    # divisão.
+config_53                = 10;     # dano de ataque minimo esquerdo (dano de ataque minimo esquerdo * valor da configuração / config_54).
+config_54                = 100;    # divisão.
+config_55                = 10;     # dano de ataque maximo esquerdo (dano de ataque maximo esquerdo * valor da configuração / config_56).
+config_56                = 100;    # divisão.
+config_57                = 10;     # dano magico minimo (dano magico minimo * valor da configuração / config_58).
+config_58                = 100;    # divisão.
+config_59                = 10;     # dano magico maximo (dano magico maximo * valor da configuração / config_60).
+config_60                = 100;    # divisão.
+config_61                = 10;     # ataque rapido.
+config_62                = 10;     # ataque magico rapido.
+
+//---------------------- elf/muse elf bloqueio de sucesso.
+config_63                = 4;      # bloqueio de sucesso (agilidade / valor da configuração).
+
+//---------------------- dark lord bloqueio de sucesso.
+config_64                = 7;      # bloqueio de sucesso (agilidade / valor da configuração).
+
+//---------------------- dark wizard/soul master/dark knight/blade knight/magic gladiador bloqueio de sucesso.
+config_65                = 3;      # bloqueio de sucesso (agilidade / valor da configuração).
+
+//---------------------- elf/muse elf defesa.
+config_66                = 10;     # defesa (agilidade / valor da configuração).
+
+//---------------------- dark knight/blade knight defesa.
+config_67                = 3;      # defesa (agilidade / valor da configuração).
+
+//---------------------- dark lord defesa.
+config_68                = 2;      # defesa (agilidade / valor da configuração).
+
+//---------------------- dark wizard/soul master/magic gladiador defesa.
+config_69                = 2;      # defesa (agilidade / valor da configuração).
+
+//---------------------- dark knight/blade knight/magic gladiador/dark lord dano de ataque com arma.
+config_70                = 55;     # dano de ataque minimo direito (dano de ataque minimo direito * valor da configuração / config_71).
+config_71                = 100;    # divisão.
+config_72                = 55;     # dano de ataque maximo direito (dano de ataque maximo direito * valor da configuração / config_73).
+config_73                = 100;    # divisão.
+config_74                = 55;     # dano de ataque minimo esquerdo (dano de ataque minimo esquerdo * valor da configuração / config_75).
+config_75                = 100;    # divisão.
+config_76                = 55;     # dano de ataque maximo esquerdo (dano de ataque maximo esquerdo * valor da configuração / config_77).
+config_77                = 100;    # divisão.
+
+//---------------------- dark knight/blade knight rate de ataque, formula: ataque = level * config_78 (agilidade * config_79) / config_80.
+config_78                = 3;      #.
+config_79                = 45;     #.
+config_80                = 10;     #.
+
+//---------------------- dark lord rate de ataque, formula: ataque = level * config_81 (agilidade * 4).
+config_81                = 3;      #.
+
+//---------------------- elf/muse elf rate de ataque, formula: ataque = level * config_82 (agilidade * config_83) / config_84.
+config_82                = 3;      #.
+config_83                = 6;      #.
+config_84                = 10;     #.
+
+//---------------------- magic gladiador rate de ataque, formula: ataque = level * config_85 (agilidade * config_86) / config_87.
+config_85                = 3;      #.
+config_86                = 35;     #.
+config_87                = 10;     #.
+
+//---------------------- dark wizard/soul master rate de ataque, formula: ataque = level * config_88 (agilidade * 4).
+config_88                = 3;      #.
+
+//---------------------- elf/muse elf rate de defesa, formula: defesa = level * 2 + agilidade / config_89.
+config_89                = 10;     #.
+
+//---------------------- magic gladiador rate de defesa, formula: defesa = level * 2 + agilidade / config_90.
+config_90                = 4;      #.
+
+//---------------------- dark wizard/soul master rate de defesa, formula: defesa = level * 2 + agilidade / config_91.
+config_91                = 4;      #.

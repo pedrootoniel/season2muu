@@ -1,0 +1,20 @@
+[20:03:53]  ########## Start of work program! ##########
+[20:03:53]  Version: 1.0.10.1120; Build: 20.01.2012
+[20:03:53]  Windows Seven Ultimate Service Pack 1 32-bit
+[20:03:53]  CrashDump System! DbgHelp.dll 5.1 or later!
+[20:03:53]  CrashDump System! FolderPath: 'C:\MUSERVER\connectserver\';
+[20:03:53]  CrashDump System - Successfully installed.
+[20:03:53]  'BoR_Config.ini' file successfully loaded.
+[20:03:53]  Protocol version: 20050502; (0.98.* - 1.05.*)
+[20:03:53]  Active Servers: 1
+[20:03:53]  'BoR_ServerList.dat' file successfully loaded.
+[20:03:53]  Data from file 'BoR_WZ_ServerInfo.ini' load success.
+[20:03:53]  TCP Recv Socket Initialize Success. Port: 44405;
+[20:03:53]  Run I/O Completion Port System. (4 working threads)
+[20:03:53]  UDP Recv Socket Initialize Success. Port: 55557;
+[20:03:53]  # Current settings:
+[20:03:53]  - PortTCP: 44405;
+[20:03:53]  - PortUDP: 55557;
+[20:03:53]  - WriteLog: Enabled;
+[20:03:53]  - ProtocolMode: 2;
+[20:03:53]  - MultipleConnections: Enabled;

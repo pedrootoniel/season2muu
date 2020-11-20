@@ -1,0 +1,471 @@
+00:00:03 127.0.0.1:1217 DisConnected!
+00:00:09 127.0.0.1:2521 Connected!
+00:00:09 127.0.0.1:2521 Send Cash Branch Item List to GameServer.
+00:00:09 127.0.0.1:2521 Send Cash Item List to GameServer.
+00:00:34 select cash from memb_info where memb_guid = 10
+00:01:17 select cash from memb_info where memb_guid = 11
+00:10:39 Load Cash Item List, Type : 0, Index : 0, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 1, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 2, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 3, Amount : 1, UseTime : 0, Category : 0, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 4, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 5, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 6, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 7, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 8, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 9, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 10, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 11, Amount : 1, UseTime : 0, Category : 0, Price : 14,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 12, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 13, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 14, Amount : 1, UseTime : 0, Category : 0, Price : 14,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 15, Amount : 1, UseTime : 0, Category : 0, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 16, Amount : 1, UseTime : 0, Category : 0, Price : 16,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 17, Amount : 1, UseTime : 0, Category : 0, Price : 14,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 18, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 19, Amount : 1, UseTime : 0, Category : 0, Price : 16,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 20, Amount : 1, UseTime : 0, Category : 0, Price : 21,SPOP : 0
+00:10:39 Load Cash Item List, Type : 0, Index : 21, Amount : 1, UseTime : 0, Category : 0, Price : 23,SPOP : 2
+00:10:39 Load Cash Item List, Type : 0, Index : 22, Amount : 1, UseTime : 0, Category : 0, Price : 28,SPOP : 2
+00:10:39 Load Cash Item List, Type : 0, Index : 23, Amount : 1, UseTime : 0, Category : 0, Price : 27,SPOP : 2
+00:10:39 Load Cash Item List, Type : 0, Index : 24, Amount : 1, UseTime : 0, Category : 0, Price : 29,SPOP : 2
+00:10:39 Load Cash Item List, Type : 0, Index : 25, Amount : 1, UseTime : 0, Category : 0, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 0, Index : 31, Amount : 1, UseTime : 0, Category : 0, Price : 29,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 0, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 1, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 2, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 3, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 4, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 5, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 6, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 7, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 1, Index : 8, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 0, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 1, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 2, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 3, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 5, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 6, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 7, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 8, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 9, Amount : 1, UseTime : 0, Category : 0, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 10, Amount : 1, UseTime : 0, Category : 0, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 11, Amount : 1, UseTime : 0, Category : 0, Price : 14,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 12, Amount : 1, UseTime : 0, Category : 0, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 13, Amount : 1, UseTime : 0, Category : 0, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 14, Amount : 1, UseTime : 0, Category : 0, Price : 24,SPOP : 0
+00:10:39 Load Cash Item List, Type : 2, Index : 15, Amount : 1, UseTime : 0, Category : 0, Price : 27,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 0, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 1, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 2, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 3, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 4, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 5, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 6, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 7, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 8, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 9, Amount : 1, UseTime : 0, Category : 0, Price : 14,SPOP : 0
+00:10:39 Load Cash Item List, Type : 3, Index : 10, Amount : 1, UseTime : 0, Category : 0, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 0, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 1, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 2, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 3, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 4, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 5, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 6, Amount : 1, UseTime : 0, Category : 0, Price : 16,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 7, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 8, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 9, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 10, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 11, Amount : 1, UseTime : 0, Category : 0, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 12, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 13, Amount : 1, UseTime : 0, Category : 0, Price : 14,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 14, Amount : 1, UseTime : 0, Category : 0, Price : 14,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 16, Amount : 1, UseTime : 0, Category : 0, Price : 16,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 17, Amount : 1, UseTime : 0, Category : 0, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 18, Amount : 1, UseTime : 0, Category : 0, Price : 21,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 19, Amount : 1, UseTime : 0, Category : 0, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 20, Amount : 1, UseTime : 0, Category : 0, Price : 24,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 21, Amount : 1, UseTime : 0, Category : 0, Price : 27,SPOP : 0
+00:10:39 Load Cash Item List, Type : 4, Index : 22, Amount : 1, UseTime : 0, Category : 0, Price : 28,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 0, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 1, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 2, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 3, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 4, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 5, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 6, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 7, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 8, Amount : 1, UseTime : 0, Category : 0, Price : 14,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 9, Amount : 1, UseTime : 0, Category : 0, Price : 18,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 10, Amount : 1, UseTime : 0, Category : 0, Price : 18,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 11, Amount : 1, UseTime : 0, Category : 0, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 12, Amount : 1, UseTime : 0, Category : 0, Price : 26,SPOP : 0
+00:10:39 Load Cash Item List, Type : 5, Index : 13, Amount : 1, UseTime : 0, Category : 0, Price : 26,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 0, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 1, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 2, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 3, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 4, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 5, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 6, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 7, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 8, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 9, Amount : 1, UseTime : 0, Category : 0, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 10, Amount : 1, UseTime : 0, Category : 0, Price : 11,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 11, Amount : 1, UseTime : 0, Category : 0, Price : 10,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 12, Amount : 1, UseTime : 0, Category : 0, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 13, Amount : 1, UseTime : 0, Category : 0, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 14, Amount : 1, UseTime : 0, Category : 0, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 15, Amount : 1, UseTime : 0, Category : 0, Price : 18,SPOP : 0
+00:10:39 Load Cash Item List, Type : 6, Index : 16, Amount : 1, UseTime : 0, Category : 0, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 13, Index : 43, Amount : 0, UseTime : 60, Category : 3, Price : 2,SPOP : 1
+00:10:39 Load Cash Item List, Type : 13, Index : 43, Amount : 0, UseTime : 1440, Category : 3, Price : 2,SPOP : 1
+00:10:39 Load Cash Item List, Type : 13, Index : 43, Amount : 0, UseTime : 43200, Category : 3, Price : 2,SPOP : 1
+00:10:39 Load Cash Item List, Type : 13, Index : 44, Amount : 0, UseTime : 60, Category : 3, Price : 2,SPOP : 3
+00:10:39 Load Cash Item List, Type : 13, Index : 44, Amount : 0, UseTime : 1440, Category : 3, Price : 2,SPOP : 3
+00:10:39 Load Cash Item List, Type : 13, Index : 44, Amount : 0, UseTime : 43200, Category : 3, Price : 2,SPOP : 3
+00:10:39 Load Cash Item List, Type : 13, Index : 45, Amount : 0, UseTime : 60, Category : 3, Price : 2,SPOP : 3
+00:10:39 Load Cash Item List, Type : 13, Index : 45, Amount : 0, UseTime : 1440, Category : 3, Price : 2,SPOP : 3
+00:10:39 Load Cash Item List, Type : 13, Index : 45, Amount : 0, UseTime : 43200, Category : 3, Price : 2,SPOP : 3
+00:10:39 Load Cash Item List, Type : 13, Index : 81, Amount : 0, UseTime : 60, Category : 3, Price : 1,SPOP : 3
+00:10:39 Load Cash Item List, Type : 14, Index : 53, Amount : 1, UseTime : 0, Category : 3, Price : 1,SPOP : 0
+00:10:39 Load Cash Item List, Type : 13, Index : 46, Amount : 1, UseTime : 0, Category : 3, Price : 1,SPOP : 0
+00:10:39 Load Cash Item List, Type : 13, Index : 46, Amount : 10, UseTime : 0, Category : 3, Price : 1,SPOP : 0
+00:10:39 Load Cash Item List, Type : 13, Index : 47, Amount : 1, UseTime : 0, Category : 3, Price : 1,SPOP : 0
+00:10:39 Load Cash Item List, Type : 13, Index : 47, Amount : 10, UseTime : 0, Category : 3, Price : 1,SPOP : 0
+00:10:39 Load Cash Item List, Type : 13, Index : 48, Amount : 1, UseTime : 0, Category : 3, Price : 1,SPOP : 0
+00:10:39 Load Cash Item List, Type : 13, Index : 48, Amount : 10, UseTime : 0, Category : 3, Price : 2,SPOP : 0
+00:10:39 Load Cash Item List, Type : 14, Index : 63, Amount : 10, UseTime : 0, Category : 3, Price : 5,SPOP : 0
+00:10:39 Load Cash Item List, Type : 14, Index : 64, Amount : 10, UseTime : 0, Category : 3, Price : 5,SPOP : 0
+00:10:39 Load Cash Item List, Type : 14, Index : 65, Amount : 10, UseTime : 0, Category : 3, Price : 5,SPOP : 0
+00:10:39 Load Cash Item List, Type : 14, Index : 66, Amount : 10, UseTime : 0, Category : 3, Price : 5,SPOP : 0
+00:10:39 Load Cash Item List, Type : 14, Index : 67, Amount : 10, UseTime : 0, Category : 3, Price : 5,SPOP : 0
+00:10:39 Load Cash Item List, Type : 14, Index : 68, Amount : 10, UseTime : 0, Category : 3, Price : 5,SPOP : 0
+00:10:39 Load Cash Item List, Type : 14, Index : 69, Amount : 10, UseTime : 0, Category : 3, Price : 5,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 0, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 0, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 0, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 0, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 0, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 1, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 1, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 1, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 1, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 1, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 2, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 2, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 2, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 2, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 2, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 3, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 3, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 3, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 3, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 3, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 4, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 4, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 4, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 4, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 4, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 5, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 5, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 5, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 5, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 5, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 6, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 6, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 6, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 6, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 6, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 7, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 7, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 7, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 7, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 7, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 8, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 8, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 8, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 8, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 8, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 9, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 9, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 9, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 9, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 9, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 10, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 10, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 10, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 10, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 10, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 11, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 11, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 11, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 11, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 11, Amount : 1, UseTime : 0, Category : 2, Price : 9,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 12, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 12, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 12, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 12, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 12, Amount : 1, UseTime : 0, Category : 2, Price : 7,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 13, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 13, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 13, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 13, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 13, Amount : 1, UseTime : 0, Category : 2, Price : 8,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 14, Amount : 1, UseTime : 0, Category : 2, Price : 6,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 14, Amount : 1, UseTime : 0, Category : 2, Price : 6,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 14, Amount : 1, UseTime : 0, Category : 2, Price : 6,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 14, Amount : 1, UseTime : 0, Category : 2, Price : 6,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 14, Amount : 1, UseTime : 0, Category : 2, Price : 6,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 15, Amount : 1, UseTime : 0, Category : 2, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 15, Amount : 1, UseTime : 0, Category : 2, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 15, Amount : 1, UseTime : 0, Category : 2, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 15, Amount : 1, UseTime : 0, Category : 2, Price : 13,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 16, Amount : 1, UseTime : 0, Category : 2, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 16, Amount : 1, UseTime : 0, Category : 2, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 16, Amount : 1, UseTime : 0, Category : 2, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 16, Amount : 1, UseTime : 0, Category : 2, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 16, Amount : 1, UseTime : 0, Category : 2, Price : 12,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 17, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 17, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 17, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 17, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 17, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 18, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 18, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 18, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 18, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 18, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 19, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 19, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 19, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 19, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 19, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 20, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 20, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 20, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 20, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 21, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 21, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 21, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 21, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 21, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 25, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 25, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 25, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 25, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 25, Amount : 1, UseTime : 0, Category : 2, Price : 15,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 26, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 26, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 26, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 26, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 26, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 27, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 27, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 27, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 27, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 27, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 28, Amount : 1, UseTime : 0, Category : 2, Price : 21,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 28, Amount : 1, UseTime : 0, Category : 2, Price : 21,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 28, Amount : 1, UseTime : 0, Category : 2, Price : 21,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 28, Amount : 1, UseTime : 0, Category : 2, Price : 21,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 28, Amount : 1, UseTime : 0, Category : 2, Price : 21,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 29, Amount : 1, UseTime : 0, Category : 2, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 29, Amount : 1, UseTime : 0, Category : 2, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 29, Amount : 1, UseTime : 0, Category : 2, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 29, Amount : 1, UseTime : 0, Category : 2, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 29, Amount : 1, UseTime : 0, Category : 2, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 23, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 23, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 23, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 23, Amount : 1, UseTime : 0, Category : 2, Price : 2,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 22, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 22, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 22, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 22, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 22, Amount : 1, UseTime : 0, Category : 2, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 24, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 24, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 24, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 24, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 24, Amount : 1, UseTime : 0, Category : 2, Price : 19,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 30, Amount : 1, UseTime : 0, Category : 1, Price : 24,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 30, Amount : 1, UseTime : 0, Category : 1, Price : 24,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 30, Amount : 1, UseTime : 0, Category : 1, Price : 24,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 30, Amount : 1, UseTime : 0, Category : 1, Price : 24,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 30, Amount : 1, UseTime : 0, Category : 1, Price : 24,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 31, Amount : 1, UseTime : 0, Category : 1, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 31, Amount : 1, UseTime : 0, Category : 1, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 31, Amount : 1, UseTime : 0, Category : 1, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 31, Amount : 1, UseTime : 0, Category : 1, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 31, Amount : 1, UseTime : 0, Category : 1, Price : 22,SPOP : 0
+00:10:39 Load Cash Item List, Type : 8, Index : 32, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 0
+00:10:39 Load Cash Item List, Type : 9, Index : 32, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 0
+00:10:39 Load Cash Item List, Type : 10, Index : 32, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 0
+00:10:39 Load Cash Item List, Type : 11, Index : 32, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 0
+00:10:39 Load Cash Item List, Type : 7, Index : 33, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 8, Index : 33, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 9, Index : 33, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 10, Index : 33, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 11, Index : 33, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 7, Index : 34, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 8, Index : 34, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 9, Index : 34, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 10, Index : 34, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 11, Index : 34, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 7, Index : 35, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 8, Index : 35, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 9, Index : 35, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 10, Index : 35, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 11, Index : 35, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 7, Index : 36, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 8, Index : 36, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 9, Index : 36, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 10, Index : 36, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 11, Index : 36, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 7, Index : 37, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 8, Index : 37, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 9, Index : 37, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 10, Index : 37, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 11, Index : 37, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 7, Index : 38, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 8, Index : 38, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 9, Index : 38, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 10, Index : 38, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 11, Index : 38, Amount : 1, UseTime : 0, Category : 1, Price : 26,SPOP : 2
+00:10:39 Load Cash Item List, Type : 12, Index : 5, Amount : 1, UseTime : 0, Category : 3, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 12, Index : 4, Amount : 1, UseTime : 0, Category : 3, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 12, Index : 3, Amount : 1, UseTime : 0, Category : 3, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 12, Index : 6, Amount : 1, UseTime : 0, Category : 3, Price : 25,SPOP : 0
+00:10:39 Load Cash Item List, Type : 13, Index : 30, Amount : 1, UseTime : 0, Category : 3, Price : 25,SPOP : 0
+00:10:39 Load Cash Item, Count:335
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 22
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 23
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 24
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 25
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 26
+00:10:39 Load Branch Item List, BranchID : 1 ItemGuid : 116
+00:10:39 Load Branch Item List, BranchID : 1 ItemGuid : 117
+00:10:39 Load Branch Item List, BranchID : 1 ItemGuid : 118
+00:10:39 Load Branch Item List, BranchID : 3 ItemGuid : 119
+00:10:39 Load Branch Item List, BranchID : 3 ItemGuid : 120
+00:10:39 Load Branch Item List, BranchID : 3 ItemGuid : 121
+00:10:39 Load Branch Item List, BranchID : 3 ItemGuid : 122
+00:10:39 Load Branch Item List, BranchID : 3 ItemGuid : 123
+00:10:39 Load Branch Item List, BranchID : 3 ItemGuid : 124
+00:10:39 Load Branch Item List, BranchID : 3 ItemGuid : 125
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 301
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 302
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 303
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 304
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 305
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 306
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 307
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 308
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 309
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 310
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 311
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 312
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 313
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 314
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 315
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 316
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 317
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 318
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 319
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 320
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 321
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 322
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 323
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 324
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 325
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 326
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 327
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 328
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 329
+00:10:39 Load Branch Item List, BranchID : 2 ItemGuid : 330
+00:10:39 Load Branch Item List,Count : 45
+00:10:39 [ANTI-HACKING][IP LIST] IP : [127.0.0.1]
+00:10:39 [IP List Load]-AllowableIpList.txt file is Loaded
+00:10:39 WZItemShopServer Run...
+00:10:39 Connecting to SQL server...
+00:10:40 SQL server connected !
+00:11:21 127.0.0.1:2988 Connected!
+00:11:21 127.0.0.1:2988 Send Cash Branch Item List to GameServer.
+00:11:21 127.0.0.1:2988 Send Cash Item List to GameServer.
+00:12:26 select cash from memb_info where memb_guid = 10
+00:12:51 select cash from memb_info where memb_guid = 11
+00:15:10 select cash from memb_info where memb_guid = 9
+00:15:15 127.0.0.1:2988 DisConnected!
+00:15:20 127.0.0.1:3117 Connected!
+00:15:20 127.0.0.1:3117 Send Cash Branch Item List to GameServer.
+00:15:20 127.0.0.1:3117 Send Cash Item List to GameServer.
+00:15:35 select cash from memb_info where memb_guid = 10
+00:15:39 select cash from memb_info where memb_guid = 9
+00:16:27 select cash from memb_info where memb_guid = 11
+00:19:46 select cash from memb_info where memb_guid = 9
+00:24:09 select cash from memb_info where memb_guid = 10
+00:24:36 select cash from memb_info where memb_guid = 10
+00:24:54 select cash from memb_info where memb_guid = 10
+00:26:19 select cash from memb_info where memb_guid = 14
+00:27:26 select cash from memb_info where memb_guid = 14
+00:27:44 127.0.0.1:3117 Send Cash Branch Item List to GameServer.
+00:27:44 127.0.0.1:3117 Send Cash Item List to GameServer.
+00:29:53 select cash from memb_info where memb_guid = 10
+00:30:14 select cash from memb_info where memb_guid = 10
+00:30:45 select cash from memb_info where memb_guid = 10
+00:31:11 127.0.0.1:3545 Connected!
+00:31:11 127.0.0.1:3545 Send Cash Branch Item List to GameServer.
+00:31:11 127.0.0.1:3545 Send Cash Item List to GameServer.
+00:31:32 select cash from memb_info where memb_guid = 10
+00:31:32 select cash from memb_info where memb_guid = 10
+00:31:35 select cash from memb_info where memb_guid = 10
+00:31:38 select cash from memb_info where memb_guid = 8
+00:31:45 select cash from memb_info where memb_guid = 14
+00:32:04 select cash from memb_info where memb_guid = 10
+00:32:05 select cash from memb_info where memb_guid = 8
+00:37:13 select cash from memb_info where memb_guid = 14
+00:37:51 select cash from memb_info where memb_guid = 14
+00:38:26 select cash from memb_info where memb_guid = 14
+00:38:31 select cash from memb_info where memb_guid = 10
+00:38:31 select cash from memb_info where memb_guid = 11
+00:41:42 select cash from memb_info where memb_guid = 11
+00:47:09 select cash from memb_info where memb_guid = 11
+00:48:19 select cash from memb_info where memb_guid = 14
+00:48:57 select cash from memb_info where memb_guid = 14
+00:49:24 select cash from memb_info where memb_guid = 11
+00:53:42 select cash from memb_info where memb_guid = 11
+00:53:49 select cash from memb_info where memb_guid = 10
+00:54:04 select cash from memb_info where memb_guid = 10
+00:55:11 select cash from memb_info where memb_guid = 10
+00:55:36 select cash from memb_info where memb_guid = 14
+01:00:00 select cash from memb_info where memb_guid = 14
+01:00:56 select cash from memb_info where memb_guid = 14
+01:03:36 select cash from memb_info where memb_guid = 10
+01:03:36 select cash from memb_info where memb_guid = 11
+01:05:54 select cash from memb_info where memb_guid = 10
+01:06:02 select cash from memb_info where memb_guid = 10
+01:09:57 select cash from memb_info where memb_guid = 14
+01:10:26 select cash from memb_info where memb_guid = 10
+01:12:15 select cash from memb_info where memb_guid = 14
+01:15:44 select cash from memb_info where memb_guid = 10
+01:22:49 127.0.0.1:3117 Send Cash Branch Item List to GameServer.
+01:22:49 127.0.0.1:3117 Send Cash Item List to GameServer.
+01:23:00 select cash from memb_info where memb_guid = 10
+01:23:33 127.0.0.1:3117 Send Cash Branch Item List to GameServer.
+01:23:33 127.0.0.1:3117 Send Cash Item List to GameServer.
+01:23:43 select cash from memb_info where memb_guid = 10
+01:24:05 select cash from memb_info where memb_guid = 11
+01:24:46 select cash from memb_info where memb_guid = 9
+01:26:00 127.0.0.1:3117 Send Cash Branch Item List to GameServer.
+01:26:00 127.0.0.1:3117 Send Cash Item List to GameServer.
+01:26:09 select cash from memb_info where memb_guid = 10
+01:31:14 127.0.0.1:3117 Send Cash Branch Item List to GameServer.
+01:31:14 127.0.0.1:3117 Send Cash Item List to GameServer.
+01:31:17 127.0.0.1:3545 DisConnected!
+01:51:30 127.0.0.1:3117 Send Cash Branch Item List to GameServer.
+01:51:30 127.0.0.1:3117 Send Cash Item List to GameServer.
+01:51:43 select cash from memb_info where memb_guid = 10
+01:56:22 127.0.0.1:3117 Send Cash Branch Item List to GameServer.
+01:56:22 127.0.0.1:3117 Send Cash Item List to GameServer.

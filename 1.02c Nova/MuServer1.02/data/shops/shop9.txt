@@ -1,0 +1,26 @@
+//==================================================================================================================
+//Project: KinhoMace - Season II English
+//Version: GameServer 1.00.18 & 1.00.19
+//Information: shop 9 : Noria Eo the Craftsman
+//==================================================================================================================
+7               13               6               255               0               1               1  		0 //Spirit Helm
+7               12               6               255               0               1               1  		0 //Wind Helm
+7               19               6               255               0               1               1  		0 //Divine Helm
+4               6                6               255               1               1               1  		0 //Chaos Nature Bow
+8               13               6               255               0               1               1  		0 //Spirit Armor
+8               12               6               255               0               1               1  		0 //Wind Armor
+8               19               6               255               0               1               1  		0 //Divine Armor
+9               13               6               255               0               1               1  		0 //Spirit Pants
+9               12               6               255               0               1               1  		0 //Wind Pants
+9               19               6               255               0               1               1  		0 //Divine Pants
+4               20               6               255               1               1               1  		0 //Arrow Viper Bow
+10              13               6               255               0               1               1  		0 //Spirit Gloves
+10              12               6               255               0               1               1  		0 //Wind Gloves
+10              19               6               255               0               1               1  		0 //Divine Gloves
+11              13               6               255               0               1               1  		0 //Spirit Boots
+11              12               6               255               0               1               1  		0 //Wind Boots
+11              19               6               255               0               1               1  		0 //Divine Boots
+4               18               6               255               1               1               1  		0 //Divine Crossbow of Archangel
+4               15               0               255               0               0               0  		0 //Arrows
+4               7                0               255               0               0               0  		0 //Bolts
+end

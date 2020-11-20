@@ -1,0 +1,52 @@
+// ================================================== //
+// # Season 2.0 - serverinfo.dat 		    # //
+// # MU Online Project - © KinhoMace       	    # //
+// ================================================== //
+
+//------------------------------------------------------//
+//	        Public FTP Server Configs	        //
+//------------------------------------------------------//
+[FTPServerInfo]
+Address 		= Your IP
+Port    		= 21
+ID      		= Your FTP Account
+PASS			= Your FTP Password
+
+//------------------------------------------------------//
+//	        Local FTP Server Configs	        //
+//------------------------------------------------------//
+[FTPServerInfo_Local]
+Address 		= Your IP
+Port    		= 21
+ID      		= Your FTP Account
+PASS			= Your FTP Password
+
+//------------------------------------------------------//
+//	           Webserver Configs	        	//
+//------------------------------------------------------//
+[HTTPServerInfo]
+HTTPAddress 		= Your IP
+Port   			= 21
+ID      		= Your FTP Account
+PASS			= Your FTP Password
+
+//------------------------------------------------------//
+//	         Client Version Configs	       	 	//
+//------------------------------------------------------//
+[GameServerInfo]
+ClientVersion 		= 1.02.03
+ClientVersion_TEST 	= 1.02.03
+VersionFileName 	= Version.wvd
+DownLoadType 		= 0
+
+//------------------------------------------------------//
+//	         Test Connection Configs	        //
+//------------------------------------------------------//
+[TestConnServerInfo]
+Address 		= Your IP
+
+//------------------------------------------------------//
+//	             Network Configs	       		//
+//------------------------------------------------------//
+[LocalNetworkConnect]
+LocalConnectOnly 	= 0

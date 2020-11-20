@@ -1,0 +1,349 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - servidor.season              \\	                
+//      MU Online dxteam - © SuPrEmO              \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\   	 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: não exclua nenhuma linha, se não resultará em erros ou até mesmo crash.
+// OBSERVAÇÃO: caso você não use todos os vips simplesmente ignore a linha e passe para a próxima configuração.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  gameserver | joinserver | dataserver | exdbserver  | udpport  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       55901       55970       55960         55906        60006
+
+// gameserver = porta do gameserver.
+// joinserver = porta do joinserver.
+// dataserver = porta do dataserver.
+// exdbserver = porta do exdbserver.
+// udpport    = porta udp do servidor (cada gameserver tem que ter uma diferente).
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  checksum | charid | guildid | timeitem | ccplayer | allplayer  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       1         0         0         60          2          10
+
+// checksum  = 1: desativa checksum e 0 : ativa.
+// charid    = 1: deletar o char sem verificar o personal ID, 0: verifica.
+// guildid   = 1: deletar a guild sem verificar o personal ID, 0: verifica.
+// timeitem  = tempo dos items em segundos no chão.
+// ccplayer  = minimo de players requerido para começar o chaos castle.
+// allplayer = minimo de players na guild para começar uma aliança.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  manaagi | manaene | manadiv \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+     800        1100     1000
+
+// manaagi = mana shield agilidade.
+// manaene = mana shield energia.
+// manadiv = mana shield divisor.
+
+//~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  greatvit | greatene  \\
+//~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+     350          400
+
+// greatvit = great fortitude vitalidade.
+// greatene = great fortitude energia.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  party2 | party3 | party4 | party5  | setparty3  | setparty4  | setparty5  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+     160      180      200      220        230          270          300
+
+// party2    = experiencia 2 jogadores.
+// party3    = experiencia 3 jogadores.
+// party4    = experiencia 4 jogadores.
+// party5    = experiencia 5 jogadores.
+// setparty3 = set party experiencia 3 jogadores.
+// setparty4 = set party experiencia 4 jogadores.
+// setparty5 = set party experiencia 5 jogadores.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  twistslash | ragefulblow | deathstab | greatfort  | penetration  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+        1             1            1           1            1           
+
+// twistslash  = level minimo para usar a twisting slash.
+// ragefulblow = level minimo para usar a rageful blow.
+// deathstab   = level minimo para usar a death stab.
+// greatfort   = level minimo para usar a greater fortitude.
+// penetration = level minimo para usar a penetration.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  dropex | dropexskill | dropexluck | dropskill  | dropluck  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+     200       100           1           20           5
+
+dropex      = rate de drops de item excellente do servidor (máximo 10000).
+dropexskill = rate de drops de item com skill excellente do servidor (máximo 100).
+dropexluck  = rate de drops de item com luck excellente do servidor (máximo 100).
+dropskill   = rate de drops de item com skill do servidor (máximo 100).
+dropluck    = rate de drops de item com luck do servidor (máximo 100).
+
+//não retire esse end
+end
+1
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  pointsdl | pointsmg | pointsothers  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       7          7           5
+
+// pointsdl     = pontos ganho a cada level por dark lord.
+// pointsmg     = pontos ganho a cada level por magic gladiador.
+// pointsothers = pontos ganho a cada level nas demais classes.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  apple | smallhealing | mediumhealing | largehealing  | div  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+      10         20             30             40          100
+
+// apple         = rate de vitalidade para apple.
+// smallhealing  = rate de vitalidade para small healing potion.
+// mediumhealing = rate de vitalidade para medium healing potion.
+// largehealing  = rate de vitalidade para large healing potion.
+// div           = divisor ( (seu life * rate) / div).
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  smallmana | div | mediummana | div | largemana  | div  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       20       100       30       100       40       100   
+
+// smallmana  = rate de vitalidade para small mana potion.
+// mediummana = rate de vitalidade para medium mana potion.
+// largemana  = rate de vitalidade para large mana potion.
+// div        = divisor ( (seu life * rate) / div). 
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  smallAG | div | mediumAG | div | largeAG  | div  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       5       100     10      100      20      100   
+
+// smallAG  = rate de shield para small AG potion.
+// mediumAG = rate de shield para medium AG potion.
+// largeAG  = rate de shield para large AG potion.
+// div      = divisor ( (seu shield * rate) / div).
+// esse potion é diferente do SD, pois ele tem recuperação de life também (não configuravel).
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  smallSD | div | mediumSD | div | largeSD  | div  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       25     100     35       100      45      100   
+
+// smallSD  = rate de shield para small SD potion.
+// mediumSD = rate de shield para medium SD potion.
+// largeSD  = rate de shield para large SD potion.
+// div      = divisor ( (seu shield * rate) / div). 
+
+
+//~~~~~~~~~~~~~~~~~~\\ 
+//  message | type  \\
+//~~~~~~~~~~~~~~~~~~\\ 
+
+    "seja bem vindo %s, você é free"               0
+    "seja bem vindo %s, você é vip Troia"                0
+    "seja bem vindo %s, você é vip Gold"        0
+    "seja bem vindo %s, você é vip estrela"        0
+
+// message    = mensagem de boas vindas ao logar no servidor de acordo com o vip.
+// type       = tipo da mensagem, 0: tela de GM, 1: azul no canto, 2: mensagem verde na tela, 3: vermelha no canto.
+// OBSERVAÇÃO = caso não ultilize todos os vips, ignore as mensagem dos outros, ou seja, não exclua a linha.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  freeexp | vipexp  | vip+exp  | vip++exp  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+      1000       3000       3000        250
+
+// freeexp  = experiência para jogadores free.
+// vipexp   = experiência para jogadores vip (1).
+// vip+exp  = experiência para jogadores vip (2).
+// vip++exp = experiência para jogadores vip (3).
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  freedrop | vipdrop  | vip+drop  | vip++drop  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       30         75         75         30
+
+// freedrop  = drops para jogadores free.
+// vipdrop   = drops para jogadores vip (1).
+// vip+drop  = drops para jogadores vip (2).
+// vip++drop = drops para jogadores vip (3).
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  freesluck | vipsluck  | vip+sluck  | vip++sluck  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       45         90         90          100
+
+// OBSERVAÇÃO = 100 = 100%
+// freesluck  = porcentagem do soul em items com luck para jogadores free.
+// vipsluck   = porcentagem do soul em items com luck para jogadores vip (1).
+// vip+sluck  = porcentagem do soul em items com luck para jogadores vip (2).
+// vip++sluck = porcentagem do soul em items com luck para jogadores vip (3).
+// OBSERVAÇÃO = a freesluck é para todos os tipos de contas, ou seja, apenas ela será de todos os tipos de vip.
+//              não adianta você configurar as outras colunas, elas não funcionarão.
+//              caso você queira a ativação das colunas vipsluck e etc, entre em contato com kinhomace.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  freesnluck | vipsnluck  | vip+snluck  | vip++snluck  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+        50           0           0             0
+
+// OBSERVAÇÃO  = 0 = 100%, 25 = 75% e assim sucessivamente.
+// freesnluck  = porcentagem do soul em items sem luck para jogadores free.
+// vipsnluck   = porcentagem do soul em items sem luck para jogadores vip (1).
+// vip+snluck  = porcentagem do soul em items sem luck para jogadores vip (2).
+// vip++snluck = porcentagem do soul em items sem luck para jogadores vip (3).
+// OBSERVAÇÃO  = a freesnluck é para todos os tipos de contas, ou seja, apenas ela será de todos os tipos de vip.
+//               não adianta você configurar as outras colunas, elas não funcionarão.
+//               caso você queira a ativação das colunas vipsnluck e etc, entre em contato com kinhomace.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  freelife | viplife  | vip+life  | vip++life  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       50          0          0            0
+
+// OBSERVAÇÃO = 0: 100%, 25: 75% e assim sucessivamente.
+// freelife   = porcentagem do life em items para jogadores free.
+// vipslife   = porcentagem do life em items para jogadores vip (1).
+// vip+life   = porcentagem do life em items para jogadores vip (2).
+// vip++life  = porcentagem do life em items para jogadores vip (3).
+// OBSERVAÇÃO  = a freelife é para todos os tipos de contas, ou seja, apenas ela será de todos os tipos de vip.
+//               não adianta você configurar as outras colunas, elas não funcionarão.
+//               caso você queira a ativação das colunas viplife e etc, entre em contato com kinhomace.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  freesoldier | vipsoldier  | vip+soldier  | vip++soldier  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       220           400            400            400
+
+// freesoldier   = level máximo pra buff da elf soldier para jogadores free.
+// vipsoldier    = level máximo pra buff da elf soldier para jogadores vip (1).
+// vip+soldier   = level máximo pra buff da elf soldier para jogadores vip (2).
+// vip++soldier  = level máximo pra buff da elf soldier para jogadores vip (3).
+// OBSERVAÇÃO    = a reesoldier é para todos os tipos de contas, ou seja, apenas ela será de todos os tipos de vip.
+//               não adianta você configurar as outras colunas, elas não funcionarão.
+//               caso você queira a ativação das colunas vipsoldier e etc, entre em contato com kinhomace.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  freemixlevel | vipmixlevel  | vip+mixlevel  | vip++mixlevel  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+//mix item + 10
+        50             80              70              70
+//mix item + 10 ~ adicional de luck
+        5              15              10              10    
+
+//mix item + 11
+        40             70              75              75
+//mix item + 11 ~ adicional de luck
+        5              15              10              15     
+
+//mix item + 12
+        30             65              75              75
+//mix item + 12 ~ adicional de luck
+        5              15              10              15    
+
+//mix item + 13
+        20             60              75              75
+//mix item + 13 ~ adicional de luck
+        5              15              10              15   
+
+// freemixlevel  = configuração do mix para jogadores free.   
+// vipmixlevel   = configuração do mix para jogadores vip (1).   
+// vip+mixlevel  = configuração do mix para jogadores vip (2).   
+// vip++mixlevel = configuração do mix para jogadores vip (3).   
+
+//mix item + 10                     = rate para mixar item + 10
+//mix item + 10 ~ adicional de luck = adicional de rate para items com luck
+//mix item + 11                     = rate para mixar item + 11
+//mix item + 11 ~ adicional de luck = adicional de rate para items com luck
+//mix item + 12                     = rate para mixar item + 12
+//mix item + 12 ~ adicional de luck = adicional de rate para items com luck
+//mix item + 13                     = rate para mixar item + 13
+//mix item + 13 ~ adicional de luck = adicional de rate para items com luck
+
+// OBSERVAÇÃO    = a freemixlevel é para todos os tipos de contas, ou seja, apenas ela será de todos os tipos de vip.
+//               não adianta você configurar as outras colunas, elas não funcionarão.
+//               caso você queira a ativação das colunas vipmixlevel e etc, entre em contato com kinhomace.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  potionactive | potiontime  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+         0            100
+
+//potionactive = ativa o sistema de anti auto potion.
+//potiontime   = tempo em milisegundos do uso de cada potion.
+
+//~~~~~~~~~~~~~~~~~~~~\\ 
+//  zentype | zenmix  \\
+//~~~~~~~~~~~~~~~~~~~~\\ 
+
+       0        1
+
+//zentype = 0: drops de zen original, 1: drops de zen multiplicado, 2: drops de zen dividido.
+//zenmix  = valor da multiplicação ou divisão de acordo com a configuração acima.
+
+//~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  skillsiege | recuo  \\
+//~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+       1           1
+
+//skillsiege = 0: desativa skill siege, 1: ativa skill siege em qualquer mapa.
+//recuo      = 0: o char recua quando recebe dano, 1: o char não recua quando recebe dano.
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  kundumcount | kundumrate    \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+		5			100
+	
+//kundumcount = 1: quantidade de items dropados do Ilusion of Kundum.
+//kundumrate  = 0: Taxa de drop do Ilusion of Kundum.
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  DarkHorseMixSuccessRate | DarkHorseMixPrice    \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+		80							10000
+			
+//DarkHorseMixSuccessRate = 0: Taxa de Sucesso do Mix Dark Horse.
+//DarkHorseMixPrice  	  = 0: Valor Cobrado pelo Mix.
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  DarkSpiritMixSuccessRate | DarkSpiritMixPrice  | DarkRavenDurabilidade  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+		80							10000					800
+			
+//DarkSpiritMixSuccessRate = 0: Taxa de Sucesso do Mix Dark Spirit.
+//DarkSpiritMixPrice  	   = 0: Valor Cobrado pelo Mix.
+//DarkRavenDurabilidade	   = 0; Durabilidade do DarkRaven
+
+//não retire esse end
+end

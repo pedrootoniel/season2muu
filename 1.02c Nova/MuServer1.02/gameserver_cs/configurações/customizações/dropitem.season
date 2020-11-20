@@ -1,0 +1,54 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - droptitem.season             \\	                
+//      MU Online dxteam - © KinhoMace            \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+  	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\   
+//     index  |  id  |  level | luck | skill |  addopt |  addoptex  |  mapid  |  monster | monstemin | monstemax |  porcent    \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+         14      65       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless 
+         14      63       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      64       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      66       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      67       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      68       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      13       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      14       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      16       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      31       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         14      41       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         12      15       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         13      14       0       0      0        0          0          -1         -1         10         180           15    \\ jewel of bless
+         
+
+
+
+
+
+
+
+
+ 
+
+// index      = index do item.
+// id         = id do item.
+// level      = level do item.
+// luck       = 1: dropará com luck, 0: dropará sem luck.
+// skill      = 1: dropará com skill, 0: dropará sem skill.
+// addopt     = 0: não, 1: 4, 2: 8, 3: 12, 4: 16.
+// addoptex   = número da opção excellent.
+// mapid      = número do mapa que irá dropar ou -1 para todos os mapas.
+// monster    = número do monstro que irá dropar ou -1 para todos os monstros.
+// monsmin    = mínimo de level do monstro.
+// monstermax = máximo de level do monstro.
+// porcent    = porcentagem, máximo 10000.
+
+//não retire esse end
+end

@@ -1,0 +1,25 @@
+18:15:57  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [497]
+18:15:57  Error Thread : GetQueueCompletionStatus()  (131, A conexão da rede foi anulada pelo sistema local.
+)
+
+19:15:39  <<================== Connect Server Starting ==================>>
+
+19:53:19  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [497]
+19:53:19  Error Thread : GetQueueCompletionStatus()  (183, A conexão da rede foi anulada pelo sistema local.
+)
+
+21:56:48  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [241]
+21:56:48  accept() failed with error (183, Foi fornecido um argumento inválido.
+)
+
+21:56:48  Recreate Listen Socket is Succeed. (SID : 1672)
+21:56:48  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [848]
+21:56:48  CreateIoCompletionPort: 183, Parâmetro incorreto.
+
+
+21:56:48  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [978]
+21:56:48  CreateIoCompletionPort failed with error 183, Não é possível criar um arquivo já existente.
+
+
+21:58:37  <<================== Connect Server Starting ==================>>
+

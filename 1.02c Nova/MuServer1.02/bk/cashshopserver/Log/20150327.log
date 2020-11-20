@@ -1,0 +1,81 @@
+00:10:23 select cash from memb_info where memb_guid = 7
+01:28:29 select cash from memb_info where memb_guid = 7
+01:32:36 select cash from memb_info where memb_guid = 7
+01:32:36 select cash from memb_info where memb_guid = 7
+01:33:37 select cash from memb_info where memb_guid = 7
+01:33:37 update memb_info set cash = 1998 where memb_guid = 7
+01:33:37 select cash from memb_info where memb_guid = 7
+01:34:12 select cash from memb_info where memb_guid = 7
+01:34:12 update memb_info set cash = 1969 where memb_guid = 7
+01:34:13 select cash from memb_info where memb_guid = 7
+01:34:35 select cash from memb_info where memb_guid = 7
+01:35:22 select cash from memb_info where memb_guid = 7
+01:35:30 select cash from memb_info where memb_guid = 7
+01:35:35 select cash from memb_info where memb_guid = 7
+01:35:42 select cash from memb_info where memb_guid = 7
+01:35:46 select cash from memb_info where memb_guid = 7
+10:11:45 select cash from memb_info where memb_guid = 7
+10:12:49 select cash from memb_info where memb_guid = 7
+10:12:49 select cash from memb_info where memb_guid = 7
+10:12:54 select cash from memb_info where memb_guid = 7
+10:22:46 select cash from memb_info where memb_guid = 7
+10:23:13 127.0.0.1:52376 Send Cash Branch Item List to GameServer.
+10:23:13 127.0.0.1:52376 Send Cash Item List to GameServer.
+10:26:42 select cash from memb_info where memb_guid = 7
+11:25:57 select cash from memb_info where memb_guid = 7
+11:28:47 select cash from memb_info where memb_guid = 7
+11:33:01 select cash from memb_info where memb_guid = 7
+11:33:29 select cash from memb_info where memb_guid = 7
+11:37:11 select cash from memb_info where memb_guid = 7
+13:25:37 select cash from memb_info where memb_guid = 7
+14:08:12 select cash from memb_info where memb_guid = 11
+14:17:45 select cash from memb_info where memb_guid = 11
+14:17:57 select cash from memb_info where memb_guid = 11
+14:17:57 select cash from memb_info where memb_guid = 11
+14:27:41 select cash from memb_info where memb_guid = 7
+15:52:13 127.0.0.1:52376 DisConnected!
+15:54:16 127.0.0.1:53389 Connected!
+15:54:16 127.0.0.1:53389 Send Cash Branch Item List to GameServer.
+15:54:16 127.0.0.1:53389 Send Cash Item List to GameServer.
+15:54:22 127.0.0.1:53389 DisConnected!
+16:03:16 127.0.0.1:53395 Connected!
+16:03:16 127.0.0.1:53395 Send Cash Branch Item List to GameServer.
+16:03:16 127.0.0.1:53395 Send Cash Item List to GameServer.
+16:04:59 select cash from memb_info where memb_guid = 7
+16:15:34 select cash from memb_info where memb_guid = 7
+16:16:25 select cash from memb_info where memb_guid = 7
+16:19:31 select cash from memb_info where memb_guid = 7
+16:20:31 select cash from memb_info where memb_guid = 7
+16:21:39 select cash from memb_info where memb_guid = 7
+16:22:12 select cash from memb_info where memb_guid = 7
+16:23:40 select cash from memb_info where memb_guid = 7
+16:24:23 select cash from memb_info where memb_guid = 7
+16:25:52 select cash from memb_info where memb_guid = 7
+16:26:23 127.0.0.1:53395 Send Cash Branch Item List to GameServer.
+16:26:23 127.0.0.1:53395 Send Cash Item List to GameServer.
+16:26:35 select cash from memb_info where memb_guid = 7
+16:27:09 127.0.0.1:53395 Send Cash Branch Item List to GameServer.
+16:27:09 127.0.0.1:53395 Send Cash Item List to GameServer.
+16:27:24 select cash from memb_info where memb_guid = 7
+16:27:42 127.0.0.1:53395 Send Cash Branch Item List to GameServer.
+16:27:42 127.0.0.1:53395 Send Cash Item List to GameServer.
+16:27:46 select cash from memb_info where memb_guid = 7
+16:28:12 127.0.0.1:53395 Send Cash Branch Item List to GameServer.
+16:28:12 127.0.0.1:53395 Send Cash Item List to GameServer.
+16:28:24 select cash from memb_info where memb_guid = 7
+16:31:22 127.0.0.1:53395 Send Cash Branch Item List to GameServer.
+16:31:22 127.0.0.1:53395 Send Cash Item List to GameServer.
+16:32:30 select cash from memb_info where memb_guid = 7
+16:33:00 select cash from memb_info where memb_guid = 7
+16:44:23 127.0.0.1:53395 Send Cash Branch Item List to GameServer.
+16:44:23 127.0.0.1:53395 Send Cash Item List to GameServer.
+16:44:34 select cash from memb_info where memb_guid = 7
+16:46:39 select cash from memb_info where memb_guid = 7
+16:48:08 select cash from memb_info where memb_guid = 7
+16:52:03 select cash from memb_info where memb_guid = 7
+16:53:19 127.0.0.1:53395 Send Cash Branch Item List to GameServer.
+16:53:19 127.0.0.1:53395 Send Cash Item List to GameServer.
+16:53:22 select cash from memb_info where memb_guid = 7
+16:54:08 select cash from memb_info where memb_guid = 7
+16:55:53 select cash from memb_info where memb_guid = 7
+17:09:45 select cash from memb_info where memb_guid = 7

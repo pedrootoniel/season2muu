@@ -1,0 +1,48 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - structnoticia.season         \\	                
+//      MU Online dxteam - © KinhoMace            \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\   
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~\\ 
+//  active  |  time  \\
+//~~~~~~~~~~~~~~~~~~~\\ 
+
+      1         120
+
+// active = 1: ativa sistema de notícias, 0: desativa.
+// time   = tempo em segundos para cada notícia.
+	
+//não retire esse end
+end
+ 
+1
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~\\ 
+//  message  |  type  \\
+//~~~~~~~~~~~~~~~~~~~~\\ 
+
+    "MuTroia, Diversão é Qualidade é aqui !"                          0
+    "MuTroia, Mapa Vip com o Melhor Drop /lot Para Entrar em mapa vip"                          0
+    "MuTroia, Novas Joias, Blood Castle, Chaos Castle e Devil Square !"                          0
+    "MuTroia, Segura Concorencia Porque Estamos No Ar !"                          0
+    "MuTroia, Se Deus é por nós quem séra contra nós ?"                          0
+    "MuTroia, Você garante lealdade e nós garantimos Qualidade !"                          0
+    "MuTroia, Dúvidas ? Acesse Agora MuTroia.NeT Tickts Abertos."                          0
+    "MuTroia, Acesse Nosso Forum, Forum.Mutroia.NeT e Fique Por dentro das Novidades."                          0
+    "MuTroia, Eventos Todos os Dias 15:00 e 21:00 !"                          0
+
+// message = mensagem a ser enviada.
+// type 0  = mensagem na tela de GM
+// type 1  = mensagem na canto da tela
+// type 2  = mensagem no meio da tela de guild
+// type 3  = mensagem vermelha no canto da tela
+
+//não retire esse end
+end

@@ -1,0 +1,4 @@
+18:14:52  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [497]
+18:14:52  Error Thread : GetQueueCompletionStatus()  (131, A conexão da rede foi anulada pelo sistema local.
+)
+

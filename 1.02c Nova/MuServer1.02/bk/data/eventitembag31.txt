@@ -1,0 +1,76 @@
+// ================================================== //
+// # Season 2.0 - eventitembag31.txt 	 	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// # Information: Balgass                           # //
+// ================================================== //
+
+//=================================================================================
+//Index MapIndex DropFlag  MinMonsterLevel  MaxMonsterLevel
+//=================================================================================
+0
+0	0	0	1000	
+1	0	0	1000														
+2	0	0	1000															
+3	0	0	1000															
+4	0	0	1000															
+5	0	0	1000														
+6	0	0	1000															
+7	0	0	1000														
+8	0	0	1000															
+9	0	0	1000															
+10	0	0	1000															
+end
+
+//=========================================================================================================================																					
+//EventItemDropRate/1000
+//ItemDropRate/100  ExItemDropRate/1000
+//EventName 	DropZen     EventItemType  EventItemIndex   EventItemLevel  EventItemDropRate 	ItemDropRate ExItemDropRate
+//=========================================================================================================================
+1
+"Balgass"	1000000		0		0		0		0		100		0
+end
+
+
+//=================================================================================
+//Type Index  MinLevel MaxLevel Skill  Luck  AddOption  Exitemflag
+//=================================================================================
+2
+r
+2	15	4	7	1	1	1	1	//Shining Scepter
+4	22	4	7	1	1	1	1	//Albatross Bow
+5	13	4	7	0	1	1	1	//Platina Staff
+7	34	4	7	0	1	1	1	//Ashcrow Helm
+7	35	4	7	0	1	1	1	//Eclipse Helm
+7	36	4	7	0	1	1	1	//Iris Helm
+7	38	4	7	0	1	1	1	//Glorious Mask
+
+8	34	4	7	0	1	1	1	//Ashcrow Armor
+8	35	4	7	0	1	1	1	//Eclipse Armor
+8	36	4	7	0	1	1	1	//Iris Armor
+8	37	4	7	0	1	1	1	//Valiant Armor
+8	38	4	7	0	1	1	1	//Glorious Armor
+
+9	34	4	7	0	1	1	1	//Ashcrow Armor
+9	35	4	7	0	1	1	1	//Eclipse Pants
+9	36	4	7	0	1	1	1	//Iris Pants
+9	37	4	7	0	1	1	1	//Valiant Pants
+9	38	4	7	0	1	1	1	//Glorious Pants
+
+10	34	4	7	0	1	1	1	//Ashcrow Gloves
+10	35	4	7	0	1	1	1	//Eclipse Gloves
+10	36	4	7	0	1	1	1	//Iris Gloves
+10	37	4	7	0	1	1	1	//Valiant Gloves
+10	38	4	7	0	1	1	1	//Glorious Pants
+
+11	34	4	7	0	1	1	1	//Ashcrow Boots
+11	35	4	7	0	1	1	1	//Eclipse Boots
+11	36	4	7	0	1	1	1	//Iris Boots
+11	37	4	7	0	1	1	1	//Valiant Boots
+11	38	4	7	0	1	1	1	//Glorious Boots
+
+12	3	4	7	0	1	1	0	//Wings of Spirits
+12	4	4	7	0	1	1	0	//Wings of Soul
+12	5	4	7	0	1	1	0	//Wings of Dragon
+12	6	4	7	0	1	1	0	//Wings of Darkness
+13	30	4	7	0	1	1	0	//Cape of Lord
+end

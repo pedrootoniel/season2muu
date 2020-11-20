@@ -1,0 +1,19 @@
+00:00:40 127.0.0.1:5428 DisConnected!
+00:01:31 127.0.0.1:6359 Connected!
+00:01:31 127.0.0.1:6359 Send Cash Branch Item List to GameServer.
+00:01:31 127.0.0.1:6359 Send Cash Item List to GameServer.
+00:02:27 select cash from memb_info where memb_guid = 10
+00:27:22 select cash from memb_info where memb_guid = 10
+00:28:26 select cash from memb_info where memb_guid = 10
+00:28:44 select cash from memb_info where memb_guid = 10
+00:28:56 select cash from memb_info where memb_guid = 10
+00:29:41 select cash from memb_info where memb_guid = 10
+00:39:18 127.0.0.1:6359 DisConnected!
+00:39:23 127.0.0.1:7841 Connected!
+00:39:23 127.0.0.1:7841 Send Cash Branch Item List to GameServer.
+00:39:23 127.0.0.1:7841 Send Cash Item List to GameServer.
+00:39:53 select cash from memb_info where memb_guid = 10
+00:46:22 select cash from memb_info where memb_guid = 10
+01:08:20 select cash from memb_info where memb_guid = 10
+01:11:54 select cash from memb_info where memb_guid = 10
+01:14:56 select cash from memb_info where memb_guid = 10

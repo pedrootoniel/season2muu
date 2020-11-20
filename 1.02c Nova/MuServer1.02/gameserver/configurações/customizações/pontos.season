@@ -1,0 +1,48 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - servidor.season              \\	                
+//      MU Online dxteam - © SuPrEmO              \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+// OBSERVAÇÃO: não apague nenhuma linha, apenas configure.
+ 	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  strenght | agility | vitality | energy  | leadership  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+//dark wizard
+      32767      32767     32767     32767
+
+//soul master
+      32767      32767     32767     32767
+
+//dark knight
+      32767      32767     32767     32767
+
+//blade knight
+      32767      32767     32767     32767
+
+//fairy elf
+      32767      32767     32767     32767
+
+//muse elf
+      32767      32767     32767     32767
+
+//magic gladiador
+      32767      32767     32767     32767
+
+//dark lord
+      32767      32767     32767     32767       32767
+
+// strenght   = máximo de força de acordo com a classe indicada.
+// agility    = máximo de agilidade de acordo com a classe indicada.
+// vitality   = máximo de vitalidade de acordo com a classe indicada.
+// energy     = máximo de energia de acordo com a classe indicada.
+// leadership = máximo de comando de acordo com a classe indicada.
+
+//não retire esse end
+end

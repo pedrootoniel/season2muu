@@ -1,0 +1,21 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - database.season              \\	                
+//      MU Online dxteam - © KinhoMace            \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\   	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~\\ 
+//   query & table   \\
+//~~~~~~~~~~~~~~~~~~~\\ 
+
+      "SELECT vip FROM MEMB_INFO WHERE memb___id = :1"               
+      "vip"
+
+      "SELECT Resets FROM Character WHERE Name = :1"               
+      "Resets"
+
+      "UPDATE Character set Resets = Resets + 1 WHERE Name = :1"
+
+//não retire esse end
+end

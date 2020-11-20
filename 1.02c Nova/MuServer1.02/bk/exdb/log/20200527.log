@@ -1,0 +1,202 @@
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_CGuid]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendList]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendMail]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendMain]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_WaitFriend]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_FriendAdd]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_FriendDel]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WaitFriendAdd]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_GuildCreate]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WaitFriendDel]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WriteMail]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_DelMail]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+05:22:09p exec WZ_Get_DBID
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[Guild]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[GuildMember]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_GuildCreate]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+05:22:09p select count(*) from Guild
+05:22:09p select count(*) from Guild
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[MuCastle_SIEGE_GUILDLIST]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+05:22:09p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_CheckSiegeGuildList]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+ GuildOnOff system : 0 Count: 1
+05:22:09p SELECT * FROM Guild
+Total 0 / Guild data load complete. 0(ms)
+ GuildOnOff system : 1 Count: 0
+05:22:10p ExDB Connected
+Server Connect : index: (0)
+05:22:18p ChatServer Connected : (127.0.0.1) 0
+Server Connect : index: (1)
+05:22:22p GameServer Connected (GS) : 1
+Server Connect : index: (2)
+05:22:24p GameServer Connected (CS) : 2
+05:23:04p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+05:23:04p Friend Login request : Supremo 6400 server:0
+[6400] New Friend Master = Supremo
+05:23:04p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+05:23:04p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+05:23:04p SELECT FriendName FROM T_WaitFriend where GUID=29
+05:23:04p SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+05:23:05p Friend LogOut Queue Name: ( Supremo )
+GameServer Disconnect : Index : (1)
+GameServer Disconnect : Index : (2)
+Server Connect : index: (1)
+05:26:31p GameServer Connected (CS) : 1
+Server Connect : index: (2)
+05:26:39p GameServer Connected (GS) : 2
+05:27:13p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+05:27:13p Friend Login request : Supremo 6400 server:0
+[6400] New Friend Master = Supremo
+05:27:13p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+05:27:13p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+05:27:13p SELECT FriendName FROM T_WaitFriend where GUID=29
+05:27:13p SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+05:27:14p Friend LogOut Queue Name: ( Supremo )
+GameServer Disconnect : Index : (2)
+Server Connect : index: (2)
+05:28:04p GameServer Connected (GS) : 2
+05:28:29p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+05:28:29p Frie06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_CGuid]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendList]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendMail]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendMain]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_WaitFriend]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_FriendAdd]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_FriendDel]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WaitFriendAdd]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_GuildCreate]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WaitFriendDel]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WriteMail]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_DelMail]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+06:09:46p exec WZ_Get_DBID
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[Guild]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[GuildMember]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_GuildCreate]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+06:09:46p select count(*) from Guild
+06:09:46p select count(*) from Guild
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[MuCastle_SIEGE_GUILDLIST]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+06:09:46p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_CheckSiegeGuildList]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+ GuildOnOff system : 0 Count: 1
+06:09:46p SELECT * FROM Guild
+Total 0 / Guild data load complete. 0(ms)
+ GuildOnOff system : 1 Count: 0
+06:09:47p ExDB Connected
+Server Connect : index: (0)
+06:09:55p ChatServer Connected : (127.0.0.1) 0
+Server Connect : index: (1)
+06:09:59p GameServer Connected (GS) : 1
+06:10:22p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+06:10:22p Friend Login request : Supremo 6400 server:0
+[6400] New Friend Master = Supremo
+06:10:22p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+06:10:22p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+06:10:22p SELECT FriendName FROM T_WaitFriend where GUID=29
+06:10:22p SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+06:10:23p Friend LogOut Queue Name: ( Supremo )
+06:11:50p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+06:11:50p Friend Login request : Supremo 6401 server:0
+[6401] New Friend Master = Supremo
+06:11:50p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+06:11:50p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+06:11:50p SELECT FriendName FROM T_WaitFriend where GUID=29
+06:11:50p SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+06:11:51p Friend LogOut Queue Name: ( Supremo )
+GameServer Disconnect : Index : (1)
+Server Connect : index: (1)
+06:24:46p GameServer Connected (GS) : 1
+06:25:16p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+06:25:16p Friend Login request : Supremo 6400 server:0
+[6400] New Friend Master = Supremo
+06:25:16p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+06:25:16p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+06:25:16p SELECT FriendName FROM T_WaitFriend w07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_CGuid]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendList]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendMail]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendMain]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_WaitFriend]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_FriendAdd]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_FriendDel]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WaitFriendAdd]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_GuildCreate]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WaitFriendDel]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WriteMail]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_DelMail]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+07:02:01p exec WZ_Get_DBID
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[Guild]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[GuildMember]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_GuildCreate]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+07:02:01p select count(*) from Guild
+07:02:01p select count(*) from Guild
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[MuCastle_SIEGE_GUILDLIST]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+07:02:01p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_CheckSiegeGuildList]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+ GuildOnOff system : 0 Count: 1
+07:02:01p SELECT * FROM Guild
+Total 0 / Guild data load complete. 0(ms)
+ GuildOnOff system : 1 Count: 0
+07:02:02p ExDB Connected
+Server Connect : index: (0)
+07:02:10p ChatServer Connected : (127.0.0.1) 0
+Server Connect : index: (1)
+07:02:14p GameServer Connected (GS) : 1
+Server Connect : index: (2)
+07:02:16p GameServer Connected (CS) : 2
+07:23:39p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+07:23:39p Friend Login request : Supremo 6402 server:0
+[6402] New Friend Master = Supremo
+07:23:39p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+07:23:39p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+07:23:39p SELECT FriendName FROM T_WaitFriend where GUID=29
+07:23:39p SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+07:24:07p Friend LogOut Queue Name: ( Supremo )
+07:24:51p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+07:24:51p Friend Login request : Supremo 6403 server:0
+[6403] New Friend Master = Supremo
+07:24:51p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+07:24:51p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+07:24:51p SELECT FriendName FROM T_WaitFriend where GUID=29
+07:24:51p SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+07:25:45p Friend LogOut Queue Name: ( Supremo )
+07:37:45p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+07:37:45p Friend Login request : Supremo 6413 server:0
+[6413] New Friend Master = Supremo
+07:37:45p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+07:37:45p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+07:37:45p SELECT FriendName FROM T_WaitFriend where GUID=29
+07:37:45p SELECT MemoIn11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_CGuid]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendList]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendMail]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_FriendMain]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[T_WaitFriend]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_FriendAdd]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_FriendDel]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WaitFriendAdd]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_GuildCreate]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WaitFriendDel]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_WriteMail]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_DelMail]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+11:11:25p exec WZ_Get_DBID
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[Guild]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[GuildMember]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_GuildCreate]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+11:11:25p select count(*) from Guild
+11:11:25p select count(*) from Guild
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[MuCastle_SIEGE_GUILDLIST]') and OBJECTPROPERTY(id, N'IsUserTable')=1
+11:11:25p select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_CheckSiegeGuildList]') and OBJECTPROPERTY(id, N'IsProcedure')=1
+ GuildOnOff system : 0 Count: 1
+11:11:25p SELECT * FROM Guild
+Total 0 / Guild data load complete. 0(ms)
+ GuildOnOff system : 1 Count: 0
+11:11:26p ExDB Connected
+Server Connect : index: (0)
+11:11:34p ChatServer Connected : (127.0.0.1) 0
+Server Connect : index: (1)
+11:11:38p GameServer Connected (GS) : 1
+Server Connect : index: (2)
+11:11:41p GameServer Connected (CS) : 2
+11:46:33p SELECT G_Name, G_Level, G_Status FROM GuildMember where Name='Supremo'
+11:46:33p Friend Login request : Supremo 6400 server:0
+[6400] New Friend Master = Supremo
+11:46:33p SELECT GUID, MemoTotal FROM T_FriendMain where Name = 'Supremo'
+11:46:33p SELECT FriendGuid, FriendName, Del FROM T_FriendList where GUID = 29
+11:46:33p SELECT FriendName FROM T_WaitFriend where GUID=29
+11:46:33p SELECT MemoIndex, FriendName, wDate, Subject, bRead FROM T_FriendMail where GUID=29
+11:47:01p Friend LogOut Queue Name: ( Supremo )

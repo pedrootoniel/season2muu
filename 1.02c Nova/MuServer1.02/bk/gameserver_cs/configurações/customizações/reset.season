@@ -1,0 +1,75 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - servidor.season              \\	                
+//      MU Online dxteam - © SuPrEmO              \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//   active   |   type   |   move   |   leadership  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: não apague nenhuma linha aqui.
+
+//jogadores free
+      1             1          1            0
+//jogadores vip
+      1             1          1            0
+//jogadores vip+
+      1             1          1            0
+//jogadores vip++
+      1             1          1            0
+
+// active       = 1: ativa reset para o jogador de acordo o tipo de conta.
+// type         = 1: reset pontuativo/tabelado, 0: acumulativo, de acordo o tipo de conta.
+// move         = 1: move o jogador, 0: continua no mesmo lugar, de acordo o tipo de conta.
+// leadership   = 1: reseta comando de dl, 0: acumulativo, de acordo o tipo de conta.
+  
+//não retire esse end
+end
+  	 
+1
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//   vip   |   resetmin   |   resetmax   |   level   |   money   |   points  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+
+      0           0             10            150        100000         300
+      0           11            50            200        100000         300
+      0           51            100           300        100000         300
+      0           101           300           350        100000         300
+      0           301           500           400        100000         300
+	  
+      1           0             10            150        100000         350
+      1           11            50            200        100000         350
+      1           51            100           300        100000         350
+      1           101           300           350        100000         350
+      1           301           500           400        100000         350
+	  
+      2           0             10            150        100000         400
+      2           11            50            200        100000         400
+      2           51            100           300        100000         400
+      2           101           300           350        100000         400
+      2           301           500           400        100000         400
+	  
+	  3           0             10            150        100000         400
+      3           11            50            200        100000         400
+      3           51            100           300        100000         400
+      3           101           300           350        100000         400
+      3           301           500           400        100000         400
+
+// vip      = tipo de vip.
+// resetmin = do mínimo de reset.
+// resetmax = até máximo de reset.
+// level    = level que o jogador irá resetar de acordo com o vip - resetmin - resetmax.
+// money    = zen requerido de acordo com as opções acima.
+// points   = pontos a receber caso seja pontuativo, de acordo com as opções acima.
+  
+//não retire esse end
+end

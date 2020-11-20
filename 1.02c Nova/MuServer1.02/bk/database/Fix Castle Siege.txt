@@ -1,0 +1,2003 @@
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCalcRegGuildList    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetCalcRegGuildList]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetCalcRegGuildList]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqRegAttackGuild    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ReqRegAttackGuild]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ReqRegAttackGuild]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_CheckSiegeGuildList    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_CheckSiegeGuildList]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_CheckSiegeGuildList]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetAllGuildMarkRegInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetAllGuildMarkRegInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetAllGuildMarkRegInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleMoneySts    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetCastleMoneySts]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetCastleMoneySts]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleMoneyStsRange    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetCastleMoneyStsRange]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetCastleMoneyStsRange]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleNpcInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetCastleNpcInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetCastleNpcInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleTaxInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetCastleTaxInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetCastleTaxInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleTotalInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetCastleTotalInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetCastleTotalInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCsGuildUnionInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetCsGuildUnionInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetCsGuildUnionInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetGuildMarkRegInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetGuildMarkRegInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetGuildMarkRegInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetOwnerGuildMaster    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetOwnerGuildMaster]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetOwnerGuildMaster]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetSiegeGuildInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_GetSiegeGuildInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_GetSiegeGuildInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyCastleOwnerInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ModifyCastleOwnerInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ModifyCastleOwnerInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyCastleSchedule    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ModifyCastleSchedule]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ModifyCastleSchedule]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyGuildGiveUp    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ModifyGuildGiveUp]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ModifyGuildGiveUp]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyGuildMarkRegCount    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ModifyGuildMarkRegCount]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ModifyGuildMarkRegCount]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyGuildMarkReset    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ModifyGuildMarkReset]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ModifyGuildMarkReset]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyMoney    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ModifyMoney]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ModifyMoney]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifySiegeEnd    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ModifySiegeEnd]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ModifySiegeEnd]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyTaxRate    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ModifyTaxRate]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ModifyTaxRate]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcBuy    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ReqNpcBuy]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ReqNpcBuy]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcRemove    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ReqNpcRemove]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ReqNpcRemove]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcRepair    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ReqNpcRepair]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ReqNpcRepair]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcUpdate    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ReqNpcUpdate]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ReqNpcUpdate]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcUpgrade    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ReqNpcUpgrade]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ReqNpcUpgrade]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqRegGuildMark    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ReqRegGuildMark]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ReqRegGuildMark]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ResetCastleSiege    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ResetCastleSiege]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ResetCastleSiege]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ResetCastleTaxInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ResetCastleTaxInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ResetCastleTaxInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ResetRegSiegeInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ResetRegSiegeInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ResetRegSiegeInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ResetSiegeGuildInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_ResetSiegeGuildInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_ResetSiegeGuildInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_SetSiegeGuildInfo    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_SetSiegeGuildInfo]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_SetSiegeGuildInfo]
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_SetSiegeGuildOK    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[WZ_CS_SetSiegeGuildOK]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[WZ_CS_SetSiegeGuildOK]
+GO
+
+/****** Object:  Table [dbo].[MuCastle_SIEGE_GUILDLIST]    Script Date: 20/7/2014 09:24:47 ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[MuCastle_SIEGE_GUILDLIST]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[MuCastle_SIEGE_GUILDLIST]
+GO
+
+
+/****** Object:  Table [dbo].[MuCastle_SIEGE_GUILDLIST]    Script Date: 20/7/2014 09:24:47 ******/
+CREATE TABLE [dbo].[MuCastle_SIEGE_GUILDLIST] (
+	[MAP_SVR_GROUP] [int] NOT NULL ,
+	[GUILD_NAME] [varchar] (10) NOT NULL ,
+	[GUILD_ID] [int] NOT NULL ,
+	[GUILD_INVOLVED] [bit] NOT NULL ,
+	[GUILD_SCORE] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_CheckSiegeGuildList    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_CheckSiegeGuildList]
+
+	@szGuildName		varchar(8)
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	DECLARE @iEnd INT
+
+	SELECT @iEnd = SIEGE_ENDED FROM MuCastle_DATA
+
+	IF @iEnd = 1
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+	ELSE IF EXISTS ( SELECT GUILD_NAME FROM MuCastle_SIEGE_GUILDLIST  WITH (READUNCOMMITTED) 
+				WHERE GUILD_NAME = @szGuildName)
+	BEGIN
+		SELECT 1 As QueryResult	
+	END
+	ELSE
+	BEGIN
+		IF EXISTS ( SELECT REG_SIEGE_GUILD FROM MuCastle_REG_SIEGE WITH (READUNCOMMITTED) 
+				WHERE REG_SIEGE_GUILD = @szGuildName AND IS_GIVEUP = 0)
+		BEGIN
+			SELECT 1 As QueryResult
+		END
+		ELSE
+		BEGIN
+			SELECT 0 As QueryResult	
+		END
+	END
+
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetAllGuildMarkRegInfo    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetAllGuildMarkRegInfo]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON	
+
+	SELECT TOP 100 * FROM MuCastle_REG_SIEGE WITH (READUNCOMMITTED)
+	WHERE MAP_SVR_GROUP = @iMapSvrGroup
+	ORDER BY SEQ_NUM DESC
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleMoneySts    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetCastleMoneySts]
+
+	@iMapSvrGroup		SMALLINT,
+	@iTaxDate		DATETIME
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+	
+	DECLARE	@iTaxInc		MONEY
+	DECLARE	@iTaxDec		MONEY
+	DECLARE	@iYEAR		INT
+	DECLARE	@iMONTH		INT
+	DECLARE	@iDAY			INT
+	DECLARE	@dtLogDateStart	DATETIME
+	DECLARE	@dtLogDateEnd	DATETIME
+	SELECT	@iYEAR		= DATEPART(YY, @iTaxDate)
+	SELECT	@iMONTH		= DATEPART(MM, @iTaxDate)
+	SELECT	@iDAY			= DATEPART(DD, @iTaxDate)
+	SET		@dtLogDateStart	= CAST(@iYEAR AS VARCHAR(4)) + '-' + CAST(@iMONTH AS VARCHAR(2))  + '-' + CAST(@iDAY AS VARCHAR(4)) + ' 00:00:00'
+	SET		@dtLogDateEnd	= CAST(@iYEAR AS VARCHAR(4)) + '-' + CAST(@iMONTH AS VARCHAR(2))  + '-' + CAST(@iDAY AS VARCHAR(4)) + ' 23:59:59'
+	
+	SELECT @iTaxInc = SUM(MONEY_CHANGE) FROM MuCastle_MONEY_STATISTICS  WITH (READUNCOMMITTED) 
+	WHERE MAP_SVR_GROUP = 0 and LOG_DATE BETWEEN @dtLogDateStart AND @dtLogDateEnd and MONEY_CHANGE >= 0
+	
+	SELECT @iTaxDec = SUM(MONEY_CHANGE) FROM MuCastle_MONEY_STATISTICS  WITH (READUNCOMMITTED) 
+	WHERE MAP_SVR_GROUP = 0 and LOG_DATE BETWEEN @dtLogDateStart AND @dtLogDateEnd and MONEY_CHANGE < 0
+	
+	IF @iTaxInc IS NULL
+		SET @iTaxInc = 0
+	IF @iTaxDec IS NULL
+		SET @iTaxDec = 0
+
+	SELECT @dtLogDateStart As TaxDate, @iTaxInc As TaxInc, @iTaxDec As TaxDec
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleMoneyStsRange    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetCastleMoneyStsRange]
+
+	@iMapSvrGroup		SMALLINT,
+	@iTaxDateStart		DATETIME,
+	@iTaxDateEnd		DATETIME
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	CREATE TABLE #T_REG_TAXSTT  (
+		[TaxDate] [datetime] NOT NULL ,
+		[TaxInc] [money] NOT NULL ,
+		[TaxDec] [money] NOT NULL 
+	) ON [PRIMARY]
+	
+	IF (@iTaxDateStart <= @iTaxDateEnd)
+	BEGIN
+		DECLARE	@iTaxDate		DATETIME
+		SET		@iTaxDate		= @iTaxDateStart
+
+		WHILE(@iTaxDate <= @iTaxDateEnd)
+		BEGIN
+			DECLARE	@dtLogDateStart	DATETIME
+			DECLARE	@dtLogDateEnd	DATETIME
+			DECLARE	@iTaxInc		MONEY
+			DECLARE	@iTaxDec		MONEY
+			DECLARE	@iYEAR		INT
+			DECLARE	@iMONTH		INT
+			DECLARE	@iDAY			INT
+			SELECT	@iYEAR		= DATEPART(YY, @iTaxDate)
+			SELECT	@iMONTH		= DATEPART(MM, @iTaxDate)
+			SELECT	@iDAY			= DATEPART(DD, @iTaxDate)
+			SET		@dtLogDateStart	= CAST(@iYEAR AS VARCHAR(4)) + '-' + CAST(@iMONTH AS VARCHAR(2))  + '-' + CAST(@iDAY AS VARCHAR(4)) + ' 00:00:00'
+			SET		@dtLogDateEnd	= CAST(@iYEAR AS VARCHAR(4)) + '-' + CAST(@iMONTH AS VARCHAR(2))  + '-' + CAST(@iDAY AS VARCHAR(4)) + ' 23:59:59'
+					
+			SELECT @iTaxInc = SUM(MONEY_CHANGE) FROM MuCastle_MONEY_STATISTICS  WITH (READUNCOMMITTED) 
+			WHERE MAP_SVR_GROUP = 0 and LOG_DATE BETWEEN @dtLogDateStart AND @dtLogDateEnd and MONEY_CHANGE >= 0
+			
+			SELECT @iTaxDec = SUM(MONEY_CHANGE) FROM MuCastle_MONEY_STATISTICS  WITH (READUNCOMMITTED) 
+			WHERE MAP_SVR_GROUP = 0 and LOG_DATE BETWEEN @dtLogDateStart AND @dtLogDateEnd and MONEY_CHANGE < 0
+
+			IF @iTaxInc IS NULL
+				SET @iTaxInc = 0
+			IF @iTaxDec IS NULL
+				SET @iTaxDec = 0
+						
+			INSERT INTO #T_REG_TAXSTT VALUES (@dtLogDateStart, @iTaxInc, @iTaxDec)
+
+			SET @iTaxDate				= DATEADD(DD, 1, @iTaxDate)
+		END
+	END
+	
+	SELECT * FROM #T_REG_TAXSTT
+
+	DROP TABLE #T_REG_TAXSTT
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleNpcInfo    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetCastleNpcInfo]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON	
+
+	SELECT * FROM MuCastle_NPC WITH (READUNCOMMITTED)
+	WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleTaxInfo    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetCastleTaxInfo]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON	
+
+	SELECT MONEY, TAX_RATE_CHAOS, TAX_RATE_STORE, TAX_HUNT_ZONE FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+	WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCastleTotalInfo    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetCastleTotalInfo]
+
+	@iMapSvrGroup		SMALLINT,
+	@iCastleEventCycle	INT
+AS
+BEGIN
+	DECLARE	@iCastleSiegeTerm			INT
+	SET		@iCastleSiegeTerm			= @iCastleEventCycle
+	DECLARE	@iFirstCreate				INT
+	SET		@iFirstCreate				= 0
+	
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON	
+
+	IF NOT EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		DECLARE	@dtStartDate			datetime
+		DECLARE	@dtEndDate			datetime
+		DECLARE	@dtStartDateString		varchar(32)
+		DECLARE	@dtEndDateString		varchar(32)
+
+		SET		@dtStartDate			= GetDate()
+		SET		@dtEndDate			= DATEADD(dd, @iCastleSiegeTerm, GetDate())
+		SET		@dtStartDateString		= CAST(DATEPART(YY, @dtStartDate) AS char(4)) + '-' + CAST(DATEPART(MM, @dtStartDate) AS char(2)) + '-' + CAST(DATEPART(DD, @dtStartDate) AS char(2)) + ' 00:00:00'
+		SET		@dtEndDateString		= CAST(DATEPART(YY, @dtEndDate) AS char(4)) + '-' + CAST(DATEPART(MM, @dtEndDate) AS char(2)) + '-' + CAST(DATEPART(DD, @dtEndDate) AS char(2)) + ' 00:00:00'
+
+
+		INSERT INTO MuCastle_DATA  VALUES (
+			@iMapSvrGroup,
+			@dtStartDateString,
+			@dtEndDateString,
+			0,
+			0,
+			0,
+			'',
+			0,
+			0,
+			0,
+			0
+		)
+
+		SET @iFirstCreate				= 1
+	END
+
+	SELECT	 MAP_SVR_GROUP, 
+			DATEPART(YY,SIEGE_START_DATE)	As SYEAR, 
+			DATEPART(MM,SIEGE_START_DATE)	As SMONTH, 
+			DATEPART(DD,SIEGE_START_DATE)	As SDAY, 
+			DATEPART(YY,SIEGE_END_DATE)	As EYEAR, 
+			DATEPART(MM,SIEGE_END_DATE)	As EMONTH, 
+			DATEPART(DD,SIEGE_END_DATE)	As EDAY, 
+			SIEGE_GUILDLIST_SETTED, 
+			SIEGE_ENDED, 
+			CASTLE_OCCUPY, 
+			OWNER_GUILD, 
+			MONEY, 
+			TAX_RATE_CHAOS,
+			TAX_RATE_STORE,
+			TAX_HUNT_ZONE,
+			@iFirstCreate As FIRST_CREATE
+	FROM MuCastle_DATA  WITH (READUNCOMMITTED)
+	WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCsGuildUnionInfo    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetCsGuildUnionInfo]
+
+	@szGuildName		VARCHAR(8)
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	DECLARE	@iG_Union	INT
+	SET		@iG_Union	= -1
+	
+	IF EXISTS ( SELECT G_Name FROM Guild  WITH (READUNCOMMITTED) 
+				WHERE G_Name = @szGuildName)
+	BEGIN
+		SELECT @iG_Union = G_Union
+		FROM Guild WITH (READUNCOMMITTED) 
+		WHERE G_Name = @szGuildName
+	END
+
+	IF (@iG_Union = 0)
+	BEGIN
+		SELECT @szGuildName As GUILD_NAME
+	END
+	ELSE
+	BEGIN
+		SELECT G_Name As GUILD_NAME
+		FROM Guild WITH (READUNCOMMITTED) 
+		WHERE G_Union = @iG_Union
+	END
+	
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetGuildMarkRegInfo    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetGuildMarkRegInfo]
+
+	@iMapSvrGroup		SMALLINT,
+	@szGuildName		VARCHAR(8)
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON	
+
+	SELECT * FROM MuCastle_REG_SIEGE WITH (READUNCOMMITTED)
+	WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+	ORDER BY SEQ_NUM ASC
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetOwnerGuildMaster    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetOwnerGuildMaster]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON	
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		DECLARE	@iIsCastleOccupied	TINYINT
+		DECLARE	@szGuildName		VARCHAR(8)
+
+		SELECT @iIsCastleOccupied = CASTLE_OCCUPY, @szGuildName = OWNER_GUILD FROM MuCastle_DATA WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		IF (@iIsCastleOccupied = 1)
+		BEGIN
+			IF (@szGuildName <> '')			
+			BEGIN
+				IF EXISTS ( SELECT G_Master FROM Guild  WITH (READUNCOMMITTED)
+							WHERE G_Name = @szGuildName)
+				BEGIN
+					SELECT 1 As QueryResult, @szGuildName As OwnerGuild, G_Master As OwnerGuildMaster FROM Guild  WITH (READUNCOMMITTED) WHERE G_Name = @szGuildName
+				END
+				ELSE
+				BEGIN
+					SELECT 4 As QueryResult, '' As OwnerGuild, '' As OwnerGuildMaster
+				END
+			END
+			ELSE
+			BEGIN
+				SELECT 3 As QueryResult, '' As OwnerGuild, '' As OwnerGuildMaster
+			END
+		END
+		ELSE
+		BEGIN
+			SELECT 2 As QueryResult, '' As OwnerGuild, '' As OwnerGuildMaster
+		END
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult, '' As OwnerGuild, '' As OwnerGuildMaster
+	END
+
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetSiegeGuildInfo    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_GetSiegeGuildInfo]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	SELECT * 
+	FROM MuCastle_SIEGE_GUILDLIST  WITH (READUNCOMMITTED) 
+	WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyCastleOwnerInfo    Script Date: 20/7/2014 09:24:47 ******/
+CREATE Procedure [dbo].[WZ_CS_ModifyCastleOwnerInfo]
+
+	@iMapSvrGroup		SMALLINT,
+	@iCastleOccupied	INT,
+	@szOwnGuildName	VARCHAR(8)
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		UPDATE MuCastle_DATA 
+		SET CASTLE_OCCUPY = @iCastleOccupied, OWNER_GUILD = @szOwnGuildName
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyCastleSchedule    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ModifyCastleSchedule]
+
+	@iMapSvrGroup		SMALLINT,
+	@dtStartDate		DATETIME,
+	@dtEndDate		DATETIME
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		UPDATE MuCastle_DATA 
+		SET SIEGE_START_DATE = @dtStartDate, SIEGE_END_DATE = @dtEndDate
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyGuildGiveUp    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ModifyGuildGiveUp]
+
+	@iMapSvrGroup		SMALLINT,
+	@szGuildName		VARCHAR(8),
+	@iIsGiveUp		INT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName)
+	BEGIN
+		DECLARE	@iMarkCount	INT
+		SELECT @iMarkCount = REG_MARKS FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+
+		UPDATE MuCastle_REG_SIEGE 
+		SET IS_GIVEUP = @iIsGiveUp, REG_MARKS = 0
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+
+		SELECT 1 As QueryResult, @iMarkCount As DEL_MARKS
+	END
+	ELSE
+	BEGIN
+		SELECT 2 As QueryResult, 0 As DEL_MARKS
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyGuildMarkRegCount    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ModifyGuildMarkRegCount]
+
+	@iMapSvrGroup		SMALLINT,
+	@szGuildName		VARCHAR(8),
+	@iMarkCount		INT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName)
+	BEGIN
+		UPDATE MuCastle_REG_SIEGE 
+		SET REG_MARKS = @iMarkCount
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyGuildMarkReset    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ModifyGuildMarkReset]
+
+	@iMapSvrGroup		SMALLINT,
+	@szGuildName		VARCHAR(8)
+AS
+BEGIN
+	BEGIN TRANSACTION
+
+	DECLARE		@iMarkCount	INT
+	DECLARE		@bIsGiveUp	INT
+
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName)
+	BEGIN
+		SELECT @iMarkCount = REG_MARKS, @bIsGiveUp = IS_GIVEUP
+		FROM MuCastle_REG_SIEGE
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+
+		IF (@iMarkCount > 0)
+		BEGIN
+			IF (@bIsGiveUp = 0)
+			BEGIN
+				UPDATE MuCastle_REG_SIEGE 
+				SET REG_MARKS = 0
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+		
+				SELECT 1 As QueryResult, @iMarkCount As DEL_MARKS
+			END
+			ELSE
+			BEGIN
+				SELECT 2 As QueryResult, 0 As DEL_MARKS
+			END
+		END
+		ELSE
+		BEGIN
+			SELECT 1 As QueryResult, 0 As DEL_MARKS
+		END
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult, 0 As DEL_MARKS
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyMoney    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ModifyMoney]
+
+	@iMapSvrGroup		SMALLINT,
+	@iMoneyChange	MONEY	
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		DECLARE	@iTotMoney	MONEY
+		SELECT @iTotMoney = MONEY FROM MuCastle_DATA
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		IF (@iTotMoney + @iMoneyChange < 0)
+		BEGIN
+			SELECT 2 As QueryResult, MONEY
+			FROM MuCastle_DATA
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup		
+		END
+		ELSE
+		BEGIN
+			UPDATE MuCastle_DATA 
+			SET MONEY = @iTotMoney + @iMoneyChange
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup
+	
+			SELECT 1 As QueryResult, MONEY
+			FROM MuCastle_DATA
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup		
+		END
+
+		INSERT MuCastle_MONEY_STATISTICS VALUES (@iMapSvrGroup, GetDate(), @iMoneyChange)
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult, 0 As MONEY
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifySiegeEnd    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ModifySiegeEnd]
+
+	@iMapSvrGroup		SMALLINT,
+	@iSiegeEnded		INT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		UPDATE MuCastle_DATA 
+		SET SIEGE_ENDED = @iSiegeEnded
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ModifyTaxRate    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ModifyTaxRate]
+
+	@iMapSvrGroup		SMALLINT,
+	@iTaxKind		INT,
+	@iTaxRate		INT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF (@iTaxKind = 1)
+	BEGIN
+		IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+					WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+		BEGIN
+			UPDATE MuCastle_DATA 
+			SET TAX_RATE_CHAOS = @iTaxRate
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup
+	
+			SELECT @iTaxKind As TaxKind, 1 As QueryResult, TAX_RATE_CHAOS As TaxRate
+			FROM MuCastle_DATA
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup
+		END
+		ELSE
+		BEGIN
+			SELECT @iTaxKind As TaxKind, 0 As QueryResult, 0 As TaxRate
+		END
+	END
+	ELSE IF (@iTaxKind = 2)
+	BEGIN
+		IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+					WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+		BEGIN
+			UPDATE MuCastle_DATA 
+			SET TAX_RATE_STORE = @iTaxRate
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup
+	
+			SELECT @iTaxKind As TaxKind, 1 As QueryResult, TAX_RATE_STORE As TaxRate
+			FROM MuCastle_DATA
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup
+		END
+		ELSE
+		BEGIN
+			SELECT @iTaxKind As TaxKind, 0 As QueryResult, 0 As TaxRate
+		END
+	END
+	ELSE IF (@iTaxKind = 3)	
+	BEGIN
+		IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+					WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+		BEGIN
+			UPDATE MuCastle_DATA 
+			SET TAX_HUNT_ZONE = @iTaxRate
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup
+	
+			SELECT @iTaxKind As TaxKind, 1 As QueryResult, TAX_HUNT_ZONE As TaxRate
+			FROM MuCastle_DATA
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup
+		END
+		ELSE
+		BEGIN
+			SELECT @iTaxKind As TaxKind, 0 As QueryResult, 0 As TaxRate
+		END
+	END
+	ELSE
+	BEGIN
+		SELECT @iTaxKind As TaxKind, 0 As QueryResult, 0 As TaxRate
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcBuy    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ReqNpcBuy]
+
+	@iMapSvrGroup		SMALLINT,
+	@iNpcNumber		INT,
+	@iNpcIndex		INT,
+	@iNpcDfLevel		INT,
+	@iNpcRgLevel		INT,
+	@iNpcMaxHp		INT,
+	@iNpcHp		INT,
+	@btNpcX		TINYINT,
+	@btNpcY		TINYINT,
+	@btNpcDIR		TINYINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_NPC  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex)
+	BEGIN
+		SELECT 4 As QueryResult
+	END
+	ELSE
+	BEGIN
+		INSERT INTO MuCastle_NPC VALUES (
+			@iMapSvrGroup	,
+			@iNpcNumber,
+			@iNpcIndex,
+			@iNpcDfLevel,
+			@iNpcRgLevel,
+			@iNpcMaxHp,
+			@iNpcHp,
+			@btNpcX,
+			@btNpcY,
+			@btNpcDIR,
+			GetDate()
+		)
+		
+		SELECT 1 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcRemove    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ReqNpcRemove]
+
+	@iMapSvrGroup		SMALLINT,
+	@iNpcNumber		INT,
+	@iNpcIndex		INT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_NPC  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex)
+	BEGIN
+		DELETE MuCastle_NPC
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 2 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcRepair    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ReqNpcRepair]
+
+	@iMapSvrGroup		SMALLINT,
+	@iNpcNumber		INT,
+	@iNpcIndex		INT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_NPC  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex)
+	BEGIN
+		UPDATE MuCastle_NPC 
+		SET  NPC_HP = NPC_MAXHP
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex
+
+		SELECT 1 As QueryResult, NPC_HP, NPC_MAXHP
+		FROM MuCastle_NPC  WITH (READUNCOMMITTED) 
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex
+	END
+	ELSE
+	BEGIN
+		SELECT 2 As QueryResult, 0 As NPC_HP, 0 As NPC_MAXHP
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcUpdate    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ReqNpcUpdate]
+
+	@iMapSvrGroup		SMALLINT,
+	@iNpcNumber		INT,
+	@iNpcIndex		INT,
+	@iNpcDfLevel		INT,
+	@iNpcRgLevel		INT,
+	@iNpcMaxHp		INT,
+	@iNpcHp		INT,
+	@btNpcX		TINYINT,
+	@btNpcY		TINYINT,
+	@btNpcDIR		TINYINT
+As
+Begin
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_NPC  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex)
+	BEGIN
+		
+		UPDATE MuCastle_NPC
+		SET	NPC_NUMBER		= @iNpcNumber, 
+			NPC_INDEX		= @iNpcIndex, 
+			NPC_DF_LEVEL	= @iNpcDfLevel, 
+			NPC_RG_LEVEL	= @iNpcRgLevel, 
+			NPC_MAXHP		= @iNpcMaxHp, 
+			NPC_HP		= @iNpcHp,
+			NPC_X			= @btNpcX,
+			NPC_Y			= @btNpcY, 
+			NPC_DIR		= @btNpcDIR
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex
+	END
+	ELSE
+	BEGIN
+
+		INSERT INTO MuCastle_NPC VALUES (
+			@iMapSvrGroup	,
+			@iNpcNumber,
+			@iNpcIndex,
+			@iNpcDfLevel,
+			@iNpcRgLevel,
+			@iNpcMaxHp,
+			@iNpcHp,
+			@btNpcX,
+			@btNpcY,
+			@btNpcDIR,
+			GetDate()
+		)
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqNpcUpgrade    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ReqNpcUpgrade]
+
+	@iMapSvrGroup		SMALLINT,
+	@iNpcNumber		INT,
+	@iNpcIndex		INT,
+	@iNpcUpType		INT,
+	@iNpcUpValue		INT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_NPC  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex)
+	BEGIN
+		IF (@iNpcUpType = 1)
+		BEGIN
+			UPDATE MuCastle_NPC 
+			SET NPC_DF_LEVEL = @iNpcUpValue
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex
+	
+			SELECT 1 As QueryResult
+		END
+		ELSE IF (@iNpcUpType = 2)
+		BEGIN
+			UPDATE MuCastle_NPC 
+			SET NPC_RG_LEVEL = @iNpcUpValue
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex
+	
+			SELECT 1 As QueryResult
+		END
+		ELSE IF (@iNpcUpType = 3)
+		BEGIN
+			UPDATE MuCastle_NPC 
+			SET NPC_MAXHP = @iNpcUpValue, NPC_HP = @iNpcUpValue
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup and NPC_NUMBER = @iNpcNumber and NPC_INDEX = @iNpcIndex
+	
+			SELECT 1 As QueryResult
+		END
+		ELSE
+		BEGIN
+			SELECT 2 As QueryResult
+		END
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqRegGuildMark    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ReqRegGuildMark]
+
+	@iMapSvrGroup		SMALLINT,
+	@szGuildName		VARCHAR(8)
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName)
+	BEGIN
+		DECLARE	@bIS_GIVEUP	INT
+		SELECT @bIS_GIVEUP = IS_GIVEUP FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+
+		IF (@bIS_GIVEUP = 0)
+		BEGIN
+			UPDATE MuCastle_REG_SIEGE 
+			SET REG_MARKS = REG_MARKS + 1
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+	
+			SELECT 1 As QueryResult, REG_MARKS
+			FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED)
+			WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName
+		END
+		ELSE
+		BEGIN
+			SELECT 0 As QueryResult, 0 As REG_MARKS
+		END
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult, 0 As REG_MARKS
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ResetCastleSiege    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ResetCastleSiege]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		UPDATE MuCastle_DATA 
+		SET 	SIEGE_GUILDLIST_SETTED = 0,
+			SIEGE_ENDED = 0
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		DELETE MuCastle_SIEGE_GUILDLIST
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ResetCastleTaxInfo    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ResetCastleTaxInfo]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		UPDATE MuCastle_DATA 
+		SET MONEY = 0, TAX_RATE_CHAOS = 0, TAX_RATE_STORE = 0, TAX_HUNT_ZONE = 0
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ResetRegSiegeInfo    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ResetRegSiegeInfo]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		DELETE MuCastle_REG_SIEGE
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ResetSiegeGuildInfo    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ResetSiegeGuildInfo]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		DELETE MuCastle_SIEGE_GUILDLIST
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_SetSiegeGuildInfo    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_SetSiegeGuildInfo]
+
+	@iMapSvrGroup		SMALLINT,
+	@szGuildName		VARCHAR(8),
+	@iGuildID		INT,
+	@iGuildInvolved		INT,
+	@iCsGuildScore	INT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	INSERT INTO MuCastle_SIEGE_GUILDLIST
+	VALUES (@iMapSvrGroup, @szGuildName, @iGuildID, @iGuildInvolved, @iCsGuildScore)
+	
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_SetSiegeGuildOK    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_SetSiegeGuildOK]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_DATA  WITH (READUNCOMMITTED) 
+				WHERE MAP_SVR_GROUP = @iMapSvrGroup)
+	BEGIN
+		UPDATE MuCastle_DATA
+		SET SIEGE_GUILDLIST_SETTED = 1
+		WHERE MAP_SVR_GROUP = @iMapSvrGroup
+
+		SELECT 1 As QueryResult
+	END
+	ELSE
+	BEGIN
+		SELECT 0 As QueryResult
+	END
+	
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_GetCalcRegGuildList    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_GetCalcRegGuildList]
+
+	@iMapSvrGroup		SMALLINT
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON	
+
+	DECLARE T_CURSOR CURSOR FAST_FORWARD
+	FOR SELECT TOP 100 * FROM MuCastle_REG_SIEGE	WHERE MAP_SVR_GROUP = @iMapSvrGroup AND IS_GIVEUP = 0 ORDER BY SEQ_NUM DESC
+	
+	OPEN T_CURSOR
+	
+	DECLARE	@iMapSvrNum			INT
+	DECLARE	@szRegGuild			VARCHAR(8)
+	DECLARE	@iRegMarks			INT
+	DECLARE	@iIsGiveUp			INT
+	DECLARE	@iSeqNum			INT
+	DECLARE	@iGuildMemberCount		INT
+	DECLARE	@iGuildMasterLevel		INT
+
+	CREATE TABLE #T_REG_GUILDLIST  (
+		[REG_SIEGE_GUILD] [varchar] (8) NOT NULL ,
+		[REG_MARKS] [int] NOT NULL ,
+		[GUILD_MEMBER] [int] NOT NULL ,
+		[GM_LEVEL] [int] NOT NULL ,
+		[SEQ_NUM] [int] NOT NULL 
+	) ON [PRIMARY]
+	
+	FETCH FROM T_CURSOR INTO @iMapSvrNum, @szRegGuild, @iRegMarks, @iIsGiveUp, @iSeqNum
+	WHILE (@@FETCH_STATUS = 0)
+	BEGIN
+		IF EXISTS ( SELECT G_Name FROM Guild  WITH (READUNCOMMITTED) WHERE G_Name = @szRegGuild)
+		BEGIN
+			DECLARE @szGuildMaster	VARCHAR(10)
+			SELECT @szGuildMaster = G_Master FROM Guild  WHERE G_Name = @szRegGuild
+
+			IF EXISTS ( SELECT Name FROM Character WITH (READUNCOMMITTED) WHERE Name = @szGuildMaster)
+			BEGIN
+				SELECT @iGuildMemberCount = COUNT(*) FROM GuildMember WHERE G_Name = @szRegGuild
+				SELECT @iGuildMasterLevel = cLevel FROM Character WHERE Name = @szGuildMaster
+
+				INSERT INTO #T_REG_GUILDLIST VALUES (@szRegGuild, @iRegMarks, @iGuildMemberCount, @iGuildMasterLevel, @iSeqNum)
+			END
+		END
+		
+		FETCH FROM T_CURSOR INTO @iMapSvrGroup, @szRegGuild, @iRegMarks, @iIsGiveUp, @iSeqNum
+	END
+	
+	CLOSE T_CURSOR
+	
+	DEALLOCATE T_CURSOR
+
+	SELECT * FROM #T_REG_GUILDLIST
+
+	DROP TABLE #T_REG_GUILDLIST
+
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+/****** Object:  Stored Procedure dbo.WZ_CS_ReqRegAttackGuild    Script Date: 20/7/2014 09:24:48 ******/
+CREATE Procedure [dbo].[WZ_CS_ReqRegAttackGuild]
+
+	@iMapSvrGroup		SMALLINT,
+	@szGuildName		VARCHAR(8)
+AS
+BEGIN
+	BEGIN TRANSACTION
+	
+	SET NOCOUNT ON
+
+	DECLARE	@iMaxRegGuildCount	INT
+	DECLARE	@iCurRegGuildCount	INT
+	SET 		@iMaxRegGuildCount	= 100
+
+	SELECT @iCurRegGuildCount = COUNT(*) FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED)  WHERE MAP_SVR_GROUP = @iMapSvrGroup
+	IF (@iCurRegGuildCount >= @iMaxRegGuildCount)
+	BEGIN
+			SELECT 6 As QueryResult
+	END
+	ELSE
+	BEGIN
+		IF EXISTS ( SELECT MAP_SVR_GROUP FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED) 
+					WHERE MAP_SVR_GROUP = @iMapSvrGroup and REG_SIEGE_GUILD = @szGuildName)
+		BEGIN
+			SELECT 2 As QueryResult
+		END
+		ELSE
+		BEGIN
+			DECLARE @szOwnGuildName		VARCHAR(8)
+			SELECT @szOwnGuildName = OWNER_GUILD FROM MuCastle_DATA WHERE MAP_SVR_GROUP = @iMapSvrGroup
+	
+			IF (@szOwnGuildName = @szGuildName)
+			BEGIN
+				SELECT 3 As QueryResult
+			END
+			ELSE
+			BEGIN
+				IF NOT EXISTS ( SELECT G_Name FROM Guild  WITH (READUNCOMMITTED) WHERE G_Name = @szGuildName)
+				BEGIN
+					SELECT 4 As QueryResult
+				END
+				ELSE
+				BEGIN
+					DECLARE @szGuildMaster			VARCHAR(10)
+					DECLARE @iGuildMasterLevel			INT
+					DECLARE @iGuildMemberCount			INT
+					
+					SELECT @szGuildMaster = G_Master FROM Guild WHERE G_Name = @szGuildName
+					SELECT @iGuildMasterLevel = cLevel FROM Character WHERE Name = @szGuildMaster
+					SELECT @iGuildMemberCount = COUNT(*) FROM GuildMember WHERE G_Name = @szGuildName
+					
+					IF (@iGuildMasterLevel < 200)
+					BEGIN
+						SELECT 5 As QueryResult
+					END
+					ELSE
+					BEGIN
+						IF (@iGuildMemberCount < 1)
+						BEGIN
+							SELECT 8 As QueryResult
+						END
+						ELSE
+						BEGIN
+							DECLARE @iMAX_SEQNUM	INT
+							DECLARE @iNXT_SEQNUM	INT
+							SELECT @iMAX_SEQNUM = MAX(SEQ_NUM) FROM MuCastle_REG_SIEGE  WITH (READUNCOMMITTED)  WHERE MAP_SVR_GROUP = @iMapSvrGroup
+							
+							IF (@iMAX_SEQNUM IS NULL)
+								SET @iNXT_SEQNUM	= 1
+							ELSE
+								SET @iNXT_SEQNUM	= @iMAX_SEQNUM + 1
+
+							INSERT INTO MuCastle_REG_SIEGE 
+							VALUES (@iMapSvrGroup, @szGuildName, 0, 0, @iNXT_SEQNUM)
+					
+							SELECT 1 As QueryResult
+						END
+					END
+				END
+			END
+		END
+	END
+
+	
+	IF(@@Error <> 0 )
+		ROLLBACK TRANSACTION
+	ELSE	
+		COMMIT TRANSACTION
+
+	SET NOCOUNT OFF	
+END
+
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+

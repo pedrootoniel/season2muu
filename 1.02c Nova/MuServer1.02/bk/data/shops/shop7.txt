@@ -1,0 +1,30 @@
+//==================================================================================================================
+//Project: KinhoMace - Season II English
+//Version: GameServer 1.00.18 & 1.00.19
+//Information: shop 7 : Wizard Shop Devias
+//==================================================================================================================
+7 	25      0 	255 	0 	1 	1  	0 //Light Plate Mask
+7 	26 	0 	255 	0 	1 	1  	0 //Adamantine Mask
+7 	27 	0 	255 	0 	1 	1  	0 //Dark Steel Mask
+2 	8 	0 	255 	1 	1	1  	0 //Battle Scepter
+2 	9 	0 	255 	1 	1 	1  	0 //Master Scepter
+8 	25 	0 	255 	0 	1 	1  	0 //Light Plate Armor
+8 	26 	0 	255 	0 	1 	1  	0 //Adamantine Armor
+8 	27 	0 	255 	0 	1 	1  	0 //Dark Steel Armor
+2 	10 	0 	255     1 	1 	1  	0 //Great Scepter
+2 	11 	0 	255 	1 	1 	1  	0 //Lord Scepter
+9 	25 	0 	255 	0 	1 	1  	0 //Light Plate Pants
+9 	26 	0 	255 	0 	1 	1  	0 //Adamantine Pants
+9 	27 	0 	255 	0 	1 	1  	0 //Dark Steel Pants
+10 	25 	0 	255 	0 	1 	1  	0 //Light Plate Gloves
+10 	26 	0 	255 	0 	1 	1  	0 //Adamantine Gloves
+10 	27 	0 	255 	0 	1 	1  	0 //Dark Steel Gloves
+12 	21 	0 	255 	0 	0 	0  	0 //FireBrust Spell
+12 	23 	0 	255 	0 	0 	0  	0 //Critical Damage Spell
+11 	25 	0 	255 	0 	1 	1  	0 //Light Plate Boots
+11 	26 	0 	255 	0 	1 	1  	0 //Adamantine Boots
+11 	27 	0 	255 	0 	1 	1  	0 //Dark Steel Boots
+12 	24 	0 	255 	0 	0 	0  	0 //Electric Spark Spell
+12 	22 	0 	255 	0 	0 	0  	0 //Summon Spell
+12 	35 	0 	255 	0	0 	0  	0 //Fire Scream Scroll
+end

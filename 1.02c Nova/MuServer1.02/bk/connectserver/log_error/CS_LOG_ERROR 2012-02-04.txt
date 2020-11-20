@@ -1,0 +1,28 @@
+11:26:44  <<================== Connect Server Starting ==================>>
+
+11:26:57  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [497]
+11:26:57  Error Thread : GetQueueCompletionStatus()  (183, A conexão da rede foi anulada pelo sistema local.
+)
+
+11:30:3  <<================== Connect Server Starting ==================>>
+
+11:30:8  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [497]
+11:30:8  Error Thread : GetQueueCompletionStatus()  (183, A conexão da rede foi anulada pelo sistema local.
+)
+
+11:30:17  Error : File : [D:\WORK\MuProject\MuConnectServer\SOURCE\giocp.cpp], Line : [497]
+11:30:17  Error Thread : GetQueueCompletionStatus()  (183, A conexão da rede foi anulada pelo sistema local.
+)
+
+11:31:46  <<================== Connect Server Closing ==================>>
+
+11:32:28  <<================== Connect Server Starting ==================>>
+
+11:32:41  <<================== Connect Server Closing ==================>>
+
+11:33:0  <<================== Connect Server Starting ==================>>
+
+16:55:26  <<================== Connect Server Starting ==================>>
+
+17:39:24  <<================== Connect Server Starting ==================>>
+

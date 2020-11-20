@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+  protocol.cpp
+  functions.cpp
+  definitions.cpp
+  database.cpp
+  configs.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\thoung\1.02c Nova\dataserver\DLLstart\Debug\_start.dll\DLLstart.dll) does not match the Linker's OutputFile property value (D:\thoung\1.02c Nova\dataserver\DLLstart\Debug\_start.dll\_start.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(DLLstart) does not match the Linker's OutputFile property value (_start). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library D:\thoung\1.02c Nova\dataserver\DLLstart\Debug\_start.dll\DLLstart.lib and object D:\thoung\1.02c Nova\dataserver\DLLstart\Debug\_start.dll\DLLstart.exp
+  DLLstart.vcxproj -> D:\thoung\1.02c Nova\dataserver\DLLstart\Debug\_start.dll\DLLstart.dll

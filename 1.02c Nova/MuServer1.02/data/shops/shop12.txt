@@ -1,0 +1,17 @@
+//==================================================================================================================
+//Project: KinhoMace - Season II English
+//Version: GameServer 1.00.18 & 1.00.19
+//Information: Shop 12 : Thompson Kennel
+//==================================================================================================================
+14	8	0	255	0	0	0  	0 //Antidote
+14	0	1	255	0	0	0  	0 //Apple
+14	1	1	255	0	0	0  	0 //Samll Healing Potion
+14	2	1	255	0	0	0  	0 //Medium Healing Potion
+14	3	1	255	0	0	0  	0 //Large Healing Potion
+4	7	0	0	0	0	0  	0 //Bolts
+4	7	1	0	0	0	0  	0 //Bolts
+4	7	9	0	0	0	0  	0 //Bolts
+4	15	0	0	0	0	0  	0 //Arrows
+4	15	1	0	0	0	0  	0 //Arrows
+4	15	9	0	0	0	0  	0 //Arrows
+end

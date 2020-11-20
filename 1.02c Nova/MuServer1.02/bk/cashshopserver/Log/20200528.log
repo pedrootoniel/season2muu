@@ -1,0 +1,72 @@
+03:03:51 select cash from memb_info where memb_guid = 8
+03:05:31 select cash from memb_info where memb_guid = 8
+03:07:37 select cash from memb_info where memb_guid = 8
+03:10:03 select cash from memb_info where memb_guid = 8
+03:10:10 select cash from memb_info where memb_guid = 8
+03:10:19 select cash from memb_info where memb_guid = 8
+03:10:19 update memb_info set cash = 4958 where memb_guid = 8
+03:10:19 select cash from memb_info where memb_guid = 8
+03:10:41 select cash from memb_info where memb_guid = 8
+03:10:41 update memb_info set cash = 4946 where memb_guid = 8
+03:10:42 select cash from memb_info where memb_guid = 8
+03:10:48 select cash from memb_info where memb_guid = 8
+03:10:48 update memb_info set cash = 4934 where memb_guid = 8
+03:10:48 select cash from memb_info where memb_guid = 8
+03:11:05 select cash from memb_info where memb_guid = 8
+03:11:05 update memb_info set cash = 4927 where memb_guid = 8
+03:11:05 select cash from memb_info where memb_guid = 8
+03:11:07 select cash from memb_info where memb_guid = 8
+03:11:07 update memb_info set cash = 4920 where memb_guid = 8
+03:11:08 select cash from memb_info where memb_guid = 8
+03:11:09 select cash from memb_info where memb_guid = 8
+03:11:09 update memb_info set cash = 4913 where memb_guid = 8
+03:11:10 select cash from memb_info where memb_guid = 8
+03:11:11 select cash from memb_info where memb_guid = 8
+03:11:11 update memb_info set cash = 4906 where memb_guid = 8
+03:11:12 select cash from memb_info where memb_guid = 8
+03:13:10 185.153.196.99:64657 Connected!
+03:13:10 185.153.196.99 No AllowableIP!
+03:13:11 185.153.196.99:64770 Connected!
+03:13:11 185.153.196.99 No AllowableIP!
+03:13:12 185.153.196.99:65172 Connected!
+03:13:12 185.153.196.99 No AllowableIP!
+03:13:28 select cash from memb_info where memb_guid = 8
+03:14:17 127.0.0.1:64700 DisConnected!
+03:14:19 127.0.0.1:64717 Connected!
+03:14:19 127.0.0.1:64717 Send Cash Branch Item List to GameServer.
+03:14:19 127.0.0.1:64717 Send Cash Item List to GameServer.
+03:15:14 select cash from memb_info where memb_guid = 8
+03:19:46 select cash from memb_info where memb_guid = 8
+03:21:25 select cash from memb_info where memb_guid = 8
+03:21:34 select cash from memb_info where memb_guid = 8
+03:21:34 update memb_info set cash = 4899 where memb_guid = 8
+03:21:34 select cash from memb_info where memb_guid = 8
+03:22:54 select cash from memb_info where memb_guid = 8
+03:24:18 select cash from memb_info where memb_guid = 8
+03:33:08 select cash from memb_info where memb_guid = 8
+03:46:57 127.0.0.1:64717 DisConnected!
+03:47:00 127.0.0.1:64734 Connected!
+03:47:00 127.0.0.1:64734 Send Cash Branch Item List to GameServer.
+03:47:00 127.0.0.1:64734 Send Cash Item List to GameServer.
+03:47:23 select cash from memb_info where memb_guid = 8
+03:47:29 select cash from memb_info where memb_guid = 8
+03:50:04 select cash from memb_info where memb_guid = 8
+03:50:15 select cash from memb_info where memb_guid = 8
+03:50:50 select cash from memb_info where memb_guid = 8
+03:52:46 select cash from memb_info where memb_guid = 8
+03:52:56 select cash from memb_info where memb_guid = 8
+09:04:27 select cash from memb_info where memb_guid = 8
+09:24:22 select cash from memb_info where memb_guid = 8
+09:28:53 127.0.0.1:64706 DisConnected!
+09:28:54 127.0.0.1:64760 Connected!
+09:28:54 127.0.0.1:64760 Send Cash Branch Item List to GameServer.
+09:28:54 127.0.0.1:64760 Send Cash Item List to GameServer.
+09:29:22 127.0.0.1:64760 DisConnected!
+09:29:24 127.0.0.1:64766 Connected!
+09:29:24 127.0.0.1:64766 Send Cash Branch Item List to GameServer.
+09:29:24 127.0.0.1:64766 Send Cash Item List to GameServer.
+09:29:56 select cash from memb_info where memb_guid = 8
+09:30:13 select cash from memb_info where memb_guid = 8
+09:48:31 select cash from memb_info where memb_guid = 8
+09:48:32 select cash from memb_info where memb_guid = 8
+09:50:05 select cash from memb_info where memb_guid = 8

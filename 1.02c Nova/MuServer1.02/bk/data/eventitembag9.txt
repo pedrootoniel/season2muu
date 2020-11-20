@@ -1,0 +1,102 @@
+// ================================================== //
+// # Season 2.0 - eventitembag9.txt 	 	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// # Information: Box Of Kundun + 2                 # //
+// ================================================== //
+
+//=================================================================================
+//Wepons and Shields No Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	14	0	1	0	1	// Lightning Sword
+1	8	0	1	0	1	// Crescent Axe
+2	4	0	1	0	1	// Crystal Morning Star
+3	9	0	1	0	1	// Bill of Balrog
+4	13	0	1	0	1	// Bluewing Crossbow
+4	14	0	1	0	1	// Aquagold Crossbow
+5	4	0	0	0	1	// Gorgon Staff
+5	5	0	0	0	1	// Legendary Staff
+2	9	0	1	0	1	// Master Scepter
+6	6	0	1	0	1	// Skull Shield
+6	7	0	1	0	1	// Spike Shield
+6	8	0	1	0	1	// Tower Shield
+
+//=================================================================================
+//Sets No Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	3	0	0	0	1	// Legendary Helm
+7	1	0	0	0	1	// Dragon Helm
+7	14	0	0	0	1	// Guardian Helm
+7	25	0	0	0	1	// Light Plate Helm
+8	3	0	0	0	1	// Legendary Armor
+8	1	0	0	0	1	// Dragon Armor
+8	14	0	0	0	1	// Guardian Armor
+8	25	0	0	0	1	// Light Plate Armor
+9	3	0	0	0	1	// Legendary Pants
+9	1	0	0	0	1	// Dragon Pants
+9	14	0	0	0	1	// Guardian Pants
+9	25	0	0	0	1	// Light Plate Pants
+10	3	0	0	0	1	// Legendary Gloves
+10	1	0	0	0	1	// Dragon Gloves
+10	14	0	0	0	1	// Guardian Gloves
+10	25	0	0	0	1	// Light Plate Gloves
+11	3	0	0	0	1	// Legendary Boots
+11	1	0	0	0	1	// Dragon Boots
+11	14	0	0	0	1	// Guardian Boots
+11	25	0	0	0	1	// Light Plate Boots
+
+
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	14	0	1	1	1	// Lightning Sword
+1	8	0	1	1	1	// Crescent Axe
+2	4	0	1	1	1	// Crystal Morning Star
+3	9	0	1	1	1	// Bill of Balrog
+4	13	0	1	1	1	// Bluewing Crossbow
+4	14	0	1	1	1	// Aquagold Crossbow
+5	4	0	0	1	1	// Gorgon Staff
+5	5	0	0	1	1	// Legendary Staff
+2	9	0	1	1	1	// Master Scepter
+6	6	0	1	1	1	// Skull Shield
+6	7	0	1	1	1	// Spike Shield
+6	8	0	1	1	1	// Tower Shield
+
+//=================================================================================
+//Sets Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	3	0	0	1	1	// Legendary Helm
+7	1	0	0	1	1	// Dragon Helm
+7	14	0	0	1	1	// Guardian Helm
+7	25	0	0	1	1	// Light Plate Helm
+8	3	0	0	1	1	// Legendary Armor
+8	1	0	0	1	1	// Dragon Armor
+8	14	0	0	1	1	// Guardian Armor
+8	25	0	0	1	1	// Light Plate Armor
+9	3	0	0	1	1	// Legendary Pants
+9	1	0	0	1	1	// Dragon Pants
+9	14	0	0	1	1	// Guardian Pants
+9	25	0	0	1	1	// Light Plate Pants
+10	3	0	0	1	1	// Legendary Gloves
+10	1	0	0	1	1	// Dragon Gloves
+10	14	0	0	1	1	// Guardian Gloves
+10	25	0	0	1	1	// Light Plate Gloves
+11	3	0	0	1	1	// Legendary Boots
+11	1	0	0	1	1	// Dragon Boots
+11	14	0	0	1	1	// Guardian Boots
+11	25	0	0	1	1	// Light Plate Boots
+
+
+//=================================================================================
+//Miscellaneous
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+13	8	0	0	1	1	// Ring of Ice
+13	9	0	0	1	1	// Ring of Poison
+13	21	0	0	1	1	// Ring of Fire
+13	22	0	0	1	1	// Ring of Earth
+13	23	0	0	1	1	// Ring of Wind
+13	24	0	0	1	1	// Ring of Magic

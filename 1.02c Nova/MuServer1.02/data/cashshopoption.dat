@@ -1,0 +1,13 @@
+// ================================================== //
+// # Season 2.0 - Configs.ini              	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// ================================================== //
+
+[CashShopOption]
+UseCashShop			= 1			//Cash Shop Switch (0:Disabled 1:Enabled)
+ConnectShopServer	= 1			//Connect Cash Shop (0:Disabled 1:Enabled)
+ShopServerIP		= 127.0.0.1  		//Shop Server Ip Address
+ShopServerPort		= 55821			//Shop Server Port
+
+UseLotteryEvent		= 1
+MapMoveBoundCheck	= 0

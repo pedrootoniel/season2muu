@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F7691A9-2CFD-4CC4-B1D8-D85470C96D83}</ProjectGuid>
+    <RootNamespace>DLLstart</RootNamespace>
+    <ProjectName>DLLstart</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\_start.dll</OutDir>
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <StringPooling>false</StringPooling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>Prompt</ErrorReporting>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)_start.dll</OutputFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <HeapReserveSize>0</HeapReserveSize>
+      <HeapCommitSize>0</HeapCommitSize>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="bloodcastle.cpp" />
+    <ClCompile Include="chaoscastle.cpp" />
+    <ClCompile Include="character.cpp" />
+    <ClCompile Include="commands.cpp" />
+    <ClCompile Include="configs.cpp" />
+    <ClCompile Include="definitions.cpp" />
+    <ClCompile Include="devilsquare.cpp" />
+    <ClCompile Include="dsprotocol.cpp" />
+    <ClCompile Include="encrypt.cpp" />
+    <ClCompile Include="experience.cpp" />
+    <ClCompile Include="fix.cpp" />
+    <ClCompile Include="functions.cpp" />
+    <ClCompile Include="gmsystem.cpp" />
+    <ClCompile Include="gobjleveluppointadd.cpp" />
+    <ClCompile Include="gobjremade.cpp" />
+    <ClCompile Include="gsclient.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="message.cpp" />
+    <ClCompile Include="notice.cpp" />
+    <ClCompile Include="npctalk.cpp" />
+    <ClCompile Include="objectstruct.cpp" />
+    <ClCompile Include="protocol.cpp" />
+    <ClCompile Include="reset.cpp" />
+    <ClCompile Include="shop.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bloodcastle.h" />
+    <ClInclude Include="chaoscastle.h" />
+    <ClInclude Include="character.h" />
+    <ClInclude Include="commands.h" />
+    <ClInclude Include="configs.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="definitions.h" />
+    <ClInclude Include="devilsquare.h" />
+    <ClInclude Include="dsprotocol.h" />
+    <ClInclude Include="encrypt.h" />
+    <ClInclude Include="experience.h" />
+    <ClInclude Include="fix.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="gmsystem.h" />
+    <ClInclude Include="gobjleveluppointadd.h" />
+    <ClInclude Include="gobjremade.h" />
+    <ClInclude Include="gsclient.h" />
+    <ClInclude Include="message.h" />
+    <ClInclude Include="notice.h" />
+    <ClInclude Include="npctalk.h" />
+    <ClInclude Include="objectstruct.h" />
+    <ClInclude Include="packets.h" />
+    <ClInclude Include="protocol.h" />
+    <ClInclude Include="reset.h" />
+    <ClInclude Include="shop.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="tokenizer.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

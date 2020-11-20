@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\stdafx">
+      <UniqueIdentifier>{55182208-cee7-4eb3-b1d0-93e900eef56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocol">
+      <UniqueIdentifier>{5937526e-d25e-4d70-8137-aa8aee480ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\definitions">
+      <UniqueIdentifier>{252c64a1-be58-4d94-a9bc-a749f87660ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\functions">
+      <UniqueIdentifier>{7566ae30-64f3-49f6-9bd9-240d9a4782de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\packets">
+      <UniqueIdentifier>{e4690d4d-1546-4585-9ace-e09de0e245e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\database">
+      <UniqueIdentifier>{de1badfc-9704-48a2-a80d-1572e06cc39f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tokenizer">
+      <UniqueIdentifier>{526b83a4-65c2-4319-8080-2a7201886288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\configs">
+      <UniqueIdentifier>{a95499b5-ce0f-447d-8da6-fce4d118fd2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol.cpp">
+      <Filter>Header Files\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="definitions.cpp">
+      <Filter>Header Files\definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Header Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Header Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="configs.cpp">
+      <Filter>Header Files\configs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>Header Files\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Header Files\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="packets.h">
+      <Filter>Header Files\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Header Files\database</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenizer.h">
+      <Filter>Header Files\tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>Header Files\configs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,89 @@
+// ================================================== //
+// # Season 2.0 - eventitembag10.txt 	 	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// # Information: Box Of Kundun + 3                 # //
+// ================================================== //
+
+//=================================================================================
+//Wepons and Shields No Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+2	10	0	1	0	1	// Great Scepter
+0	31	0	1	0	1	// Rune Blade
+
+//=================================================================================
+//Sets No Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	16	0	0	0	1	// Black Dragon Helm
+7	18	0	0	0	1	// Grand Soul Helm
+7	19	0	0	0	1	// Divine Helm
+7	26	0	0	0	1	// Adamantine Helm
+8	16	0	0	0	1	// Black Dragon Armor
+8	18	0	0	0	1	// Grand Soul Armor
+8	19	0	0	0	1	// Divine Armor
+8	26	0	0	0	1	// Adamantine Armor
+8	15	0	0	0	1	// Storm Crow Armor
+9	16	0	0	0	1	// Black Dragon Pants
+9	18	0	0	0	1	// Grand Soul Pants
+9	19	0	0	0	1	// Divine Pants
+9	26	0	0	0	1	// Adamantine Pants
+9	15	0	0	0	1	// Storm Crow Pants
+10	16	0	0	0	1	// Black Dragon Gloves
+10	18	0	0	0	1	// Grand Soul Gloves
+10	19	0	0	0	1	// Divine Gloves
+10	26	0	0	0	1	// Adamantine Gloves
+10	15	0	0	0	1	// Storm Crow Gloves
+11	16	0	0	0	1	// Black Dragon Boots
+11	18	0	0	0	1	// Grand Soul Boots
+11	19	0	0	0	1	// Divine Boots
+11	26	0	0	0	1	// Adamantine Boots
+11	15	0	0	0	1	// Storm Crow Boots
+
+
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+2	10	0	1	1	1	// Great Scepter
+0	31	0	1	1	1	// Rune Blade
+
+//=================================================================================
+//Sets Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	16	0	0	1	1	// Black Dragon Helm
+7	18	0	0	1	1	// Grand Soul Helm
+7	19	0	0	1	1	// Divine Helm
+7	26	0	0	1	1	// Adamantine Helm
+8	16	0	0	1	1	// Black Dragon Armor
+8	18	0	0	1	1	// Grand Soul Armor
+8	19	0	0	1	1	// Divine Armor
+8	26	0	0	1	1	// Adamantine Armor
+8	15	0	0	1	1	// Storm Crow Armor
+9	16	0	0	1	1	// Black Dragon Pants
+9	18	0	0	1	1	// Grand Soul Pants
+9	19	0	0	1	1	// Divine Pants
+9	26	0	0	1	1	// Adamantine Pants
+9	15	0	0	1	1	// Storm Crow Pants
+10	16	0	0	1	1	// Black Dragon Gloves
+10	18	0	0	1	1	// Grand Soul Gloves
+10	19	0	0	1	1	// Divine Gloves
+10	26	0	0	1	1	// Adamantine Gloves
+10	15	0	0	1	1	// Storm Crow Gloves
+11	16	0	0	1	1	// Black Dragon Boots
+11	18	0	0	1	1	// Grand Soul Boots
+11	19	0	0	1	1	// Divine Boots
+11	26	0	0	1	1	// Adamantine Boots
+11	15	0	0	1	1	// Storm Crow Boots
+
+//=================================================================================
+//Miscellaneous
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+13	12	0	0	0	1	// Pendant of Lighting
+13	13	0	0	0	1	// Pendant of Fire
+13	25	0	0	0	1	// Pendant of Ice
+13	26	0	0	0	1	// Pendant of Wind
+13	27	0	0	0	1	// Pendant of Water
+13	28	0	0	0	1	// Pendant of Ability

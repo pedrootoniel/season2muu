@@ -1,0 +1,68 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - servidor.season              \\	                
+//      MU Online dxteam - © SuPrEmO              \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+// OBSERVAÇÃO: não apague nenhuma linha e não acrescente nenhuma linha. 
+ 	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//   string   |   active   |   level   |   zen   |   vip   |   reset   |   temp  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+    "/post"         1           1         1000       0         0           	2
+    "/f"       		1           1         1000       0         0 
+    "/a"       		1           1         1000       0         0  
+    "/v"       		1           1         1000       0         0  
+    "/e"       		1           1         1000       0         0   
+    "/c"       		1           1         1000       0         0  
+    "/pk"      		1           1         1000       0         0
+    "/bau"          1           1         1000       0         0			7
+    "/sm"           1           1         1000       2         0
+    "/bk"           1           1         1000       2         0
+    "/me"           1           1         1000       2         0
+    "/mg"           1           1         1000       2         0
+    "/dl"           1           1         1000       2         0
+    "/reset"        //consultar o arquivo reset.season para configuração
+
+//comandos GM
+
+    "/drop"         //consultar o arquivo administrador.season para configuração
+    "/skin"         //consultar o arquivo administrador.season para configuração
+    "/gmove"        //consultar o arquivo administrador.season para configuração
+    "/reload"       //consultar o arquivo administrador.season para configuração
+
+
+// string = string do comando.
+// active = 1: ativa o comando, 0: desativa.
+// level  = level para usar o comando.
+// zen    = zen necessário para usar o comando.
+// vip    = a partir de qual vip poderá usar o comando.
+// reset  = quantos resets precisa para usar o comando.
+// temp   = tempo para usar o comando novamente, apenas /post.
+    
+  
+//não retire esse end
+end
+
+1
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//   maxbaufree   |   maxbauvip   |   maxbauvip+   |   maxbauvip++  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+
+        3               5              7               10
+
+// maxbaufree  = máximo de bau para jogadores free.
+// maxbauvip   = máximo de bau para jogadores vip (0).
+// maxbauvip+  = máximo de bau para jogadores vip (1).
+// maxbauvip++ = máximo de bau para jogadores vip (1).
+
+//não retire esse end
+end

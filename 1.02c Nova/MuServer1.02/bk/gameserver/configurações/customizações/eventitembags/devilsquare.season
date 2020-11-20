@@ -1,0 +1,33 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - devilsquare.season           \\	                
+//      MU Online dxteam - © KinhoMace            \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\   
+	 
+// OBSERVAÇÃO: antes de configurar o arquivo leia atentamente as linhas abaixo das configurações, ela indica o que cada uma significa.
+// OBSERVAÇÃO: caso tenha dúvidas de alguma linha pergunte antes de modificar.
+  	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+//  index |  id  | level | skill | luck | addopt | addoptex  \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\ 
+
+      12     15     0        0       0       0         0     // jewel of chaos
+      14     13     0        0       0       0         0     // jewel of bless
+      14     14     0        0       0       0         0     // jewel of soul
+      14     16     0        0       0       0         0     // jewel of life
+      14     22     0        0       0       0         0     // jewel of creation
+      14     31     0        0       0       0         0     // jewel of guardian
+      14     42     0        0       0       0         0     // jewel of harmony
+
+// index      = index do item.
+// id         = id do item.
+// level      = level do item.
+// luck       = 1: dropará com luck, 0: dropará sem luck.
+// skill      = 1: dropará com skill, 0: dropará sem skill.
+// addopt     = 0: não, 1: 4, 2: 8, 3: 12, 4: 16.
+// addoptex   = número da opção excellent.
+
+//não retire esse end
+end

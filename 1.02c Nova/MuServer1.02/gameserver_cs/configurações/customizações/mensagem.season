@@ -1,0 +1,95 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+//      Season 2.0 - mensagem.season              \\	                
+//      MU Online dxteam - © KinhoMace            \\
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\  
+
+// OBSERVAÇÃO: apenas mude a mensagem e o tipo ao seu gosto caso queira.
+// OBSERVAÇÃO: não apague nenhuma linha e não acrescente nenhuma linha. 
+ 	 
+0
+//não mecha nesse número
+
+//~~~~~~~~~~~~~~~~~~\\ 
+//  message | type  \\
+//~~~~~~~~~~~~~~~~~~\\ 
+
+// type 0 = mensagem na tela de GM
+// type 1 = mensagem na canto da tela
+// type 2 = mensagem no meio da tela de guild
+// type 3 = mensagem vermelha no canto da tela
+
+
+//mensagem de pontos
+    "maximo de força [%d]"                                3
+    "maximo de agilidade [%d]"                            3
+    "maximo de vitalidade [%d]"                           3
+    "maximo de energia [%d]"                              3
+    "maximo de comando [%d]"                              3
+
+//mensagem do comando /post
+    "comando /post desativado"                            3
+    "precisa de %d level para usar"                       3
+    "você não é vip para usar o comando"                  3
+    "precisa de %d resets para usar"                      3
+    "precisa de %d zens para usar"                        3
+
+//mensagem do comando /add
+    "comando adicionar desativado"                        3
+    "precisa de %d level para usar"                       3
+    "você não é vip para usar o comando"                  3
+    "precisa de %d resets para usar"                      3
+    "precisa de %d zens para usar"                        3
+
+//mensagem do comando /pkclear
+    "comando pkclear desativado"                          3
+    "precisa de %d level para usar"                       3
+    "você não é vip para usar o comando"                  3
+    "precisa de %d resets para usar"                      3
+    "precisa de %d zens para usar"                        3
+    "você não está PK"                                    3
+
+//mensagem de alerta do tempo do /post
+    "você precisa esperar %d segundos"                    3
+
+//mensagem do comando /bau
+    "comando bau desativado"                              3
+    "precisa de %d level para usar"                       3
+    "você não é vip para usar o comando"                  3
+    "precisa de %d resets para usar"                      3
+    "precisa de %d zens para usar"                        3
+    "aguarde %d segundos para usar o comando"             3
+    "aguarde %d segundos para abrir seu bau"              3
+    "o máximo de bau é %d"                                3
+
+//mensagem do comando /class
+    "comando classe desativado"                           3
+    "precisa de %d level para usar"                       3
+    "você não é vip para usar o comando"                  3
+    "precisa de %d resets para usar"                      3
+    "precisa de %d zens para usar"                        3
+    "retire seus items"                                   3
+    "feche as interfaces"                                 3
+
+//mensagem do comando /reset
+    "comando /reset desativado"                           3
+    "level necessário %d"                                 3
+    "zen necessário %d"                                   3
+    "resetou, você tem %d reset (s)"                      1 
+    "você alcançou o máximo de resets"                    3
+
+//mensagem do sistema de moves
+    "precisa de %d level"                                 3
+    "você não é vip"                                      3
+    "você está PK"                                        3
+
+//mensagem das jewel's
+    "seu item já esta excellente"                         3
+    "seu item já esta + 13"                               3
+    "seu item já esta anciet"                             3
+    "seu item já contem luck"                             3
+    "seu item já tem skill"                               3
+    "seu item já esta + 15"                               3
+    "seu item já esta + 16 life"                          3
+
+//não retire esse end
+end

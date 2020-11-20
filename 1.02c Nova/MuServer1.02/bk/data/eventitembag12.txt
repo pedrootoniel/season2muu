@@ -1,0 +1,151 @@
+// ================================================== //
+// # Season 2.0 - eventitembag12.txt 	 	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// # Information: Box Of Kundun + 5                 # //
+// ================================================== //
+
+//=================================================================================
+//Wepons and Shields No Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	23	0	0	0	0	//Explosion Blade
+0	24	0	0	0	0	//DayBreak
+0	25	0	0	0	0	//Sword Dancer
+0	31	0	0	0	0	//Rune Blade
+2	14	0	0	0	0	//Solay Scepter
+2	15	0	0	0	0	//Shining Scepter
+4	20	0	0	0	0	//Arrow Viper Bow
+4	21	0	0	0	0	//Sylph Wind Bow
+4	22	0	0	0	0	//Albatross Bow
+5	12	0	0	0	0	//Grand Viper Staff
+5	13	0	0	0	0	//Platina Wing Staff
+
+//=================================================================================
+//Sets No Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	29	0	0	0	0	//Dragon Knight Helm
+7	30	0	0	0	0	//Venom Mist Helm
+7	31	0	0	0	0	//Sylpid Ray Helm
+7	33	0	0	0	0	//Sunlight Helm
+7	34	0	0	0	0	//Ashcrow Helm
+7	35	0	0	0	0	//Eclipse Helm
+7	36	0	0	0	0	//Iris Helm
+7	38	0	0	0	0	//Glorious Helm
+
+8	29	0	0	0	0	//Dragon Knight Armor
+8	30	0	0	0	0	//Venom Mist Armor
+8	31	0	0	0	0	//Sylpid Ray Armor
+8	32	0	0	0	0	//Volcano Armor
+8	33	0	0	0	0	//Sunlight Armor
+8	34	0	0	0	0	//Ashcrow Armor
+8	35	0	0	0	0	//Eclipse Armor
+8	36	0	0	0	0	//Iris Armor
+8	37	0	0	0	0	//Valiant Armor
+8	38	0	0	0	0	//Glorious Armor
+
+9	29	0	0	0	0	//Dragon Knight Pants
+9	30	0	0	0	0	//Venom Mist Pants
+9	31	0	0	0	0	//Sylpid Ray Pants
+9	32	0	0	0	0	//Volcano Pants
+9	33	0	0	0	0	//Sunlight Pants
+9	34	0	0	0	0	//Ashcrow Pants
+9	35	0	0	0	0	//Eclipse Pants
+9	36	0	0	0	0	//Iris Pants
+9	37	0	0	0	0	//Valiant Pants
+9	38	0	0	0	0	//Glorious Pants
+
+10	29	0	0	0	0	//Dragon Knight Gloves
+10	30	0	0	0	0	//Venom Mist Gloves
+10	31	0	0	0	0	//Sylpid Ray Gloves
+10	32	0	0	0	0	//Volcano Gloves
+10	33	0	0	0	0	//Sunlight Gloves
+10	34	0	0	0	0	//Ashcrow Gloves
+10	35	0	0	0	0	//Eclipse Gloves
+10	36	0	0	0	0	//Iris Gloves
+10	37	0	0	0	0	//Valiant Gloves
+10	38	0	0	0	0	//Glorious Gloves
+
+11	29	0	0	0	0	//Dragon Knight Boots
+11	30	0	0	0	0	//Venom Mist Boots
+11	31	0	0	0	0	//Sylpid Ray Boots
+11	32	0	0	0	0	//Volcano Boots
+11	33	0	0	0	0	//Sunlight Boots
+11	34	0	0	0	0	//Ashcrow Boots
+11	35	0	0	0	0	//Eclipse Boots
+11	36	0	0	0	0	//Iris Boots
+11	37	0	0	0	0	//Valiant Boots
+11	38	0	0	0	0	//Glorious Boots
+
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	23	0	0	1	0	//Explosion Blade
+0	24	0	0	1	0	//DayBreak
+0	25	0	0	1	0	//Sword Dancer
+0	31	0	0	1	0	//Rune Blade
+2	14	0	0	1	0	//Solay Scepter
+2	15	0	0	1	0	//Shining Scepter
+4	20	0	0	1	0	//Arrow Viper Bow
+4	21	0	0	1	0	//Sylph Wind Bow
+4	22	0	0	1	0	//Albatross Bow
+5	12	0	0	1	0	//Grand Viper Staff
+5	13	0	0	1	0	//Platina Wing Staff
+
+//=================================================================================
+//Sets Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	29	0	0	1	0	//Dragon Knight Helm
+7	30	0	0	1	0	//Venom Mist Helm
+7	31	0	0	1	0	//Sylpid Ray Helm
+7	33	0	0	1	0	//Sunlight Helm
+7	34	0	0	1	0	//Ashcrow Helm
+7	35	0	0	1	0	//Eclipse Helm
+7	36	0	0	1	0	//Iris Helm
+7	38	0	0	1	0	//Glorious Helm
+
+8	29	0	0	1	0	//Dragon Knight Armor
+8	30	0	0	1	0	//Venom Mist Armor
+8	31	0	0	1	0	//Sylpid Ray Armor
+8	32	0	0	1	0	//Volcano Armor
+8	33	0	0	1	0	//Sunlight Armor
+8	34	0	0	1	0	//Ashcrow Armor
+8	35	0	0	1	0	//Eclipse Armor
+8	36	0	0	1	0	//Iris Armor
+8	37	0	0	1	0	//Valiant Armor
+8	38	0	0	1	0	//Glorious Armor
+
+9	29	0	0	1	0	//Dragon Knight Pants
+9	30	0	0	1	0	//Venom Mist Pants
+9	31	0	0	1	0	//Sylpid Ray Pants
+9	32	0	0	1	0	//Volcano Pants
+9	33	0	0	1	0	//Sunlight Pants
+9	34	0	0	1	0	//Ashcrow Pants
+9	35	0	0	1	0	//Eclipse Pants
+9	36	0	0	1	0	//Iris Pants
+9	37	0	0	1	0	//Valiant Pants
+9	38	0	0	1	0	//Glorious Pants
+
+10	29	0	0	1	0	//Dragon Knight Gloves
+10	30	0	0	1	0	//Venom Mist Gloves
+10	31	0	0	1	0	//Sylpid Ray Gloves
+10	32	0	0	1	0	//Volcano Gloves
+10	33	0	0	1	0	//Sunlight Gloves
+10	34	0	0	1	0	//Ashcrow Gloves
+10	35	0	0	1	0	//Eclipse Gloves
+10	36	0	0	1	0	//Iris Gloves
+10	37	0	0	1	0	//Valiant Gloves
+10	38	0	0	1	0	//Glorious Gloves
+
+11	29	0	0	1	0	//Dragon Knight Boots
+11	30	0	0	1	0	//Venom Mist Boots
+11	31	0	0	1	0	//Sylpid Ray Boots
+11	32	0	0	1	0	//Volcano Boots
+11	33	0	0	1	0	//Sunlight Boots
+11	34	0	0	1	0	//Ashcrow Boots
+11	35	0	0	1	0	//Eclipse Boots
+11	36	0	0	1	0	//Iris Boots
+11	37	0	0	1	0	//Valiant Boots
+11	38	0	0	1	0	//Glorious Boots

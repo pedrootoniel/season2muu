@@ -1,0 +1,418 @@
+port check accept
+port check accept
+port check accept
+port check close
+port check close
+port check close
+03:03:48a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:03:48a SELECT * FROM AccountCharacter WHERE Id='2'
+03:03:48a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:03:48a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:03:48a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:03:48a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:03:48a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:03:48a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:03:48a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:03:48a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:03:48a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:03:48a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:03:48a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 3
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 3
+03:03:51a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:03:51a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:03:51a SELECT * FROM OptionData WHERE Name='Supremo'
+03:03:51a WZ_PeriodItemSelect 8, 'Supremo'
+03:04:34a UPDATE Character SET cLevel=1,Class=1,LevelUpPoint=1200, Experience=1, Strength=25, Dexterity=25, Vitality=25, Energy=25, Money=1999879500, Life=80.000000, MaxLife=80.000000, Mana=100.000000, MaxMana=50.000000, MapNumber=0, MapPosX=133, MapPosY=123, MapDir=0, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+03:05:28a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:05:28a SELECT * FROM AccountCharacter WHERE Id='2'
+03:05:28a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:05:28a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:05:28a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:05:28a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:05:28a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:05:28a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:05:28a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:05:28a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:05:28a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:05:28a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:05:28a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Test2-BK
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Test2-BK - resets : 0
+packet enviado: conta : 2 - nome : Test2-BK - vip : 2 - resets : 0
+03:05:31a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Test2-BK'
+03:05:31a UPDATE AccountCharacter SET GameIDC='Test2-BK' WHERE Id='2'
+03:05:31a SELECT * FROM OptionData WHERE Name='Test2-BK'
+03:05:31a WZ_PeriodItemSelect 8, 'Test2-BK'
+03:05:41a UPDATE Character SET cLevel=400,Class=17,LevelUpPoint=0, Experience=-472819216, Strength=32000, Dexterity=32000, Vitality=32000, Energy=32000, Money=909885574, Life=1812.400024, MaxLife=5082.600098, Mana=65.200005, MaxMana=5995.100098, MapNumber=0, MapPosX=177, MapPosY=127, MapDir=0, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Test2-BK'
+03:07:36a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:07:36a SELECT * FROM AccountCharacter WHERE Id='2'
+03:07:36a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:07:36a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:07:36a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:07:36a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:07:36a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:07:36a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:07:36a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:07:36a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:07:36a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:07:36a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:07:36a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 3
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 3
+03:07:37a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:07:37a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:07:37a SELECT * FROM OptionData WHERE Name='Supremo'
+03:07:37a WZ_PeriodItemSelect 8, 'Supremo'
+03:09:52a UPDATE Character SET cLevel=1,Class=1,LevelUpPoint=1200, Experience=1, Strength=25, Dexterity=25, Vitality=25, Energy=25, Money=1999879500, Life=80.000000, MaxLife=80.000000, Mana=100.000000, MaxMana=50.000000, MapNumber=0, MapPosX=134, MapPosY=127, MapDir=0, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+03:10:01a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:10:01a SELECT * FROM AccountCharacter WHERE Id='2'
+03:10:01a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:10:01a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:10:01a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:10:01a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:10:01a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:10:01a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:10:01a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:10:01a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:10:01a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:10:01a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:10:01a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 3
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 3
+03:10:03a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:10:03a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:10:03a SELECT * FROM OptionData WHERE Name='Supremo'
+03:10:03a WZ_PeriodItemSelect 8, 'Supremo'
+03:10:19a WZ_GetItemSerial2 '3000'
+03:13:01a UPDATE Character SET cLevel=1,Class=1,LevelUpPoint=1200, Experience=1, Strength=25, Dexterity=25, Vitality=25, Energy=25, Money=1999879500, Life=80.000000, MaxLife=80.000000, Mana=100.000000, MaxMana=50.000000, MapNumber=0, MapPosX=142, MapPosY=119, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+03:13:25a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:13:25a SELECT * FROM AccountCharacter WHERE Id='2'
+03:13:25a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:13:25a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:13:25a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:13:25a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:13:25a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:13:25a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:13:25a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:13:25a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:13:25a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:13:25a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:13:25a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 3
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 3
+03:13:28a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:13:28a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:13:28a SELECT * FROM OptionData WHERE Name='Supremo'
+03:13:28a WZ_PeriodItemSelect 8, 'Supremo'
+ 0 server delete
+03:14:20a UserIndex [0] Connected IP : 127.0.0.1 
+Socket number 832 connected
+03:15:08a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:15:08a SELECT * FROM AccountCharacter WHERE Id='2'
+03:15:08a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:15:08a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:15:08a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:15:08a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:15:08a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:15:08a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:15:08a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:15:08a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:15:08a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:15:08a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:15:08a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 3
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 3
+03:15:14a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:15:14a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:15:14a SELECT * FROM OptionData WHERE Name='Supremo'
+03:15:14a WZ_PeriodItemSelect 8, 'Supremo'
+packet recebido: nome : Supremo - reset update
+database sucesso: nome : Supremo - reset update
+packet recebido: nome : Supremo - reset update
+database sucesso: nome : Supremo - reset update
+03:18:59a SELECT Name FROM OptionData WHERE Name='Supremo'
+03:18:59a UPDATE OptionData SET GameOption=9, Qkey=0, Wkey=4, Ekey=8, ChatWindow=4 where Name='Supremo'
+03:19:05a UPDATE Character SET cLevel=1,Class=1,LevelUpPoint=1200, Experience=1, Strength=25, Dexterity=25, Vitality=25, Energy=25, Money=1999879500, Life=80.000000, MaxLife=80.000000, Mana=100.000000, MaxMana=50.000000, MapNumber=0, MapPosX=142, MapPosY=120, MapDir=2, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+03:19:44a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:19:44a SELECT * FROM AccountCharacter WHERE Id='2'
+03:19:44a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:19:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:19:44a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:19:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:19:44a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:19:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:19:44a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:19:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:19:44a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:19:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:19:44a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 5
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 5
+03:19:46a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:19:46a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:19:46a SELECT * FROM OptionData WHERE Name='Supremo'
+03:19:46a WZ_PeriodItemSelect 8, 'Supremo'
+03:20:45a SELECT AccountID FROM warehouse WHERE AccountID='2'
+03:20:45a SELECT Money, DbVersion, pw from warehouse where AccountID='2'
+03:21:25a UPDATE warehouse SET Money=0, pw=0, DbVersion=3 where AccountID='2'
+03:21:25a UPDATE Character SET DbVersion=3 where Name = 'Supremo'
+03:22:13a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=1, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999879500, Life=3312.800049, MaxLife=427.000000, Mana=3801.800049, MaxMana=796.000000, MapNumber=0, MapPosX=147, MapPosY=110, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+03:22:52a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:22:52a SELECT * FROM AccountCharacter WHERE Id='2'
+03:22:52a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:22:52a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:22:52a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:22:52a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:22:52a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:22:52a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:22:52a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:22:52a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:22:52a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:22:52a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:22:52a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 5
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 5
+03:22:54a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:22:54a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:22:54a SELECT * FROM OptionData WHERE Name='Supremo'
+03:22:54a WZ_PeriodItemSelect 8, 'Supremo'
+packet recebido: nome : Supremo - reset update
+database sucesso: nome : Supremo - reset update
+packet recebido: nome : Supremo - reset update
+database sucesso: nome : Supremo - reset update
+03:30:50a SELECT Name FROM OptionData WHERE Name='Supremo'
+03:30:50a UPDATE OptionData SET GameOption=9, Qkey=0, Wkey=4, Ekey=8, ChatWindow=4 where Name='Supremo'
+03:30:56a UPDATE Character SET cLevel=1,Class=1,LevelUpPoint=2800, Experience=1, Strength=25, Dexterity=25, Vitality=25, Energy=25, Money=1999779500, Life=100.000000, MaxLife=50.000000, Mana=100.000000, MaxMana=50.000000, MapNumber=0, MapPosX=131, MapPosY=126, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+03:30:56a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:30:56a SELECT * FROM AccountCharacter WHERE Id='2'
+03:30:56a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:30:56a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:30:56a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:30:56a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:30:56a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:30:56a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:30:56a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:30:56a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:30:56a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:30:56a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:30:56a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 7
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 7
+03:33:08a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:33:08a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:33:08a SELECT * FROM OptionData WHERE Name='Supremo'
+03:33:08a WZ_PeriodItemSelect 8, 'Supremo'
+03:33:08a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=1, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999779500, Life=3378.199951, MaxLife=427.000000, Mana=100.000000, MaxMana=796.000000, MapNumber=0, MapPosX=131, MapPosY=126, MapDir=0, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+packet recebido: nome : Supremo - reset update
+database sucesso: nome : Supremo - reset update
+03:33:18a UPDATE Character SET cLevel=1,Class=1,LevelUpPoint=3200, Experience=1, Strength=25, Dexterity=25, Vitality=25, Energy=25, Money=1999679500, Life=100.000000, MaxLife=50.000000, Mana=100.000000, MaxMana=50.000000, MapNumber=0, MapPosX=133, MapPosY=128, MapDir=7, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+ 0 server delete
+03:47:01a UserIndex [0] Connected IP : 127.0.0.1 
+Socket number 492 connected
+03:47:21a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:47:21a SELECT * FROM AccountCharacter WHERE Id='2'
+03:47:21a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:47:21a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:47:21a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:47:21a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:47:21a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:47:21a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:47:21a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:47:21a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:47:21a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:47:21a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:47:21a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 8
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 8
+03:47:23a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:47:23a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:47:23a SELECT * FROM OptionData WHERE Name='Supremo'
+03:47:23a WZ_PeriodItemSelect 8, 'Supremo'
+03:47:59a SELECT AccountID FROM warehouse WHERE AccountID='2'
+03:47:59a SELECT Money, DbVersion, pw from warehouse where AccountID='2'
+03:48:02a UPDATE warehouse SET Money=0, pw=0, DbVersion=3 where AccountID='2'
+03:48:02a UPDATE Character SET DbVersion=3 where Name = 'Supremo'
+03:48:04a UPDATE warehouse SET Money=0, pw=0, DbVersion=3 where AccountID='2'
+03:48:04a UPDATE Character SET DbVersion=3 where Name = 'Supremo'
+packet recebido: conta : 2 - bau : 1
+database sucesso: conta : 2 - bau : 1
+03:49:20a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=1, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999678500, Life=91.000000, MaxLife=427.000000, Mana=3721.800049, MaxMana=796.000000, MapNumber=0, MapPosX=135, MapPosY=128, MapDir=5, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+03:50:02a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:50:02a SELECT * FROM AccountCharacter WHERE Id='2'
+03:50:02a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:50:02a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:50:02a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:50:02a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:50:02a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:50:02a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:50:02a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:50:02a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:50:02a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:50:02a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:50:02a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 8
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 8
+03:50:04a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:50:04a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:50:04a SELECT * FROM OptionData WHERE Name='Supremo'
+03:50:04a WZ_PeriodItemSelect 8, 'Supremo'
+03:51:24a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=1, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999678500, Life=3361.600098, MaxLife=427.000000, Mana=3721.800049, MaxMana=796.000000, MapNumber=0, MapPosX=132, MapPosY=130, MapDir=4, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+03:52:44a SELECT Id FROM AccountCharacter WHERE Id='2'
+03:52:44a SELECT * FROM AccountCharacter WHERE Id='2'
+03:52:44a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+03:52:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+03:52:44a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+03:52:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+03:52:44a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+03:52:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+03:52:44a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+03:52:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+03:52:44a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+03:52:44a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+03:52:44a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 8
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 8
+03:52:46a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+03:52:46a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+03:52:46a SELECT * FROM OptionData WHERE Name='Supremo'
+03:52:46a WZ_PeriodItemSelect 8, 'Supremo'
+03:54:06a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=1, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999678500, Life=78.599998, MaxLife=427.000000, Mana=3721.800049, MaxMana=796.000000, MapNumber=0, MapPosX=136, MapPosY=129, MapDir=2, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+09:04:24a SELECT Id FROM AccountCharacter WHERE Id='2'
+09:04:24a SELECT * FROM AccountCharacter WHERE Id='2'
+09:04:24a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+09:04:24a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+09:04:24a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+09:04:24a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+09:04:24a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+09:04:24a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+09:04:24a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+09:04:24a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+09:04:24a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+09:04:24a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+09:04:24a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 8
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 8
+09:04:27a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+09:04:27a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+09:04:27a SELECT * FROM OptionData WHERE Name='Supremo'
+09:04:27a WZ_PeriodItemSelect 8, 'Supremo'
+09:04:38a SELECT AccountID FROM warehouse WHERE AccountID='2'
+09:04:38a SELECT Money, DbVersion, pw from warehouse where AccountID='2'
+09:04:47a UPDATE warehouse SET Money=0, pw=0, DbVersion=3 where AccountID='2'
+09:04:47a UPDATE Character SET DbVersion=3 where Name = 'Supremo'
+09:04:49a UPDATE warehouse SET Money=0, pw=0, DbVersion=3 where AccountID='2'
+09:04:49a UPDATE Character SET DbVersion=3 where Name = 'Supremo'
+packet recebido: conta : 2 - bau : 0
+database sucesso: conta : 2 - bau : 0
+09:04:57a SELECT AccountID FROM warehouse WHERE AccountID='2'
+09:04:57a SELECT Money, DbVersion, pw from warehouse where AccountID='2'
+09:05:13a UPDATE warehouse SET Money=0, pw=0, DbVersion=3 where AccountID='2'
+09:05:13a UPDATE Character SET DbVersion=3 where Name = 'Supremo'
+09:07:45a SELECT AccountID FROM warehouse WHERE AccountID='2'
+09:07:45a SELECT Money, DbVersion, pw from warehouse where AccountID='2'
+09:07:46a UPDATE warehouse SET Money=0, pw=0, DbVersion=3 where AccountID='2'
+09:07:46a UPDATE Character SET DbVersion=3 where Name = 'Supremo'
+09:14:22a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=1, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999626300, Life=1985.200073, MaxLife=427.000000, Mana=2524.199951, MaxMana=796.000000, MapNumber=0, MapPosX=132, MapPosY=128, MapDir=4, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+09:21:18a SELECT AccountID FROM warehouse WHERE AccountID='2'
+09:21:18a SELECT Money, DbVersion, pw from warehouse where AccountID='2'
+09:21:21a UPDATE warehouse SET Money=0, pw=0, DbVersion=3 where AccountID='2'
+09:21:21a UPDATE Character SET DbVersion=3 where Name = 'Supremo'
+09:24:21a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=1, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999624300, Life=1985.200073, MaxLife=427.000000, Mana=2524.199951, MaxMana=796.000000, MapNumber=0, MapPosX=138, MapPosY=123, MapDir=3, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+09:24:22a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+09:24:22a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+09:24:22a SELECT * FROM OptionData WHERE Name='Supremo'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 8
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 8
+09:24:22a WZ_PeriodItemSelect 8, 'Supremo'
+port check accept
+port check close
+ 1 server delete
+09:28:56a UserIndex [1] Connected IP : 127.0.0.1 
+Socket number 896 connected
+09:28:57a EXEC WZ_CS_GetCastleTotalInfo 0, 7
+09:28:57a EXEC WZ_CS_GetCastleNpcInfo 0
+09:28:57a EXEC WZ_CW_InfoLoad 0
+ 1 server delete
+09:29:25a UserIndex [1] Connected IP : 127.0.0.1 
+Socket number 896 connected
+09:29:26a EXEC WZ_CS_GetCastleTotalInfo 0, 7
+09:29:26a EXEC WZ_CS_GetCastleNpcInfo 0
+09:29:26a EXEC WZ_CW_InfoLoad 0
+09:29:49a SELECT Id FROM AccountCharacter WHERE Id='2'
+09:29:49a SELECT * FROM AccountCharacter WHERE Id='2'
+09:29:49a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+09:29:49a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+09:29:49a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+09:29:49a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+09:29:49a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+09:29:49a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+09:29:49a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+09:29:49a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+09:29:49a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+09:29:49a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+09:29:49a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 8
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 8
+09:29:56a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+09:29:56a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+09:29:56a SELECT * FROM OptionData WHERE Name='Supremo'
+09:29:56a WZ_PeriodItemSelect 8, 'Supremo'
+09:30:12a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=1, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999624300, Life=3669.000000, MaxLife=427.000000, Mana=5645.200195, MaxMana=796.000000, MapNumber=0, MapPosX=133, MapPosY=127, MapDir=7, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+09:30:13a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, FruitPoint FROM Character where Name='Supremo'
+09:30:13a UPDATE AccountCharacter SET GameIDC='Supremo' WHERE Id='2'
+09:30:13a SELECT * FROM OptionData WHERE Name='Supremo'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 8
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 8
+09:30:13a WZ_PeriodItemSelect 8, 'Supremo'
+09:40:14a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=380139001, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999624300, Life=1985.200073, MaxLife=427.000000, Mana=2524.199951, MaxMana=796.000000, MapNumber=31, MapPosX=116, MapPosY=87, MapDir=7, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+09:46:09a UPDATE Character SET cLevel=400,Class=1,LevelUpPoint=1200, Experience=609303001, Strength=32767, Dexterity=32767, Vitality=32767, Energy=32767, Money=1999624300, Life=1985.200073, MaxLife=427.000000, Mana=2524.199951, MaxMana=796.000000, MapNumber=31, MapPosX=96, MapPosY=98, MapDir=4, PkCount=0, PkLevel=3, PkTime=0, DbVersion=3, Leadership=0, ChatLimitTime=0, FruitPoint=0 where Name = 'Supremo'
+09:48:29a SELECT Id FROM AccountCharacter WHERE Id='2'
+09:48:29a SELECT * FROM AccountCharacter WHERE Id='2'
+09:48:29a CharName : 2 1[Supremo] 2[Test2-BK] 3[Test2-ME] 4[Test2-MG] 5[Test2-DL]
+09:48:29a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Supremo'
+09:48:29a SELECT G_Status FROM GuildMember WHERE Name='Supremo'
+09:48:29a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-BK'
+09:48:29a SELECT G_Status FROM GuildMember WHERE Name='Test2-BK'
+09:48:29a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-ME'
+09:48:29a SELECT G_Status FROM GuildMember WHERE Name='Test2-ME'
+09:48:29a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-MG'
+09:48:29a SELECT G_Status FROM GuildMember WHERE Name='Test2-MG'
+09:48:29a SELECT Name, cLevel, Class, CtlCode, DbVersion FROM vCharacterPreview WHERE Name='Test2-DL'
+09:48:29a SELECT G_Status FROM GuildMember WHERE Name='Test2-DL'
+packet recebido: conta : 2 - nome : Supremo
+database sucesso: conta : 2 - vip : 2
+database sucesso: nome : Supremo - resets : 8
+packet enviado: conta : 2 - nome : Supremo - vip : 2 - resets : 8
+09:48:31a SELECT AccountID, cLevel, Class, LevelUpPoint, Experience, Strength, Dexterity, Vitality, Energy, Money, Life, MaxLife, Mana, MaxMana, MapNumber, MapPosX, MapPosY, MapDir, PkCount, PkLevel, PkTime, CtlCode, DbVersion, Leadership, ChatLimitTime, 

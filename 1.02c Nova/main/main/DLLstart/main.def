@@ -1,0 +1,4 @@
+LIBRARY main
+
+EXPORTS
+       DTcarregarmain        @1                                                              

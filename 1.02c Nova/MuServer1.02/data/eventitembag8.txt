@@ -1,0 +1,167 @@
+// ================================================== //
+// # Season 2.0 - eventitembag8.txt 	 	    # //
+// # MU Online dxteam - © KinhoMace       	    # //
+// # Information: Box Of Kundun + 1                 # //
+// ================================================== //
+
+//=================================================================================
+//Wepons and Shields No Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	0	0	0	0	1	// Kris
+0	2	0	1	0	1	// Rapier
+0	3	0	1	0	1	// Katana
+0	4	0	1	0	1	// Sword of Assassin
+1	2	0	1	0	1	// Double Axe
+2	2	0	0	0	1	// Flail
+4	0	0	1	0	1	// Short Bow
+4	1	0	1	0	1	// Bow
+4	2	0	1	0	1	// Elven Bow
+4	3	0	1	0	1	// Battle Bow
+4	8	0	1	0	1	// Crossbow
+4	9	0	1	0	1	// Golden Crossbow
+4	10	0	1	0	1	// Arquebus
+5	0	0	0	0	1	// Skull Staff
+5	1	0	0	0	1	// Angelic Staff
+6	0	0	0	0	1	// Small Shield
+6	1	0	0	0	1	// Horn Shield
+0	9	0	1	0	0	// Salamander
+3	7	0	1	0	0	// Berdysh
+0	5	0	1	0	0	// Blade
+0	13	0	1	0	0	// Double Blade
+2	3	0	1	0	0	// Great Hammer
+4	4	0	1	0	0	// Tiger Bow
+4	5	0	1	0	0	// Silver Bow
+4	11	0	1	0	0	// Light Crossbow
+4	12	0	1	0	0	// Serpent Crossbow
+5	2	0	0	0	0	// Serpent Staff
+5	3	0	0	0	0	// Thunder Staff
+6	2	0	0	0	0	// Kite Shield
+2	8	0	0	0	0	// Battle Scepter
+
+
+//=================================================================================
+//Sets No Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	2	0	0	0	1	// Pad Helm
+7	5	0	0	0	1	// Leather Helm
+7	10	0	0	0	1	// Vine Helm
+
+8	2	0	0	0	1	// Pad Armor
+8	5	0	0	0	1	// Leather Armor
+8	10	0	0	0	1	// Vine Armor
+
+9	2	0	0	0	1	// Pad Pants
+9	5	0	0	0	1	// Leather Pants
+9	10	0	0	0	1	// Vine Pants
+
+10	2	0	0	0	1	// Pad Gloves
+10	5	0	0	0	1	// Leather Gloves
+10	10	0	0	0	1	// Vine Gloves
+
+11	2	0	0	0	1	// Pad Boots
+11	5	0	0	0	1	// Leather Boots
+11	10	0	0	0	1	// Vine Boots
+
+7	4	0	0	0	0	// Bone Helm
+7	6	0	0	0	0	// Scale Helm
+7	11	0	0	0	0	// Silk Helm
+
+8	4	0	0	0	0	// Bone Armor
+8	6	0	0	0	0	// Scale Armor
+8	11	0	0	0	0	// Silk Armor
+
+9	4	0	0	0	0	// Bone Pants
+9	6	0	0	0	0	// Scale Pants
+9	11	0	0	0	0	// Silk Pants
+
+10	4	0	0	0	0	// Bone Gloves
+10	6	0	0	0	0	// Scale Gloves
+10	11	0	0	0	0	// Silk Gloves
+
+11	4	0	0	0	0	// Bone Boots
+11	6	0	0	0	0	// Scale Boots
+11	11	0	0	0	0	// Silk Boots
+
+
+
+//=================================================================================
+//Wepons and Shields Excellence
+///Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+0	0	0	0	1	1	// Kris
+0	2	0	1	1	1	// Rapier
+0	3	0	1	1	1	// Katana
+0	4	0	1	1	1	// Sword of Assassin
+1	2	0	1	1	1	// Double Axe
+2	2	0	0	1	1	// Flail
+4	0	0	1	1	1	// Short Bow
+4	1	0	1	1	1	// Bow
+4	2	0	1	1	1	// Elven Bow
+4	3	0	1	1	1	// Battle Bow
+4	8	0	1	1	1	// Crossbow
+4	9	0	1	1	1	// Golden Crossbow
+4	10	0	1	1	1	// Arquebus
+5	0	0	0	1	1	// Skull Staff
+5	1	0	0	1	1	// Angelic Staff
+6	0	0	0	1	1	// Small Shield
+6	1	0	0	1	1	// Horn Shield
+0	9	0	1	1	0	// Salamander
+3	7	0	1	1	0	// Berdysh
+0	5	0	1	1	0	// Blade
+0	13	0	1	1	0	// Double Blade
+2	3	0	1	1	0	// Great Hammer
+4	4	0	1	1	0	// Tiger Bow
+4	5	0	1	1	0	// Silver Bow
+4	11	0	1	1	0	// Light Crossbow
+4	12	0	1	1	0	// Serpent Crossbow
+5	2	0	0	1	0	// Serpent Staff
+5	3	0	0	1	0	// Thunder Staff
+6	2	0	0	1	0	// Kite Shield
+2	8	0	0	1	0	// Battle Scepter
+
+
+//=================================================================================
+//Sets Excellence
+//Type Index  Level   Skill    Exc   AddOption
+//=================================================================================
+7	2	0	0	1	1	// Pad Helm
+7	5	0	0	1	1	// Leather Helm
+7	10	0	0	1	1	// Vine Helm
+
+8	2	0	0	1	1	// Pad Armor
+8	5	0	0	1	1	// Leather Armor
+8	10	0	0	1	1	// Vine Armor
+
+9	2	0	0	1	1	// Pad Pants
+9	5	0	0	1	1	// Leather Pants
+9	10	0	0	1	1	// Vine Pants
+
+10	2	0	0	1	1	// Pad Gloves
+10	5	0	0	1	1	// Leather Gloves
+10	10	0	0	1	1	// Vine Gloves
+
+11	2	0	0	1	1	// Pad Boots
+11	5	0	0	1	1	// Leather Boots
+11	10	0	0	1	1	// Vine Boots
+
+7	4	0	0	1	0	// Bone Helm
+7	6	0	0	1	0	// Scale Helm
+7	11	0	0	1	0	// Silk Helm
+
+8	4	0	0	1	0	// Bone Armor
+8	6	0	0	1	0	// Scale Armor
+8	11	0	0	1	0	// Silk Armor
+
+9	4	0	0	1	0	// Bone Pants
+9	6	0	0	1	0	// Scale Pants
+9	11	0	0	1	0	// Silk Pants
+
+10	4	0	0	1	0	// Bone Gloves
+10	6	0	0	1	0	// Scale Gloves
+10	11	0	0	1	0	// Silk Gloves
+
+11	4	0	0	1	0	// Bone Boots
+11	6	0	0	1	0	// Scale Boots
+11	11	0	0	1	0	// Silk Boots
